@@ -9,7 +9,11 @@ Wenn der Name sich ändert, diese Datei anpassen.
 - Akzent: Gold (#D4AF37, hell #F5D76E), Text Weiß, Sekundärtext Grau-Blau (#8C9BB9)
 - Schrift: Inter (Black / ExtraBold / SemiBold)
 - Animierte Zahlen, Balken- und Liniendiagramme, Kinetic Typography
-- Untertitel: Wort-für-Wort-Hervorhebung in Gold, unten im Drittel
+- Untertitel (Nutzerwunsch: klein, schlicht, synchron):
+  - Inter SemiBold ca. 46 px, weiß mit dünner dunkler Kontur, KEINE Box
+  - max. 5 Wörter pro Einblendung, eine Zeile wenn möglich, sonst zwei ausgeglichene Zeilen
+  - genau ein aktives Wort in Gold, Wechsel exakt, wenn die nächsten Wörter gesprochen werden
+  - Position ca. y = 1405 (unteres Drittel, über der TikTok-Oberfläche)
 - Fortschrittsbalken oben
 
 ## Aufbau eines Shorts
@@ -44,6 +48,10 @@ Länge: 60–75 Sekunden
 - Upload-Text (Titel, Beschreibung, Hashtags) wird pro Video als `upload_text.txt` geschrieben
 - Ein Video pro Tag. Der Nutzer lädt selbst hoch.
 - Vor dem Rendern die Sprachaufnahme über `align.py` den echten Sprechpausen zuordnen, nicht mit Schätzwerten arbeiten.
+- Für exakte Untertitel: nach der Sprachaufnahme die Aufnahme mit ElevenLabs transkribieren
+  (`creative_add_flow_asset_node` mit der generation_id, dann `creative_transcribe_audio`, Modell `eleven_scribe_v1`;
+  laut Kostenschätzung 0 Credits). Die Wort-Zeitstempel als `words.json` speichern; `captions2.py` gleicht sie mit
+  dem Skript ab. Ist die Transkription ausgelastet, nutzt `captions2.py` eine Silben-/Pausen-Schätzung als Ersatz.
 
 ## Cover
 - Bei jedem neuen Video direkt ein Cover mit erstellen (1080×1920, gleicher Stil, Wasserzeichen Moneycheck unten rechts).
