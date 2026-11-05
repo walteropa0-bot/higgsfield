@@ -52,6 +52,9 @@ Länge: 60–75 Sekunden
   (`creative_add_flow_asset_node` mit der generation_id, dann `creative_transcribe_audio`, Modell `eleven_scribe_v1`;
   laut Kostenschätzung 0 Credits). Die Wort-Zeitstempel als `words.json` speichern; `captions2.py` gleicht sie mit
   dem Skript ab. Ist die Transkription ausgelastet, nutzt `captions2.py` eine Silben-/Pausen-Schätzung als Ersatz.
+- Auch die Satz-Zeiten (`real_segs.json`) und alle Szenen-Anker aus den exakten Wort-Zeiten bauen, nicht nur die
+  Untertitel: `align.py` (reine Pausen-Erkennung) hat bei Short #5 die ersten 6 Sätze um eine Zeile verschoben.
+  Danach den Soundmix neu erzeugen, weil die Effekte an denselben Ankern hängen.
 
 ## Cover
 - Bei jedem neuen Video direkt ein Cover mit erstellen (1080×1920, gleicher Stil, Wasserzeichen Moneycheck unten rechts).
