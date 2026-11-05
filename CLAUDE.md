@@ -45,5 +45,12 @@ Länge: 60–75 Sekunden
 - Ein Video pro Tag. Der Nutzer lädt selbst hoch.
 - Vor dem Rendern die Sprachaufnahme über `align.py` den echten Sprechpausen zuordnen, nicht mit Schätzwerten arbeiten.
 
+## Cover
+- Bei jedem neuen Video direkt ein Cover mit erstellen (1080×1920, gleicher Stil, Wasserzeichen Moneycheck unten rechts).
+- Vorlage: `scratchpad/short03/make_cover2.py`. Titel auf dem Cover kurz und groß, eine Hauptzahl oben.
+
+## KI-Kennzeichnung
+- KI-Stimme immer als KI-generiert kennzeichnen (Haken bei TikTok „AI-generated content“, YouTube „Altered or synthetic content“).
+
 ## Keine Anlageberatung
 - Keine konkreten Aktien-, ETF- oder Kurs-Empfehlungen, auch nicht auf Wunsch. Stattdessen allgemeine Bildung und Verhaltensregeln.
