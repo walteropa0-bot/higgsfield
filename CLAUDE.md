@@ -40,5 +40,12 @@ Länge: 60–75 Sekunden
 - `scratchpad/profile/moneycheck_profile.png` (Dollar mit Haken-Abzeichen, Gold auf Navy)
 
 ## Arbeitsablauf
-- Projekt-Skripte liegen im Scratchpad unter `short02/` (render.py, mix.py, sfx.py)
+- Projekt-Skripte liegen im Scratchpad unter `short02/` (render.py, mix.py, sfx.py) und `short03/` (render2.py, mix2.py, align.py, timing.py, phrases.py)
 - Upload-Text (Titel, Beschreibung, Hashtags) wird pro Video als `upload_text.txt` geschrieben
+- Ein Video pro Tag. Der Nutzer lädt selbst hoch.
+- Vor dem Rendern die Sprachaufnahme über `align.py` den echten Sprechpausen zuordnen, nicht mit Schätzwerten arbeiten.
+
+## Qualität (Nutzerwunsch)
+- Videos sollen noch sauberer wirken, aber nicht überladen: weniger Elemente gleichzeitig, mehr Weißraum, klare Hierarchie.
+- Das Schema (Farben, Schrift, Aufbau, Loop, Stimme, Wasserzeichen) bleibt unverändert.
+- Keine konkreten Aktien-, ETF- oder Kurs-Empfehlungen, auch nicht auf Wunsch. Stattdessen allgemeine Bildung und Verhaltensregeln.
