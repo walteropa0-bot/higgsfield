@@ -60,6 +60,11 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
   Vorlage für neue Videos: `render10.py` (Szenen + Timeline + Cover) mit `lib10.py`, Ton: `mix10.py`.
 - Upload-Text (Titel, Beschreibung, Hashtags) wird pro Video als `upload_text.txt` geschrieben
 - Ein Video pro Tag. Der Nutzer lädt selbst hoch.
+- **Originalität (Pflicht, Stand 6.11.2026):** Jedes Video bekommt ein eigenes Thema, eigene Berechnung oder eigenes Beispiel,
+  klare Quellen und eine eigene Erzählweise. Keine Kopie einer Vorlage mit nur geänderten Zahlen. Ziel: keine Nachteile durch
+  YouTube-Monetarisierung (Regel gegen „inauthentische“ Massenware) und keine Reichweitenverluste bei TikTok.
+- **Stil-Regel:** Wiedererkennbar bleiben über Logo, Farben, Schrift, Intro und Wasserzeichen. Format, Vorlage, Hook, Länge
+  und Erzählweise dürfen sich ändern. Fortschritt wird an Zuschauerbindung, Shares und Follower-Zuwachs gemessen.
 - Nach der Sprachaufnahme die Aufnahme mit ElevenLabs transkribieren
   (`creative_add_flow_asset_node` mit der generation_id, dann `creative_transcribe_audio`, Modell `eleven_scribe_v1`;
   0 Credits). Die Wort-Zeitstempel als `words.json` speichern (ohne `[tags]`).
