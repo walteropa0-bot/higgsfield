@@ -28,7 +28,7 @@ Wenn der Name sich ändert, diese Datei anpassen.
 3. Hauptteil: 3–5 Punkte mit Zahlen/Beispielen
 4. Höhepunkt: wertvollster Tipp zuletzt
 5. Schluss: Loop zurück zum Anfang (letztes Bild = erstes Bild) + „Follow for more“
-Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute)
+Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Viral-Videos (20–30 s) nur, wenn der Nutzer es will.
 
 ## Ton
 - ElevenLabs, Modell `eleven_v4`
@@ -38,6 +38,7 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute)
 - Immer nur eine Aufnahme erzeugen (Credits sparen, `generations_count=1`), Kostenschätzung vorher mit `estimate_only`
   (ca. 1 Credit pro Zeichen, ~1000 Credits für 64 s)
 - Audio mischen auf **-14 LUFS** (YouTube/TikTok), zweistufiges loudnorm
+- Sind die ElevenLabs-Credits aufgebraucht (Stand 6.11.2026: ~8 übrig): Videos ohne Stimme als Text-Animation mit `moneycheck/eng14.py` (1440×2560, kurze Sätze groß eingeblendet); der Nutzer legt in TikTok einen Sound darunter.
 - Viele Soundeffekte, Geld muss man hören: coin, cash, ding, sparkle, whoosh, pop, tick, swoosh_up, bass, impact,
   sweep_down, riser (`moneycheck/sfx*.py`, `mix10.py`)
 
