@@ -6,10 +6,11 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 |---|---|
 | `lib10.py` | Zeichen-Bibliothek im Premium-Look: 2×-Supersampling, echte Transparenz, Kamera mit Zoom, Bloom, Korn. Männchen (`pawn`), Pill-Labels, Münzen, Geldscheine, Geld-Explosion, Funkeln, Flagge, Stoppuhr, Spotlight |
 | `render10.py` | Short #8 („Your portfolio is down 30%“) als Vorlage: 13 Szenen, Timeline `SHOTS`, Übergänge, Wackler, Rot-Tönung, Cover |
+| `render11.py`, `mix11.py` | Short #9 (Markt-News + Checkliste als Mine): Männchen mit Helm und Spitzhacke gräbt durch 5 Schichten, Kamera folgt, Diamanten am Ende. Dazu Heatmap, Chip-Icon, Aktien-Karten, Rechenzentrum, Wahlurne |
 | `mix10.py` | Soundmix: Stimme + ca. 200 Effekte an den exakten Wort-Zeiten, danach -14 LUFS |
 | `sfx.py`, `sfx2.py`, `sfx3.py` | Synthetische Effekte (whoosh, pop, tick, ding, bass, riser, impact, alert, coin, cash, blip, sweep_down, ping, vroom, sparkle, flutter, puff) |
 | `captions2.py` | Wortgenaue Untertitel (nur wenn gewünscht) |
-| `short08_example/` | `words.json` und `upload_text.txt` von Short #8 |
+| `short08_example/`, `short09_example/` | `words.json` und `upload_text.txt` von Short #8 und #9 |
 | `assets/moneycheck_profile.png` | Profilbild |
 
 ## Neues Video in 7 Schritten
