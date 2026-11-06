@@ -39,6 +39,10 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
   (ca. 1 Credit pro Zeichen, ~1000 Credits für 64 s)
 - Audio mischen auf **-14 LUFS** (YouTube/TikTok), zweistufiges loudnorm
 - Sind die ElevenLabs-Credits aufgebraucht (Stand 6.11.2026: ~8 übrig): Videos ohne Stimme als Text-Animation mit `moneycheck/eng14.py` (1440×2560, kurze Sätze groß eingeblendet); der Nutzer legt in TikTok einen Sound darunter.
+- **Stand 6.11.2026 abends:** ElevenLabs lehnt jede Erzeugung ab („Unusual activity has been detected on your account, so Free Tier
+  access has been disabled … Please upgrade to a paid subscription“). Stimme erst wieder mit bezahltem Plan. Der kostenlose Plan hat
+  außerdem keine kommerzielle Lizenz; für monetarisierte Videos braucht es ohnehin einen bezahlten Plan. Fehlgeschlagene Versuche
+  kosten keine Credits.
 - Viele Soundeffekte, Geld muss man hören: coin, cash, ding, sparkle, whoosh, pop, tick, swoosh_up, bass, impact,
   sweep_down, riser (`moneycheck/sfx*.py`, `mix10.py`)
 
@@ -71,6 +75,18 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
 - ALLE Szenen-Anker und Soundeffekte an die exakten Wort-Zeiten hängen (`at("wort", n)` in render10.py/mix10.py),
   nie an Schätzwerte oder reine Pausen-Erkennung (`align.py` hat bei Short #5 Sätze verschoben).
 - Vor dem Rendern Kontaktbögen prüfen (`python3 render10.py sheet sheet.png 1.0 5.0 …`), dann `video`, `mix10.py`, muxen.
+
+## Lange YouTube-Videos (16:9), seit YT01
+- Engine `moneycheck/lib16.py`, Vorlage `moneycheck/yt01_most_stocks_lose/` (README dort). Ausgabe 2560×1440, 30 fps
+  (YouTube gibt 1440p-Uploads einen besseren Codec). x264 `fast`, crf 16, statisches Korn (wechselndes Korn bremst den Encoder).
+- Länge ab 8 Minuten (Mid-Roll-Werbung möglich), Kapitel im Video (Kapitelkarte + Label oben links) und als Zeitstempel in der
+  Beschreibung (erster Zeitstempel 0:00), Quellenzeile unten links pro Szene, 12 s Endkarte für YouTube-Endbildschirm-Elemente.
+- Szenen hängen an Phrasen des Skripts (`T("phrase")`), nicht an Sekunden. Ohne Stimme rendert dieselbe Szenenliste mit
+  geschätzten Zeiten als Vorschau.
+- Thumbnail 1280×720 (< 2 MB), wenige große Wörter.
+- Recherche: Die Umgebung „higgsfield“ erlaubt die Studien-Seiten (ASU, CFA Institute, J.P. Morgan, NYU Stern,
+  WealthManagement, SSRN, S&P). S&P und SSRN blocken automatische Abrufe; Bot-Sperren nicht umgehen, stattdessen
+  zwei unabhängige Berichte über den Bericht nutzen und das kennzeichnen.
 
 ## Cover
 - Bei jedem neuen Video direkt ein Cover mit erstellen (1080×1920, gleicher Stil, Wasserzeichen Moneycheck unten rechts).

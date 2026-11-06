@@ -10,6 +10,7 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 | `render12.py`, `mix12.py` | Short #10 (20 s, Viral-Loop): 99-%-Ring mit Lichtlauf, Geburtstagskuchen, Sanduhr mit Strahlen, Aktien-Zertifikat, wachsendes Männchen mit Münzspur, Vermögenskurve, die nach 50 explodiert, Geldregen |
 | `render13.py`, `mix13.py` | Short #11 (20 s): „$100/Monat mit 20 = $500/Monat mit 40“ – Vergleichskarten, Wettrennen-Chart, gestapelte Balken (eingezahlt vs. Zinseszins), Millionen-Zähler mit Zoom-out. Rechnung: 7 %/Jahr, monatlich |
 | `eng14.py`, `week_nov7/` | Ohne Stimme: Text-Animationen in 1440×2560 (schärfer als 1080p). Szenen als „Beats“ mit Überblendung, Loop zurück zum Anfang, Soundeffekte + -14 LUFS + Mux in einem Befehl (`python3 v1_buffett.py video`). Sechs Wochen-Videos als Vorlage |
+| `lib16.py`, `yt01_most_stocks_lose/` | **Lange YouTube-Videos (16:9)**: 1920×1080-Design, 2× gezeichnet, Ausgabe 2560×1440. Szenen hängen an Wörtern des Skripts (Vorschau ohne Stimme möglich), Kapitel-Label, Quellenzeile, eigene Musik, Thumbnail, Upload-Text mit Kapitelmarken. Vorlage für weitere lange Videos (siehe README dort) |
 | `mix10.py` | Soundmix: Stimme + ca. 200 Effekte an den exakten Wort-Zeiten, danach -14 LUFS |
 | `sfx.py`, `sfx2.py`, `sfx3.py` | Synthetische Effekte (whoosh, pop, tick, ding, bass, riser, impact, alert, coin, cash, blip, sweep_down, ping, vroom, sparkle, flutter, puff) |
 | `captions2.py` | Wortgenaue Untertitel (nur wenn gewünscht) |
