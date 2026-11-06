@@ -1,0 +1,5 @@
+out/video_noaudio.mp4
+out/*.mp4
+check/
+scratch/
+node_modules/

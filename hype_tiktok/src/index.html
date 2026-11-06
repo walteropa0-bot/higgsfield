@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>HYPE render host</title>
+<style>html,body{margin:0;background:#000}</style></head>
+<body>
+<script src="lib.js"></script>
+<script src="timeline.js"></script>
+<script src="scene.js"></script>
+<script>
+  window.boot = (async () => { await S.init(); return true; })();
+  window.renderAndPost = async function (f, url, fast, debugSafe) {
+    S.fast = !!fast; S.debugSafe = !!debugSafe;
+    const t0 = performance.now();
+    const img = S.render(f);
+    const t1 = performance.now();
+    await fetch(url, { method: 'POST', body: new Blob([img.data.buffer]) });
+    return { ms: t1 - t0, mb: S.mbSamples(f === 1799 ? 0 : f) };
+  };
+</script>
+</body></html>

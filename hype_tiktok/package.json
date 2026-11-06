@@ -1,0 +1,13 @@
+{
+  "name": "hype-tiktok",
+  "version": "1.0.0",
+  "private": true,
+  "description": "30s TikTok motion piece 'Die Achterbahn einer Hype-Aktie' — deterministic canvas renderer + synthesized audio",
+  "scripts": {
+    "build": "./build.sh",
+    "audio": "node tools/synth.js",
+    "render": "node tools/render.js --range=0-1799 --out=out/video_noaudio.mp4",
+    "verify": "node tools/verify.js",
+    "audit": "node tools/audit.js"
+  }
+}
