@@ -1,0 +1,10 @@
+{
+  "name": "villa-timelapse-render",
+  "private": true,
+  "type": "module",
+  "description": "Procedural three.js construction time-lapse renderer (headless Chromium)",
+  "dependencies": {
+    "n8ao": "^1.10.1",
+    "three": "0.170.0"
+  }
+}

@@ -1,0 +1,10 @@
+render/node_modules/
+render/test/
+out/frames/
+out/logs/
+out/look/
+out/stills/
+out/hook/
+out/fix*/
+out/full1/
+audio/soundtrack.wav
