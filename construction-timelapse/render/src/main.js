@@ -70,6 +70,12 @@ const bloom = new UnrealBloomPass(new THREE.Vector2(W, H), 0.18, 0.5, 0.92); com
 composer.addPass(new OutputPass());
 if (+(q.get('msaa') ?? 4) === 0) composer.addPass(new SMAAPass(W, H));
 world.post = { composer, gtao, bokeh, bloom };
+// AO and depth-of-field must not see the transparent motion-trail copies (layer 1)
+for (const pass of [gtao, bokeh]) {
+  if (!pass) continue;
+  const r = pass.render.bind(pass);
+  pass.render = (...args) => { camera.layers.disable(1); try { r(...args); } finally { camera.layers.enable(1); } };
+}
 
 // accumulation canvas for sub-frame motion blur
 const acc = document.createElement('canvas'); acc.width = W; acc.height = H;
@@ -134,7 +140,7 @@ window.debugView = (o) => {
 };
 
 window.loadModules = async () => {
-  const mods = (q.get('mods') ?? 'villa,site,machines,workers,fx').split(',').filter(m => m && m !== 'none');
+  const mods = (q.get('mods') ?? 'villa,site,machines,workers,fx,ghosts').split(',').filter(m => m && m !== 'none');
   for (const name of mods) {
     try {
       const m = await import(`./${name}.js`);

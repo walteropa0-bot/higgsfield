@@ -130,9 +130,12 @@ class Workers {
     for (const z of Z) if (Math.abs((z.y || 0) + 1.5) < 0.01) z.y = -1.55;
     Z.push({ d0: 0.2, d1: 4.3, x0: -16, x1: 13, z0: -6, z1: 14, y: 0, w: 2, kind: 'survey' });
     Z.push({ d0: 3.4, d1: 12.5, x0: -18, x1: 12, z0: -9, z1: 14.5, y: 0, w: 3, kind: 'dig' });
-    Z.push({ d0: 103.5, d1: 116.5, x0: -19, x1: 18, z0: 5, z1: 17, y: 0, w: 6, kind: 'landscape' });
+    // landscaping around (never inside) the pool: front lawn strip and the two sides
+    Z.push({ d0: 103.5, d1: 116.5, x0: -19, x1: 18, z0: 14.6, z1: 17.5, y: 0, w: 3, kind: 'landscape' });
+    Z.push({ d0: 103.5, d1: 116.5, x0: -19, x1: -9.2, z0: 4.5, z1: 14.5, y: 0, w: 2, kind: 'landscape' });
+    Z.push({ d0: 103.5, d1: 116.5, x0: 9.2, x1: 18, z0: 4.5, z1: 14.5, y: 0, w: 2, kind: 'landscape' });
     Z.push({ d0: 103.5, d1: 116.5, x0: -20, x1: -12, z0: -10, z1: 4, y: 0, w: 2, kind: 'landscape' });
-    Z.push({ d0: 116.0, d1: 119.0, x0: -12, x1: 12, z0: 4, z1: 14, y: 0, w: 2, kind: 'clean' });
+    Z.push({ d0: 116.0, d1: 119.0, x0: -11, x1: 12, z0: 4.2, z1: 7.9, y: 0, w: 2, kind: 'clean' });
     for (const z of Z) {
       if (z.kind === 'build') {
         if (z.scaffold) z.kind = 'scaffold';

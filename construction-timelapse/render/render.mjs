@@ -29,7 +29,7 @@ await page.route('http://app.local/**', async r => {
   const ct = f.endsWith('.js') ? 'text/javascript' : f.endsWith('.html') ? 'text/html' : f.endsWith('.json') ? 'application/json' : 'application/octet-stream';
   try { await r.fulfill({ body: fs.readFileSync(f), contentType: ct }); } catch { await r.fulfill({ status: 404, body: '' }); }
 });
-const qs = new URLSearchParams({ w: W, h: H, ao: args.ao ?? '1', msaa: args.msaa ?? '0', mods: args.mods ?? 'villa,site,machines,workers,fx' });
+const qs = new URLSearchParams({ w: W, h: H, ao: args.ao ?? '1', msaa: args.msaa ?? '0', mods: args.mods ?? 'villa,site,machines,workers,fx,ghosts' });
 const t0 = Date.now();
 await page.goto(`http://app.local/index.html?${qs}`);
 await page.waitForFunction(() => window.ready || window.initError, null, { timeout: 600000 });

@@ -31,9 +31,11 @@ synthesized from code. No stock footage, samples or paid AI credits are used.
 | 52.0–60.0 s | finale | blue-hour glide and rising reveal of the finished villa |
 
 Motion design: speed ramps inside every shot (slow start, fast middle), 5–10x micro-motion for
-workers and machines on top of the compressed build schedule, sub-frame motion blur on the dive and
-every whip/punch/tilt transition, camera shake on impact, cloud shadows racing across the site,
-depth of field on close-ups, and a film grade with grain and vignette.
+workers and machines on top of the compressed build schedule, motion trails and directional smear
+on fast-moving workers and machinery (`render/src/ghosts.js`: each moving object is re-posed a few
+milliseconds earlier and drawn as faint copies, so static objects stay sharp), sub-frame motion blur
+on the dive and every whip/punch/tilt transition, camera shake on impact, cloud shadows racing
+across the site, depth of field on close-ups, and a film grade with grain and vignette.
 
 ## Layout
 
@@ -44,6 +46,7 @@ render/            three.js scene + headless renderer
   src/machines.js  excavators, trucks, mixers, boom pump, tower crane, loader
   src/workers.js   crew simulation (instanced figures)
   src/fx.js        dirt, dust, sparks, concrete stream, water
+  src/ghosts.js    motion trails for fast workers and machinery
   src/terrain.js, vegetation.js, sky.js, textures.js
   render.mjs       renders frames / stills
   cues.mjs         exports the sound cue sheet from the same timeline
