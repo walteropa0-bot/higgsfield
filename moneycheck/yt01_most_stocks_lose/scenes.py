@@ -993,7 +993,7 @@ def tomb(f, x, base, w, h, a, name, year):
     f.rect(x - w / 2, base - h, x + w / 2, base - h * 0.4, (150, 160, 182), a, r=w / 2)
     f.rect(x - w / 2, base - h * 0.55, x + w / 2, base, (150, 160, 182), a, r=6)
     f.rect(x - w / 2 + 8, base - h + 10, x + w / 2 - 8, base - 8, (120, 130, 152), a * 0.25, r=w / 2 - 8)
-    size = 30 if len(name) < 9 else 22
+    size = min(30.0, 30.0 * (w - 44) / f.twidth(name, 30, "black", 0.04))
     f.text(x, base - h * 0.52, name, size, NAVY, a, "black", track=0.04)
     f.text(x, base - h * 0.32, year, 26, (60, 70, 92), a, "black")
     f.line([(x - 24, base - h * 0.78), (x + 24, base - h * 0.78)], (60, 70, 92), a, 6)
