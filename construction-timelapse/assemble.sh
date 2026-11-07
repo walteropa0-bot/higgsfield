@@ -23,13 +23,13 @@ ffmpeg -y -hide_banner -loglevel warning -stats \
   -vf "$VF" \
   -c:v libx264 -preset slow -crf 19 -maxrate 7M -bufsize 14M -profile:v high -level 4.2 -tune film \
   -r 30 -g 60 \
-  -af "alimiter=limit=0.891:level=false" -c:a aac -b:a 320k -ar 48000 \
+  -af "volume=-0.2dB,alimiter=limit=0.78:level=false:attack=2:release=60" -c:a aac -b:a 320k -ar 48000 \
   -movflags +faststart -shortest \
   -metadata title="Villa construction time-lapse (60s)" \
   "$OUT"
 
 ffprobe -v error -show_entries format=duration,size,bit_rate -show_entries stream=codec_name,width,height,r_frame_rate -of compact "$OUT"
-ffmpeg -y -hide_banner -loglevel error -i audio/soundtrack.wav -af "alimiter=limit=0.891:level=false" -c:a aac -b:a 320k audio/soundtrack.m4a
+ffmpeg -y -hide_banner -loglevel error -i audio/soundtrack.wav -af "volume=-0.2dB,alimiter=limit=0.78:level=false:attack=2:release=60" -c:a aac -b:a 320k audio/soundtrack.m4a
 # poster frame (completed villa at blue hour)
 ffmpeg -y -hide_banner -loglevel error -ss 59.5 -i "$OUT" -frames:v 1 -q:v 2 out/poster.jpg
 echo "done: $OUT"
