@@ -7,18 +7,19 @@ Regeln und Stil: `../CLAUDE.md` · Dateien und Workflow: `README.md` · Prompt f
 |---|---|---|
 | Shorts #8–#11 | `render10.py` … `render13.py` | fertig, hochgeladen vom Nutzer |
 | 6 Wochen-Videos (Sa 7.11. – Do 12.11.) | `week_nov7/` | fertig, ohne Stimme (Text-Animation, `eng14.py`) |
-| **YT01** – „Most Stocks Lose Money. So Why Does the Market Go Up?“ (YouTube, 16:9, 9:18) | `yt01_most_stocks_lose/` | Animation, Musik, Thumbnail, Upload-Text fertig; Stimme (Kokoro) eingesetzt |
+| **YT01** – „Most Stocks Lose Money. So Why Does the Market Go Up?“ (YouTube, 16:9, 9:38) | `yt01_most_stocks_lose/` | mit Stimme (Kokoro) gerendert und geliefert (8.11.), Kapitelmarken aktualisiert |
 | **Video A** – „$5 a day: piggy bank vs. stock market“ (25 s, ohne Stimme) | `nov8/a_piggy_vs_stocks.py` | fertig geliefert |
 | **Video B** – „How much money do you need to stop working?“ (25 s, 25x-/4-%-Regel) | `nov8/b_25x_rule.py` | mit Stimme geliefert (Kokoro), Cover-Zahl korrigiert ($1,000,000) |
 | **Video C** – „One lucky pick“ (36 s, cryothum-Stil, 29.081-Punkte-Raster) | `nov8/c_lucky_pick.py` | fertig geliefert, Upload-Text in `nov8/upload_texts_nov8.txt` |
 | **Video D** – „Same job, same paycheck“ (31 s, Jake vs. Emma, $300/Monat) | `nov8/d_two_paths.py` | fertig geliefert, Upload-Text in `nov8/upload_texts_nov8.txt` |
 
 ## Offen (wartet auf den Nutzer)
-1. **Hörprobe und Upload:** Videos B, C und D sind geliefert (Kokoro-Stimme af_heart). Vor dem Upload kurz reinhören und die
-   KI-Kennzeichnung setzen (TikTok „AI-generated content“, YouTube „Altered or synthetic content“). Upload-Texte: `nov8/upload_texts_nov8.txt`.
-2. **YT01:** Stimme neu synchronisiert (`yt01_most_stocks_lose/voice/`, Satzanfänge exakt). Rendern, Mischen und Liefern stehen an
-   (Befehle in `yt01_most_stocks_lose/README.md`, ca. 45–70 min Rendern).
-3. **Monetarisierung:** Die Kokoro-Stimme ist Apache-2.0 und darf verwendet werden. Voice-Studio-Modelle bleiben gesperrt.
+1. **Hörprobe und Upload:** Videos B, C, D und YT01 sind geliefert (Kokoro-Stimme af_heart). Vor dem Upload kurz reinhören und
+   die KI-Kennzeichnung setzen (TikTok „AI-generated content“, YouTube „Altered or synthetic content“). Upload-Texte:
+   `nov8/upload_texts_nov8.txt` (B, C, D) und `yt01_most_stocks_lose/upload_text.txt` (YT01, mit Kapitelmarken).
+2. **Monetarisierung:** Die Kokoro-Stimme ist Apache-2.0 und darf verwendet werden. Voice-Studio-Modelle bleiben gesperrt.
+3. **Nächste Videos:** im neuen Stil (`lib20.py`, Vorlagen `nov8/c_lucky_pick.py`, `nov8/d_two_paths.py`); der Nutzer schickt
+   eventuell weitere cryothum-Beispiele.
 
 ## Wichtige Erkenntnisse
 - TikTok-Länge: sehr kurze Clips werden am häufigsten zu Ende geschaut, 30–90 s bringen die meisten Interaktionen
