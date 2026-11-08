@@ -1,1622 +1,1622 @@
 [
  {
   "text": "Chapter",
-  "start": 0.0,
-  "end": 0.52
+  "start": 0.071,
+  "end": 0.535
  },
  {
   "text": "four.",
-  "start": 0.52,
-  "end": 1.08
+  "start": 0.535,
+  "end": 1.341
  },
  {
   "text": "The",
-  "start": 1.08,
-  "end": 1.36
+  "start": 1.341,
+  "end": 1.421
  },
  {
   "text": "graveyard.",
-  "start": 1.36,
-  "end": 2.36
+  "start": 1.415,
+  "end": 2.415
  },
  {
   "text": "There's",
-  "start": 2.56,
-  "end": 3.16
+  "start": 2.977,
+  "end": 3.215
  },
  {
   "text": "another",
-  "start": 3.16,
-  "end": 3.52
+  "start": 3.215,
+  "end": 3.575
  },
  {
   "text": "reason",
-  "start": 3.52,
-  "end": 3.92
+  "start": 3.575,
+  "end": 3.975
  },
  {
   "text": "this",
-  "start": 3.92,
-  "end": 4.16
+  "start": 3.975,
+  "end": 4.215
  },
  {
   "text": "feels",
-  "start": 4.16,
-  "end": 4.52
+  "start": 4.215,
+  "end": 4.575
  },
  {
   "text": "so",
-  "start": 4.52,
-  "end": 4.72
+  "start": 4.575,
+  "end": 4.825
  },
  {
   "text": "surprising.",
-  "start": 4.72,
-  "end": 5.56
+  "start": 4.825,
+  "end": 5.785
  },
  {
   "text": "We",
-  "start": 5.56,
-  "end": 5.84
+  "start": 5.785,
+  "end": 5.895
  },
  {
   "text": "only",
-  "start": 5.84,
-  "end": 6.08
+  "start": 5.895,
+  "end": 6.135
  },
  {
   "text": "remember",
-  "start": 6.08,
-  "end": 6.64
+  "start": 6.135,
+  "end": 6.695
  },
  {
   "text": "the",
-  "start": 6.64,
-  "end": 6.8
+  "start": 6.695,
+  "end": 6.855
  },
  {
   "text": "winners.",
-  "start": 6.8,
-  "end": 7.76
+  "start": 6.855,
+  "end": 7.855
  },
  {
   "text": "Everyone",
-  "start": 7.76,
-  "end": 8.48
+  "start": 8.047,
+  "end": 8.535
  },
  {
   "text": "knows",
-  "start": 8.48,
-  "end": 8.84
+  "start": 8.535,
+  "end": 8.855
  },
  {
   "text": "Apple,",
-  "start": 8.84,
-  "end": 9.2
+  "start": 8.855,
+  "end": 9.245
  },
  {
   "text": "Microsoft",
-  "start": 9.2,
-  "end": 10.0
+  "start": 9.245,
+  "end": 10.095
  },
  {
   "text": "and",
-  "start": 10.0,
-  "end": 10.12
+  "start": 10.095,
+  "end": 10.215
  },
  {
   "text": "Amazon.",
-  "start": 10.12,
-  "end": 10.84
+  "start": 10.215,
+  "end": 11.115
  },
  {
   "text": "But",
-  "start": 10.84,
-  "end": 11.04
+  "start": 11.115,
+  "end": 11.195
  },
  {
   "text": "the",
-  "start": 11.04,
-  "end": 11.24
+  "start": 11.145,
+  "end": 11.335
  },
  {
   "text": "average",
-  "start": 11.24,
-  "end": 11.76
+  "start": 11.335,
+  "end": 11.815
  },
  {
   "text": "stock",
-  "start": 11.76,
-  "end": 12.04
+  "start": 11.815,
+  "end": 12.13
  },
  {
   "text": "in",
-  "start": 12.04,
-  "end": 12.2
+  "start": 12.13,
+  "end": 12.295
  },
  {
   "text": "Bessembinder's",
-  "start": 12.2,
-  "end": 12.96
+  "start": 12.295,
+  "end": 12.965
  },
  {
   "text": "data",
-  "start": 12.96,
-  "end": 13.32
+  "start": 12.965,
+  "end": 13.405
  },
  {
   "text": "was",
-  "start": 13.32,
-  "end": 13.52
+  "start": 13.405,
+  "end": 13.615
  },
  {
   "text": "listed",
-  "start": 13.52,
-  "end": 13.88
+  "start": 13.615,
+  "end": 14.03
  },
  {
   "text": "for",
-  "start": 13.88,
-  "end": 14.08
+  "start": 14.03,
+  "end": 14.175
  },
  {
   "text": "just",
-  "start": 14.08,
-  "end": 14.32
+  "start": 14.175,
+  "end": 14.415
  },
  {
   "text": "eleven",
-  "start": 14.32,
-  "end": 14.8
+  "start": 14.415,
+  "end": 14.895
  },
  {
   "text": "point",
-  "start": 14.8,
-  "end": 15.08
+  "start": 14.895,
+  "end": 15.175
  },
  {
   "text": "seven",
-  "start": 15.08,
-  "end": 15.56
+  "start": 15.175,
+  "end": 15.655
  },
  {
   "text": "years.",
-  "start": 15.56,
-  "end": 16.2
+  "start": 15.655,
+  "end": 16.395
  },
  {
   "text": "Companies",
-  "start": 16.2,
-  "end": 16.8
+  "start": 16.395,
+  "end": 16.895
  },
  {
   "text": "get",
-  "start": 16.8,
-  "end": 17.0
+  "start": 16.895,
+  "end": 17.095
  },
  {
   "text": "bought,",
-  "start": 17.0,
-  "end": 17.24
+  "start": 17.095,
+  "end": 17.415
  },
  {
   "text": "shrink,",
-  "start": 17.24,
-  "end": 17.64
+  "start": 17.415,
+  "end": 17.815
  },
  {
   "text": "or",
-  "start": 17.64,
-  "end": 17.84
+  "start": 17.815,
+  "end": 17.975
  },
  {
   "text": "simply",
-  "start": 17.84,
-  "end": 18.24
+  "start": 17.975,
+  "end": 18.375
  },
  {
   "text": "disappear.",
-  "start": 18.24,
-  "end": 19.24
+  "start": 18.375,
+  "end": 19.375
  },
  {
   "text": "Some",
-  "start": 19.36,
-  "end": 19.76
+  "start": 19.792,
+  "end": 19.895
  },
  {
   "text": "were",
-  "start": 19.76,
-  "end": 19.96
+  "start": 19.895,
+  "end": 20.135
  },
  {
   "text": "household",
-  "start": 19.96,
-  "end": 20.56
+  "start": 20.135,
+  "end": 20.735
  },
  {
   "text": "names.",
-  "start": 20.56,
-  "end": 21.32
+  "start": 20.735,
+  "end": 21.525
  },
  {
   "text": "Enron.",
-  "start": 21.32,
-  "end": 22.32
+  "start": 21.525,
+  "end": 22.525
  },
  {
   "text": "WorldCom.",
-  "start": 22.4,
-  "end": 23.4
+  "start": 22.59,
+  "end": 23.59
  },
  {
   "text": "Lehman",
-  "start": 23.6,
-  "end": 24.12
+  "start": 23.858,
+  "end": 24.295
  },
  {
   "text": "Brothers.",
-  "start": 24.12,
-  "end": 25.04
+  "start": 24.295,
+  "end": 25.292
  },
  {
   "text": "Kodak.",
-  "start": 25.04,
-  "end": 26.04
+  "start": 25.292,
+  "end": 26.292
  },
  {
   "text": "Sears.",
-  "start": 26.24,
-  "end": 27.0
+  "start": 26.377,
+  "end": 27.377
  },
  {
   "text": "All",
-  "start": 27.0,
-  "end": 27.32
+  "start": 27.421,
+  "end": 27.501
  },
  {
   "text": "of",
-  "start": 27.32,
-  "end": 27.44
+  "start": 27.495,
+  "end": 27.615
  },
  {
   "text": "them",
-  "start": 27.44,
-  "end": 27.64
+  "start": 27.615,
+  "end": 27.815
  },
  {
   "text": "were",
-  "start": 27.64,
-  "end": 27.8
+  "start": 27.815,
+  "end": 27.975
  },
  {
   "text": "once",
-  "start": 27.8,
-  "end": 28.12
+  "start": 27.975,
+  "end": 28.295
  },
  {
   "text": "giants.",
-  "start": 28.12,
-  "end": 28.88
+  "start": 28.295,
+  "end": 29.21
  },
  {
   "text": "All",
-  "start": 28.88,
-  "end": 29.2
+  "start": 29.21,
+  "end": 29.335
  },
  {
   "text": "of",
-  "start": 29.2,
-  "end": 29.32
+  "start": 29.335,
+  "end": 29.495
  },
  {
   "text": "them",
-  "start": 29.32,
-  "end": 29.52
+  "start": 29.495,
+  "end": 29.695
  },
  {
   "text": "went",
-  "start": 29.52,
-  "end": 29.76
+  "start": 29.695,
+  "end": 29.935
  },
  {
   "text": "bankrupt.",
-  "start": 29.76,
-  "end": 30.76
+  "start": 29.935,
+  "end": 30.935
  },
  {
   "text": "And",
-  "start": 30.8,
-  "end": 31.2
+  "start": 31.388,
+  "end": 31.468
  },
  {
   "text": "it's",
-  "start": 31.2,
-  "end": 31.6
+  "start": 31.418,
+  "end": 31.735
  },
  {
   "text": "rarely",
-  "start": 31.6,
-  "end": 32.04
+  "start": 31.735,
+  "end": 32.2
  },
  {
   "text": "obvious",
-  "start": 32.04,
-  "end": 32.52
+  "start": 32.2,
+  "end": 32.695
  },
  {
   "text": "in",
-  "start": 32.52,
-  "end": 32.64
+  "start": 32.695,
+  "end": 32.815
  },
  {
   "text": "advance.",
-  "start": 32.64,
-  "end": 33.4
+  "start": 32.815,
+  "end": 33.774
  },
  {
   "text": "In",
-  "start": 33.4,
-  "end": 33.64
+  "start": 33.774,
+  "end": 33.854
  },
  {
   "text": "2024,",
-  "start": 33.64,
-  "end": 34.76
+  "start": 33.804,
+  "end": 34.965
  },
  {
   "text": "J.P.",
-  "start": 34.76,
-  "end": 36.16
+  "start": 34.965,
+  "end": 36.013
  },
  {
   "text": "Morgan",
-  "start": 36.16,
-  "end": 36.4
+  "start": 36.013,
+  "end": 36.635
  },
  {
   "text": "studied",
-  "start": 36.4,
-  "end": 36.64
+  "start": 36.635,
+  "end": 36.855
  },
  {
   "text": "stocks",
-  "start": 36.64,
-  "end": 37.04
+  "start": 36.855,
+  "end": 37.295
  },
  {
   "text": "that",
-  "start": 37.04,
-  "end": 37.2
+  "start": 37.295,
+  "end": 37.415
  },
  {
   "text": "fell",
-  "start": 37.2,
-  "end": 37.4
+  "start": 37.415,
+  "end": 37.655
  },
  {
   "text": "at",
-  "start": 37.4,
-  "end": 37.56
+  "start": 37.655,
+  "end": 37.775
  },
  {
   "text": "least",
-  "start": 37.56,
-  "end": 37.8
+  "start": 37.775,
+  "end": 38.055
  },
  {
   "text": "seventy",
-  "start": 37.8,
-  "end": 38.24
+  "start": 38.055,
+  "end": 38.455
  },
  {
   "text": "percent",
-  "start": 38.24,
-  "end": 38.6
+  "start": 38.455,
+  "end": 38.815
  },
  {
   "text": "from",
-  "start": 38.6,
-  "end": 38.72
+  "start": 38.815,
+  "end": 38.975
  },
  {
   "text": "their",
-  "start": 38.72,
-  "end": 38.88
+  "start": 38.975,
+  "end": 39.06
  },
  {
   "text": "peak",
-  "start": 38.88,
-  "end": 39.16
+  "start": 39.06,
+  "end": 39.325
  },
  {
   "text": "and",
-  "start": 39.16,
-  "end": 39.32
+  "start": 39.325,
+  "end": 39.535
  },
  {
   "text": "didn't",
-  "start": 39.32,
-  "end": 39.64
+  "start": 39.535,
+  "end": 39.895
  },
  {
   "text": "recover.",
-  "start": 39.64,
-  "end": 40.36
+  "start": 39.895,
+  "end": 40.78
  },
  {
   "text": "Fifty-four",
-  "start": 40.36,
-  "end": 41.16
+  "start": 40.78,
+  "end": 41.38
  },
  {
   "text": "percent",
-  "start": 41.16,
-  "end": 41.6
+  "start": 41.38,
+  "end": 41.815
  },
  {
   "text": "of",
-  "start": 41.6,
-  "end": 41.76
+  "start": 41.815,
+  "end": 41.975
  },
  {
   "text": "those",
-  "start": 41.76,
-  "end": 42.0
+  "start": 41.975,
+  "end": 42.255
  },
  {
   "text": "companies",
-  "start": 42.0,
-  "end": 42.56
+  "start": 42.255,
+  "end": 42.83
  },
  {
   "text": "were",
-  "start": 42.56,
-  "end": 42.72
+  "start": 42.83,
+  "end": 42.97
  },
  {
   "text": "profitable",
-  "start": 42.72,
-  "end": 43.36
+  "start": 42.97,
+  "end": 43.575
  },
  {
   "text": "at",
-  "start": 43.36,
-  "end": 43.48
+  "start": 43.575,
+  "end": 43.735
  },
  {
   "text": "their",
-  "start": 43.48,
-  "end": 43.68
+  "start": 43.735,
+  "end": 43.935
  },
  {
   "text": "peak.",
-  "start": 43.68,
-  "end": 44.16
+  "start": 43.935,
+  "end": 44.626
  },
  {
   "text": "And",
-  "start": 44.16,
-  "end": 44.44
+  "start": 44.626,
+  "end": 44.706
  },
  {
   "text": "Wall",
-  "start": 44.44,
-  "end": 44.72
+  "start": 44.695,
+  "end": 44.935
  },
  {
   "text": "Street's",
-  "start": 44.72,
-  "end": 45.12
+  "start": 44.935,
+  "end": 45.375
  },
  {
   "text": "consensus",
-  "start": 45.12,
-  "end": 45.84
+  "start": 45.375,
+  "end": 46.1
  },
  {
   "text": "was",
-  "start": 45.84,
-  "end": 46.04
+  "start": 46.1,
+  "end": 46.295
  },
  {
   "text": "tilted",
-  "start": 46.04,
-  "end": 46.48
+  "start": 46.295,
+  "end": 46.695
  },
  {
   "text": "heavily",
-  "start": 46.48,
-  "end": 46.96
+  "start": 46.695,
+  "end": 47.19
  },
  {
   "text": "toward",
-  "start": 46.96,
-  "end": 47.36
+  "start": 47.19,
+  "end": 47.615
  },
  {
   "text": "\"strong",
-  "start": 47.36,
-  "end": 47.56
+  "start": 47.615,
+  "end": 47.815
  },
  {
   "text": "buy.\"",
-  "start": 47.56,
-  "end": 47.76
+  "start": 47.815,
+  "end": 48.815
  },
  {
   "text": "Even",
-  "start": 47.76,
-  "end": 48.76
+  "start": 49.03,
+  "end": 49.175
  },
  {
   "text": "the",
-  "start": 48.92,
-  "end": 49.08
+  "start": 49.175,
+  "end": 49.335
  },
  {
   "text": "winners",
-  "start": 49.08,
-  "end": 49.52
+  "start": 49.335,
+  "end": 49.775
  },
  {
   "text": "keep",
-  "start": 49.52,
-  "end": 49.8
+  "start": 49.775,
+  "end": 50.055
  },
  {
   "text": "changing.",
-  "start": 49.8,
-  "end": 50.56
+  "start": 50.055,
+  "end": 50.935
  },
  {
   "text": "Of",
-  "start": 50.56,
-  "end": 50.72
+  "start": 50.935,
+  "end": 51.015
  },
  {
   "text": "the",
-  "start": 50.72,
-  "end": 50.92
+  "start": 50.965,
+  "end": 51.175
  },
  {
   "text": "thirty",
-  "start": 50.92,
-  "end": 51.4
+  "start": 51.175,
+  "end": 51.655
  },
  {
   "text": "biggest",
-  "start": 51.4,
-  "end": 51.84
+  "start": 51.655,
+  "end": 52.095
  },
  {
   "text": "wealth",
-  "start": 51.84,
-  "end": 52.16
+  "start": 52.095,
+  "end": 52.415
  },
  {
   "text": "creators",
-  "start": 52.16,
-  "end": 52.68
+  "start": 52.415,
+  "end": 53.0
  },
  {
   "text": "from",
-  "start": 52.68,
-  "end": 52.84
+  "start": 53.0,
+  "end": 53.135
  },
  {
   "text": "2017",
-  "start": 52.84,
-  "end": 53.76
+  "start": 53.135,
+  "end": 54.095
  },
  {
   "text": "to",
-  "start": 53.76,
-  "end": 53.92
+  "start": 54.095,
+  "end": 54.295
  },
  {
   "text": "2025,",
-  "start": 53.92,
-  "end": 54.88
+  "start": 54.295,
+  "end": 55.44
  },
  {
   "text": "nineteen",
-  "start": 54.88,
-  "end": 55.48
+  "start": 55.44,
+  "end": 56.175
  },
  {
   "text": "weren't",
-  "start": 55.48,
-  "end": 55.84
+  "start": 56.175,
+  "end": 56.535
  },
  {
   "text": "on",
-  "start": 55.84,
-  "end": 55.92
+  "start": 56.535,
+  "end": 56.615
  },
  {
   "text": "the",
-  "start": 55.92,
-  "end": 56.04
+  "start": 56.615,
+  "end": 56.735
  },
  {
   "text": "top",
-  "start": 56.04,
-  "end": 56.32
+  "start": 56.735,
+  "end": 56.95
  },
  {
   "text": "thirty",
-  "start": 56.32,
-  "end": 56.84
+  "start": 56.95,
+  "end": 57.375
  },
  {
   "text": "list",
-  "start": 56.84,
-  "end": 57.84
+  "start": 57.375,
+  "end": 57.62
  },
  {
   "text": "before.",
-  "start": 58.0,
-  "end": 58.24
+  "start": 57.62,
+  "end": 58.555
  },
  {
   "text": "Names",
-  "start": 58.24,
-  "end": 58.48
+  "start": 58.555,
+  "end": 58.855
  },
  {
   "text": "like",
-  "start": 58.48,
-  "end": 58.64
+  "start": 58.855,
+  "end": 59.015
  },
  {
   "text": "Nvidia,",
-  "start": 58.64,
-  "end": 59.12
+  "start": 59.015,
+  "end": 59.575
  },
  {
   "text": "Tesla,",
-  "start": 59.12,
-  "end": 59.48
+  "start": 59.575,
+  "end": 60.0
  },
  {
   "text": "Meta,",
-  "start": 59.48,
-  "end": 59.8
+  "start": 60.0,
+  "end": 60.935
  },
  {
   "text": "Eli",
-  "start": 59.8,
-  "end": 60.12
+  "start": 60.935,
+  "end": 61.115
  },
  {
   "text": "Lilly",
-  "start": 60.12,
-  "end": 60.44
+  "start": 61.115,
+  "end": 61.33
  },
  {
   "text": "and",
-  "start": 60.44,
-  "end": 60.56
+  "start": 61.33,
+  "end": 61.495
  },
  {
   "text": "AMD.",
-  "start": 60.56,
-  "end": 61.56
+  "start": 61.495,
+  "end": 62.963
  },
  {
   "text": "Chapter",
-  "start": 61.56,
-  "end": 62.4
+  "start": 62.963,
+  "end": 63.415
  },
  {
   "text": "five.",
-  "start": 62.4,
-  "end": 63.12
+  "start": 63.415,
+  "end": 64.286
  },
  {
   "text": "Around",
-  "start": 63.12,
-  "end": 63.68
+  "start": 64.286,
+  "end": 64.695
  },
  {
   "text": "the",
-  "start": 63.68,
-  "end": 63.88
+  "start": 64.695,
+  "end": 64.895
  },
  {
   "text": "world.",
-  "start": 63.88,
-  "end": 64.88
+  "start": 64.895,
+  "end": 65.895
  },
  {
   "text": "Maybe",
-  "start": 64.88,
-  "end": 65.4
+  "start": 66.032,
+  "end": 66.375
  },
  {
   "text": "this",
-  "start": 65.4,
-  "end": 65.68
+  "start": 66.375,
+  "end": 66.615
  },
  {
   "text": "is",
-  "start": 65.68,
-  "end": 65.92
+  "start": 66.615,
+  "end": 66.815
  },
  {
   "text": "just",
-  "start": 65.92,
-  "end": 66.12
+  "start": 66.815,
+  "end": 67.015
  },
  {
   "text": "an",
-  "start": 66.12,
-  "end": 66.32
+  "start": 67.015,
+  "end": 67.215
  },
  {
   "text": "American",
-  "start": 66.32,
-  "end": 66.96
+  "start": 67.215,
+  "end": 67.855
  },
  {
   "text": "thing?",
-  "start": 66.96,
-  "end": 67.52
+  "start": 67.855,
+  "end": 68.515
  },
  {
   "text": "It's",
-  "start": 67.52,
-  "end": 68.04
+  "start": 68.515,
+  "end": 68.935
  },
  {
   "text": "not.",
-  "start": 68.04,
-  "end": 68.8
+  "start": 68.935,
+  "end": 69.935
  },
  {
   "text": "In",
-  "start": 68.8,
-  "end": 69.12
+  "start": 70.079,
+  "end": 70.159
  },
  {
   "text": "a",
-  "start": 69.12,
-  "end": 69.28
+  "start": 70.109,
+  "end": 70.215
  },
  {
   "text": "2023",
-  "start": 69.28,
-  "end": 70.4
+  "start": 70.215,
+  "end": 71.295
  },
  {
   "text": "study",
-  "start": 70.4,
-  "end": 70.8
+  "start": 71.295,
+  "end": 71.775
  },
  {
   "text": "of",
-  "start": 70.8,
-  "end": 71.0
+  "start": 71.775,
+  "end": 71.935
  },
  {
   "text": "more",
-  "start": 71.0,
-  "end": 71.2
+  "start": 71.935,
+  "end": 72.135
  },
  {
   "text": "than",
-  "start": 71.2,
-  "end": 71.4
+  "start": 72.135,
+  "end": 72.335
  },
  {
   "text": "sixty-four",
-  "start": 71.4,
-  "end": 72.16
+  "start": 72.335,
+  "end": 73.06
  },
  {
   "text": "thousand",
-  "start": 72.16,
-  "end": 72.6
+  "start": 73.06,
+  "end": 73.495
  },
  {
   "text": "stocks",
-  "start": 72.6,
-  "end": 73.0
+  "start": 73.495,
+  "end": 73.895
  },
  {
   "text": "around",
-  "start": 73.0,
-  "end": 73.32
+  "start": 73.895,
+  "end": 74.255
  },
  {
   "text": "the",
-  "start": 73.32,
-  "end": 73.44
+  "start": 74.255,
+  "end": 74.375
  },
  {
   "text": "world,",
-  "start": 73.44,
-  "end": 73.72
+  "start": 74.375,
+  "end": 74.655
  },
  {
   "text": "from",
-  "start": 73.72,
-  "end": 73.88
+  "start": 74.655,
+  "end": 74.855
  },
  {
   "text": "1990",
-  "start": 73.88,
-  "end": 75.04
+  "start": 74.855,
+  "end": 75.815
  },
  {
   "text": "to",
-  "start": 75.04,
-  "end": 75.2
+  "start": 75.815,
+  "end": 76.015
  },
  {
   "text": "2020,",
-  "start": 75.2,
-  "end": 75.8
+  "start": 76.015,
+  "end": 76.855
  },
  {
   "text": "Bessembinder",
-  "start": 75.8,
-  "end": 76.52
+  "start": 76.855,
+  "end": 77.615
  },
  {
   "text": "and",
-  "start": 76.52,
-  "end": 76.68
+  "start": 77.615,
+  "end": 77.775
  },
  {
   "text": "three",
-  "start": 76.68,
-  "end": 76.92
+  "start": 77.775,
+  "end": 78.015
  },
  {
   "text": "co-authors",
-  "start": 76.92,
-  "end": 77.72
+  "start": 78.015,
+  "end": 78.785
  },
  {
   "text": "found",
-  "start": 77.72,
-  "end": 78.0
+  "start": 78.785,
+  "end": 79.055
  },
  {
   "text": "the",
-  "start": 78.0,
-  "end": 78.12
+  "start": 79.055,
+  "end": 79.175
  },
  {
   "text": "same",
-  "start": 78.12,
-  "end": 78.44
+  "start": 79.175,
+  "end": 79.455
  },
  {
   "text": "pattern.",
-  "start": 78.44,
-  "end": 79.32
+  "start": 79.455,
+  "end": 80.455
  },
  {
   "text": "Fifty-five",
-  "start": 79.32,
-  "end": 80.16
+  "start": 80.606,
+  "end": 81.2
  },
  {
   "text": "percent",
-  "start": 80.16,
-  "end": 80.56
+  "start": 81.2,
+  "end": 81.575
  },
  {
   "text": "of",
-  "start": 80.56,
-  "end": 80.72
+  "start": 81.575,
+  "end": 81.735
  },
  {
   "text": "US",
-  "start": 80.72,
-  "end": 81.16
+  "start": 81.735,
+  "end": 82.095
  },
  {
   "text": "stocks,",
-  "start": 81.16,
-  "end": 81.56
+  "start": 82.095,
+  "end": 82.535
  },
  {
   "text": "and",
-  "start": 81.56,
-  "end": 81.72
- },
- {
-  "text": "fifty-seven",
-  "start": 81.72,
-  "end": 82.32
- },
- {
-  "text": "percent",
-  "start": 82.32,
+  "start": 82.535,
   "end": 82.64
  },
  {
-  "text": "of",
+  "text": "fifty-seven",
   "start": 82.64,
-  "end": 82.8
+  "end": 83.335
+ },
+ {
+  "text": "percent",
+  "start": 83.335,
+  "end": 83.655
+ },
+ {
+  "text": "of",
+  "start": 83.655,
+  "end": 83.815
  },
  {
   "text": "stocks",
-  "start": 82.8,
-  "end": 83.2
+  "start": 83.815,
+  "end": 84.23
  },
  {
   "text": "outside",
-  "start": 83.2,
-  "end": 83.68
+  "start": 84.23,
+  "end": 84.695
  },
  {
   "text": "the",
-  "start": 83.68,
-  "end": 83.84
+  "start": 84.695,
+  "end": 84.815
  },
  {
   "text": "US,",
-  "start": 83.84,
-  "end": 84.32
+  "start": 84.815,
+  "end": 85.295
  },
  {
   "text": "did",
-  "start": 84.32,
-  "end": 84.56
+  "start": 85.295,
+  "end": 85.575
  },
  {
   "text": "worse",
-  "start": 84.56,
-  "end": 84.88
+  "start": 85.575,
+  "end": 85.895
  },
  {
   "text": "than",
-  "start": 84.88,
-  "end": 85.2
+  "start": 85.895,
+  "end": 86.135
  },
  {
   "text": "one-month",
-  "start": 85.2,
-  "end": 85.76
+  "start": 86.135,
+  "end": 86.615
  },
  {
   "text": "US",
-  "start": 85.76,
-  "end": 86.16
+  "start": 86.615,
+  "end": 87.015
  },
  {
   "text": "Treasury",
-  "start": 86.16,
-  "end": 86.68
+  "start": 87.015,
+  "end": 87.495
  },
  {
   "text": "bills.",
-  "start": 86.68,
-  "end": 87.52
+  "start": 87.495,
+  "end": 88.495
  },
  {
   "text": "And",
-  "start": 87.52,
-  "end": 87.8
+  "start": 88.63,
+  "end": 88.71
  },
  {
   "text": "just",
-  "start": 87.8,
-  "end": 88.12
+  "start": 88.66,
+  "end": 88.935
  },
  {
   "text": "two",
-  "start": 88.12,
-  "end": 88.4
+  "start": 88.935,
+  "end": 89.215
  },
  {
   "text": "point",
-  "start": 88.4,
-  "end": 88.68
+  "start": 89.215,
+  "end": 89.535
  },
  {
   "text": "four",
-  "start": 88.68,
-  "end": 88.88
+  "start": 89.535,
+  "end": 89.735
  },
  {
   "text": "percent",
-  "start": 88.88,
-  "end": 89.24
+  "start": 89.735,
+  "end": 90.055
  },
  {
   "text": "of",
-  "start": 89.24,
-  "end": 89.36
+  "start": 90.055,
+  "end": 90.175
  },
  {
   "text": "companies",
-  "start": 89.36,
-  "end": 89.88
+  "start": 90.175,
+  "end": 90.74
  },
  {
   "text": "created",
-  "start": 89.88,
-  "end": 90.36
+  "start": 90.74,
+  "end": 91.205
  },
  {
   "text": "all",
-  "start": 90.36,
-  "end": 90.6
+  "start": 91.205,
+  "end": 91.415
  },
  {
   "text": "of",
-  "start": 90.6,
-  "end": 90.68
+  "start": 91.415,
+  "end": 91.495
  },
  {
   "text": "the",
-  "start": 90.68,
-  "end": 90.8
+  "start": 91.495,
+  "end": 91.655
  },
  {
   "text": "roughly",
-  "start": 90.8,
-  "end": 91.32
+  "start": 91.655,
+  "end": 92.135
  },
  {
   "text": "seventy-six",
-  "start": 91.32,
-  "end": 92.12
+  "start": 92.135,
+  "end": 92.895
  },
  {
   "text": "trillion",
-  "start": 92.12,
-  "end": 92.52
+  "start": 92.895,
+  "end": 93.335
  },
  {
   "text": "dollars",
-  "start": 92.52,
-  "end": 93.04
+  "start": 93.335,
+  "end": 93.925
  },
  {
   "text": "of",
-  "start": 93.04,
-  "end": 93.24
+  "start": 93.925,
+  "end": 94.055
  },
  {
   "text": "net",
-  "start": 93.24,
-  "end": 93.52
+  "start": 94.055,
+  "end": 94.335
  },
  {
   "text": "global",
-  "start": 93.52,
-  "end": 94.16
+  "start": 94.335,
+  "end": 94.975
  },
  {
   "text": "wealth.",
-  "start": 94.16,
-  "end": 94.88
+  "start": 94.975,
+  "end": 95.884
  },
  {
   "text": "Outside",
-  "start": 94.88,
-  "end": 95.52
+  "start": 95.884,
+  "end": 96.295
  },
  {
   "text": "the",
-  "start": 95.52,
-  "end": 95.72
+  "start": 96.295,
+  "end": 96.455
  },
  {
   "text": "US,",
-  "start": 95.72,
-  "end": 96.16
+  "start": 96.455,
+  "end": 96.855
  },
  {
   "text": "it",
-  "start": 96.16,
-  "end": 96.32
+  "start": 96.855,
+  "end": 97.015
  },
  {
   "text": "was",
-  "start": 96.32,
-  "end": 96.48
+  "start": 97.015,
+  "end": 97.175
  },
  {
   "text": "even",
-  "start": 96.48,
-  "end": 96.76
+  "start": 97.175,
+  "end": 97.415
  },
  {
   "text": "more",
-  "start": 96.76,
-  "end": 97.0
+  "start": 97.415,
+  "end": 97.615
  },
  {
   "text": "concentrated:",
-  "start": 97.0,
-  "end": 97.84
+  "start": 97.615,
+  "end": 98.475
  },
  {
   "text": "just",
-  "start": 97.84,
-  "end": 98.08
+  "start": 98.475,
+  "end": 98.775
  },
  {
   "text": "one",
-  "start": 98.08,
-  "end": 98.36
+  "start": 98.775,
+  "end": 99.015
  },
  {
   "text": "point",
-  "start": 98.36,
-  "end": 98.68
+  "start": 99.015,
+  "end": 99.175
  },
  {
   "text": "four",
-  "start": 98.68,
-  "end": 98.92
+  "start": 99.175,
+  "end": 99.615
  },
  {
   "text": "percent.",
-  "start": 98.92,
-  "end": 99.84
+  "start": 99.615,
+  "end": 100.615
  },
  {
   "text": "Chapter",
-  "start": 99.84,
-  "end": 100.6
+  "start": 100.837,
+  "end": 101.335
  },
  {
   "text": "six.",
-  "start": 100.6,
-  "end": 101.32
+  "start": 101.335,
+  "end": 102.167
  },
  {
   "text": "The",
-  "start": 101.32,
-  "end": 101.6
+  "start": 102.167,
+  "end": 102.335
  },
  {
   "text": "pros.",
-  "start": 101.6,
-  "end": 102.56
+  "start": 102.335,
+  "end": 103.335
  },
  {
   "text": "So",
-  "start": 102.56,
-  "end": 103.04
+  "start": 103.697,
+  "end": 103.777
  },
  {
   "text": "if",
-  "start": 103.04,
-  "end": 103.24
+  "start": 103.727,
+  "end": 104.015
  },
  {
   "text": "a",
-  "start": 103.24,
-  "end": 103.36
+  "start": 104.015,
+  "end": 104.135
  },
  {
   "text": "few",
-  "start": 103.36,
-  "end": 103.6
+  "start": 104.135,
+  "end": 104.375
  },
  {
   "text": "winners",
-  "start": 103.6,
-  "end": 104.08
+  "start": 104.375,
+  "end": 104.77
  },
  {
   "text": "drive",
-  "start": 104.08,
-  "end": 104.48
+  "start": 104.77,
+  "end": 105.175
  },
  {
   "text": "everything,",
-  "start": 104.48,
-  "end": 104.88
+  "start": 105.175,
+  "end": 105.655
  },
  {
   "text": "the",
-  "start": 104.88,
-  "end": 105.04
+  "start": 105.655,
+  "end": 105.895
  },
  {
   "text": "answer",
-  "start": 105.04,
-  "end": 105.44
+  "start": 105.895,
+  "end": 106.295
  },
  {
   "text": "seems",
-  "start": 105.44,
-  "end": 105.8
+  "start": 106.295,
+  "end": 106.655
  },
  {
   "text": "obvious.",
-  "start": 105.8,
-  "end": 106.64
+  "start": 106.655,
+  "end": 107.593
  },
  {
   "text": "Just",
-  "start": 106.64,
-  "end": 106.96
+  "start": 107.593,
+  "end": 107.815
  },
  {
   "text": "find",
-  "start": 106.96,
-  "end": 107.28
+  "start": 107.815,
+  "end": 108.135
  },
  {
   "text": "the",
-  "start": 107.28,
-  "end": 107.44
+  "start": 108.135,
+  "end": 108.295
  },
  {
   "text": "winners.",
-  "start": 107.44,
-  "end": 108.44
+  "start": 108.295,
+  "end": 109.295
  },
  {
   "text": "That's",
-  "start": 108.48,
-  "end": 109.12
+  "start": 109.531,
+  "end": 109.975
  },
  {
   "text": "exactly",
-  "start": 109.12,
-  "end": 109.84
+  "start": 109.975,
+  "end": 110.655
  },
  {
   "text": "what",
-  "start": 109.84,
-  "end": 110.04
+  "start": 110.655,
+  "end": 110.91
  },
  {
   "text": "professional",
-  "start": 110.04,
-  "end": 110.64
+  "start": 110.91,
+  "end": 111.455
  },
  {
   "text": "fund",
-  "start": 110.64,
-  "end": 110.92
+  "start": 111.455,
+  "end": 111.775
  },
  {
   "text": "managers",
-  "start": 110.92,
-  "end": 111.48
+  "start": 111.775,
+  "end": 112.335
  },
  {
   "text": "try",
-  "start": 111.48,
-  "end": 111.68
+  "start": 112.335,
+  "end": 112.535
  },
  {
   "text": "to",
-  "start": 111.68,
-  "end": 111.88
+  "start": 112.535,
+  "end": 112.735
  },
  {
   "text": "do.",
-  "start": 111.88,
-  "end": 112.32
+  "start": 112.735,
+  "end": 113.352
  },
  {
   "text": "With",
-  "start": 112.32,
-  "end": 112.64
+  "start": 113.352,
+  "end": 113.495
  },
  {
   "text": "research",
-  "start": 112.64,
-  "end": 113.12
+  "start": 113.495,
+  "end": 113.975
  },
  {
   "text": "teams,",
-  "start": 113.12,
-  "end": 113.52
+  "start": 113.975,
+  "end": 114.395
  },
  {
   "text": "data,",
-  "start": 113.52,
-  "end": 113.92
+  "start": 114.395,
+  "end": 114.775
  },
  {
   "text": "and",
-  "start": 113.92,
-  "end": 114.08
+  "start": 114.775,
+  "end": 114.935
  },
  {
   "text": "decades",
-  "start": 114.08,
-  "end": 114.56
+  "start": 114.935,
+  "end": 115.415
  },
  {
   "text": "of",
-  "start": 114.56,
-  "end": 114.72
+  "start": 115.415,
+  "end": 115.575
  },
  {
   "text": "experience.",
-  "start": 114.72,
-  "end": 115.72
+  "start": 115.575,
+  "end": 116.575
  },
  {
   "text": "But",
-  "start": 115.84,
-  "end": 116.12
+  "start": 117.019,
+  "end": 117.099
  },
  {
   "text": "according",
-  "start": 116.12,
-  "end": 116.72
+  "start": 117.049,
+  "end": 117.575
  },
  {
   "text": "to",
-  "start": 116.72,
-  "end": 117.0
+  "start": 117.575,
+  "end": 117.815
  },
  {
   "text": "S&P",
-  "start": 117.0,
-  "end": 117.72
+  "start": 117.815,
+  "end": 118.775
  },
  {
   "text": "Dow",
-  "start": 117.72,
-  "end": 118.0
+  "start": 118.775,
+  "end": 118.975
  },
  {
   "text": "Jones",
-  "start": 118.0,
-  "end": 118.4
+  "start": 118.975,
+  "end": 119.175
  },
  {
   "text": "Indices,",
-  "start": 118.4,
-  "end": 119.04
+  "start": 119.175,
+  "end": 119.9
  },
  {
   "text": "over",
-  "start": 119.04,
-  "end": 119.24
+  "start": 119.9,
+  "end": 120.135
  },
  {
   "text": "the",
-  "start": 119.24,
-  "end": 119.36
+  "start": 120.135,
+  "end": 120.295
  },
  {
   "text": "twenty",
-  "start": 119.36,
-  "end": 119.76
+  "start": 120.295,
+  "end": 120.695
  },
  {
   "text": "years",
-  "start": 119.76,
-  "end": 120.08
+  "start": 120.695,
+  "end": 121.015
  },
  {
   "text": "through",
-  "start": 120.08,
-  "end": 120.36
+  "start": 121.015,
+  "end": 121.255
  },
  {
   "text": "2025,",
-  "start": 120.36,
-  "end": 121.44
+  "start": 121.255,
+  "end": 122.42
  },
  {
   "text": "about",
-  "start": 121.44,
-  "end": 121.68
+  "start": 122.42,
+  "end": 122.695
  },
  {
   "text": "ninety-three",
-  "start": 121.68,
-  "end": 122.4
+  "start": 122.695,
+  "end": 123.415
  },
  {
   "text": "percent",
-  "start": 122.4,
-  "end": 122.76
+  "start": 123.415,
+  "end": 123.775
  },
  {
   "text": "of",
-  "start": 122.76,
-  "end": 122.88
+  "start": 123.775,
+  "end": 123.955
  },
  {
   "text": "actively",
-  "start": 122.88,
-  "end": 123.4
+  "start": 123.955,
+  "end": 124.455
  },
  {
   "text": "managed",
-  "start": 123.4,
-  "end": 123.88
+  "start": 124.455,
+  "end": 124.895
  },
  {
   "text": "US",
-  "start": 123.88,
-  "end": 124.24
+  "start": 124.895,
+  "end": 125.335
  },
  {
   "text": "large-cap",
-  "start": 124.24,
-  "end": 124.88
+  "start": 125.335,
+  "end": 125.935
  },
  {
   "text": "funds",
-  "start": 124.88,
-  "end": 125.28
+  "start": 125.935,
+  "end": 126.355
  },
  {
   "text": "did",
-  "start": 125.28,
-  "end": 125.48
+  "start": 126.355,
+  "end": 126.535
  },
  {
   "text": "worse",
-  "start": 125.48,
-  "end": 125.8
+  "start": 126.535,
+  "end": 126.855
  },
  {
   "text": "than",
-  "start": 125.8,
-  "end": 125.96
+  "start": 126.855,
+  "end": 127.015
  },
  {
   "text": "the",
-  "start": 125.96,
-  "end": 126.16
+  "start": 127.015,
+  "end": 127.215
  },
  {
   "text": "S&P",
-  "start": 126.16,
-  "end": 126.88
+  "start": 127.215,
+  "end": 127.895
  },
  {
   "text": "500.",
-  "start": 126.88,
-  "end": 127.76
+  "start": 127.895,
+  "end": 129.436
  },
  {
   "text": "In",
-  "start": 127.76,
-  "end": 128.0
+  "start": 129.436,
+  "end": 129.516
  },
  {
   "text": "2025",
-  "start": 128.0,
-  "end": 129.12
+  "start": 129.466,
+  "end": 130.575
  },
  {
   "text": "alone,",
-  "start": 129.12,
-  "end": 129.6
+  "start": 130.575,
+  "end": 131.015
  },
  {
   "text": "it",
-  "start": 129.6,
-  "end": 129.72
+  "start": 131.015,
+  "end": 131.175
  },
  {
   "text": "was",
-  "start": 129.72,
-  "end": 129.92
+  "start": 131.175,
+  "end": 131.375
  },
  {
   "text": "seventy-nine",
-  "start": 129.92,
-  "end": 130.6
+  "start": 131.375,
+  "end": 132.175
  },
  {
   "text": "percent.",
-  "start": 130.6,
-  "end": 131.44
+  "start": 132.175,
+  "end": 133.175
  },
  {
   "text": "That",
-  "start": 131.44,
-  "end": 131.84
+  "start": 133.373,
+  "end": 133.455
  },
  {
   "text": "doesn't",
-  "start": 131.84,
-  "end": 132.32
+  "start": 133.455,
+  "end": 133.895
  },
  {
   "text": "mean",
-  "start": 132.32,
-  "end": 132.56
+  "start": 133.895,
+  "end": 134.135
  },
  {
   "text": "nobody",
-  "start": 132.56,
-  "end": 133.04
+  "start": 134.135,
+  "end": 134.615
  },
  {
   "text": "can",
-  "start": 133.04,
-  "end": 133.24
+  "start": 134.615,
+  "end": 134.815
  },
  {
   "text": "do",
-  "start": 133.24,
-  "end": 133.4
+  "start": 134.815,
+  "end": 134.995
  },
  {
   "text": "it.",
-  "start": 133.4,
-  "end": 133.76
+  "start": 134.995,
+  "end": 135.549
  },
  {
   "text": "It",
-  "start": 133.76,
-  "end": 134.0
+  "start": 135.549,
+  "end": 135.629
  },
  {
   "text": "means",
-  "start": 134.0,
-  "end": 134.36
+  "start": 135.579,
+  "end": 135.975
  },
  {
   "text": "finding",
-  "start": 134.36,
-  "end": 134.72
+  "start": 135.975,
+  "end": 136.295
  },
  {
   "text": "the",
-  "start": 134.72,
-  "end": 134.84
+  "start": 136.295,
+  "end": 136.455
  },
  {
   "text": "needles",
-  "start": 134.84,
-  "end": 135.24
+  "start": 136.455,
+  "end": 136.855
  },
  {
   "text": "in",
-  "start": 135.24,
-  "end": 135.36
+  "start": 136.855,
+  "end": 136.975
  },
  {
   "text": "advance",
-  "start": 135.36,
-  "end": 135.92
+  "start": 136.975,
+  "end": 137.565
  },
  {
   "text": "is",
-  "start": 135.92,
-  "end": 136.16
+  "start": 137.565,
+  "end": 137.735
  },
  {
   "text": "extremely",
-  "start": 136.16,
-  "end": 136.88
+  "start": 137.735,
+  "end": 138.455
  },
  {
   "text": "hard.",
-  "start": 136.88,
-  "end": 137.44
+  "start": 138.455,
+  "end": 139.187
  },
  {
   "text": "Even",
-  "start": 137.44,
-  "end": 137.84
+  "start": 139.187,
+  "end": 139.415
  },
  {
   "text": "for",
-  "start": 137.84,
-  "end": 138.08
+  "start": 139.415,
+  "end": 139.655
  },
  {
   "text": "professionals.",
-  "start": 138.08,
-  "end": 138.58
+  "start": 139.655,
+  "end": 140.155
  }
 ]

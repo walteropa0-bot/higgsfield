@@ -156,29 +156,37 @@ def build_units(text):
     for line in text.splitlines():
         toks = line.split()
         for i, tok in enumerate(toks):
-            units.append(dict(tok=tok, words=spoken_words(tok),
+            m = re.search(r"([,;:.!?])[\"”’)]*$", tok)
+            units.append(dict(tok=tok, words=spoken_words(tok), punct=m.group(1) if m else "",
                               sent_end=bool(re.search(r"[.!?][\"”’)]*$", tok)) or i == len(toks) - 1,
                               para_end=i == len(toks) - 1))
     return units
 
 
-def sentences(units):
-    """Sätze für die Sprachausgabe: (Text, Pause danach)."""
-    out, cur = [], []
+def sentences(units, pause_s=PAUSE_SENTENCE, pause_p=PAUSE_PARAGRAPH):
+    """Sätze für die Sprachausgabe: (Text, Pause danach, Index des ersten gesprochenen Wortes)."""
+    out, cur, first, count = [], [], 0, 0
     for u in units:
-        cur += u["words"]
+        if not cur:
+            first = count
+        if u["words"]:  # Kommas bleiben für die Sprechpausen, ? und ! für die Betonung
+            cur += u["words"][:-1] + [u["words"][-1] + ("," if u["punct"] in (",", ";", ":") else "")]
+        count += len(u["words"])
         if u["sent_end"] and cur:
-            out.append((" ".join(cur) + ".", PAUSE_PARAGRAPH if u["para_end"] else PAUSE_SENTENCE))
+            end = u["punct"] if u["punct"] in ("?", "!") else "."
+            out.append((" ".join(cur).rstrip(",") + end, pause_p if u["para_end"] else pause_s, first))
             cur = []
     if cur:
-        out.append((" ".join(cur) + ".", PAUSE_PARAGRAPH))
+        out.append((" ".join(cur) + ".", pause_p, first))
     final = []
-    for s, pause in out:  # zu lange Sätze an Kommas teilen
+    for s, pause, first in out:  # zu lange Sätze an Kommas teilen
         while len(s) > MAX_CHARS and "," in s[:MAX_CHARS]:
             cut = s.rfind(",", 0, MAX_CHARS)
-            final.append((s[: cut + 1], 0.15))
+            head = s[: cut + 1]
+            final.append((head, 0.15, first))
+            first += len(head.split())
             s = s[cut + 1:].strip()
-        final.append((s, pause))
+        final.append((s, pause, first))
     return final
 
 
@@ -272,7 +280,9 @@ def custom_lexicon(words, base_paths, out_path, allowed):
 
 
 # ---------- Sprache und Erkennung ----------
-def synthesize(sents, voice, lexicon):
+def synthesize(sents, voice, lexicon, speed=1.0):
+    """Spricht Satz für Satz. Gibt Audio, Abtastrate und die exakten Satzanfänge zurück:
+    [(Index des ersten Wortes, Sekunde, ab der das Audio des Satzes hörbar ist)]."""
     import sherpa_onnx
     k = ensure_model("kokoro")
     cfg = sherpa_onnx.OfflineTtsConfig(
@@ -283,15 +293,19 @@ def synthesize(sents, voice, lexicon):
             num_threads=4, provider="cpu"),
         max_num_sentences=1)
     tts = sherpa_onnx.OfflineTts(cfg)
-    chunks, sr = [], 24000
-    for text, pause in sents:
-        audio = tts.generate(text, sid=SPEAKERS[voice], speed=1.0)
+    chunks, anchors, pos, sr = [], [], 0, 24000
+    for text, pause, first in sents:
+        audio = tts.generate(text, sid=SPEAKERS[voice], speed=speed)
         if len(audio.samples) == 0:
             raise SystemExit(f"Kein Audio für: {text[:80]!r}")
         sr = audio.sample_rate
-        chunks.append(np.asarray(audio.samples, dtype=np.float32))
-        chunks.append(np.zeros(int(pause * sr), dtype=np.float32))
-    return np.concatenate(chunks), sr
+        x = np.asarray(audio.samples, dtype=np.float32)
+        loud = np.flatnonzero(np.abs(x) > 0.02 * max(float(np.abs(x).max()), 1e-6))
+        anchors.append((first, (pos + (int(loud[0]) if len(loud) else 0)) / sr))
+        gap = np.zeros(int(pause * sr), dtype=np.float32)
+        chunks += [x, gap]
+        pos += len(x) + len(gap)
+    return np.concatenate(chunks), sr, anchors
 
 
 def recognize(samples, sr):
@@ -372,7 +386,25 @@ def align_dp(a, b, thr=0.6):
     return pairs
 
 
-def align(units, asr):
+def _onsets(x, sr, hop_s=0.005, quiet_s=0.04, db=-38.0):
+    """Einsätze im Signal: erster lauter 5-ms-Rahmen nach mindestens 40 ms Stille. Gibt Zeiten und Lückenlängen zurück."""
+    hop = max(1, int(hop_s * sr))
+    env = np.sqrt(np.convolve(np.asarray(x, np.float32) ** 2, np.ones(hop) / hop, mode="same"))[::hop]
+    quiet = env < float(env.max()) * 10 ** (db / 20)
+    ons_t, ons_gap, run = [], [], 10 ** 6
+    need = int(round(quiet_s / hop_s))
+    for i, q in enumerate(quiet):
+        if q:
+            run += 1
+        else:
+            if run >= need:
+                ons_t.append(i * hop_s)
+                ons_gap.append(run * hop_s)
+            run = 0
+    return np.array(ons_t), np.array(ons_gap)
+
+
+def align(units, asr, anchors=(), samples=None, sr=None):
     spoken = [(i, w) for i, u in enumerate(units) for w in u["words"]]
     a = [norm(w) for _, w in spoken]
     b = [norm(w["text"]) for w in asr]
@@ -402,6 +434,36 @@ def align(units, asr):
             start[i] = start[prev] + 0.3 * (i - prev)
         else:
             start[i] = 0.3 * i
+    # Satzanfänge sind exakt bekannt (dort beginnt das Audio des Satzes). Die Erkennung setzt Wörter zu früh an
+    # (gemessen: ca. 85 ms mitten im Satz, ca. 170 ms nach Pausen). Der Versatz wird pro Datei mitten im Satz an
+    # Wörtern mit hörbarer Lücke davor gemessen; danach rastet jedes Wort auf einen Einsatz im Signal ein,
+    # wenn einer innerhalb von 60 ms liegt.
+    anchor_idx = {i for i, _ in anchors if i < len(start)}
+    shift, snapped = 0.0, 0
+    if samples is not None:
+        ons_t, ons_gap = _onsets(samples, sr)
+        if len(ons_t):
+            d = []
+            for i in range(len(start)):
+                if i in anchor_idx or not direct[i]:
+                    continue
+                k = int(np.searchsorted(ons_t, start[i] - 0.12))
+                if k < len(ons_t) and ons_t[k] < start[i] + 0.30 and ons_gap[k] < 0.25:
+                    d.append(ons_t[k] - start[i])
+            shift = float(np.median(d)) if len(d) >= 5 else 0.0
+            for i in range(len(start)):
+                if i in anchor_idx:
+                    continue
+                t = start[i] + shift
+                k = int(np.searchsorted(ons_t, t - 0.06))
+                if k < len(ons_t) and abs(ons_t[k] - t) <= 0.06:
+                    t, snapped = float(ons_t[k]), snapped + 1
+                start[i] = t
+    for i, t in anchors:
+        if i < len(start):
+            start[i] = t
+    for i in range(1, len(start)):  # Reihenfolge erhalten
+        start[i] = max(start[i], start[i - 1] + 0.03)
     ends = []
     for i in range(len(start)):
         nxt_start = start[i + 1] if i + 1 < len(start) else start[i] + 0.5
@@ -415,7 +477,7 @@ def align(units, asr):
         if ui in tok_times and norm(u["tok"]):
             s0, e0 = tok_times[ui]
             out.append({"text": u["tok"], "start": round(s0, 3), "end": round(e0, 3)})
-    return out, len(a), matched, interpolated
+    return out, len(a), matched, interpolated, shift, len(anchor_idx), snapped
 
 
 def write_mp3(samples, sr, path):
@@ -431,10 +493,10 @@ def write_mp3(samples, sr, path):
     os.remove(wav)
 
 
-def speak(src, out_mp3, out_words, voice):
+def speak(src, out_mp3, out_words, voice, pause_s=PAUSE_SENTENCE, pause_p=PAUSE_PARAGRAPH, speed=1.0):
     text = open(src, encoding="utf-8").read()
     units = build_units(text)
-    sents = sentences(units)
+    sents = sentences(units, pause_s, pause_p)
     all_words = [w for u in units for w in u["words"]]
     print(f"{len(sents)} Sätze, {len(all_words)} gesprochene Wörter", file=sys.stderr)
     k = ensure_model("kokoro")
@@ -445,16 +507,18 @@ def speak(src, out_mp3, out_words, voice):
     lexicon = ",".join(base + ([extra] if n_extra else []))
     if added:
         print(f"Zusatz-Aussprache für {len(added)} Wörter: {', '.join(added)}", file=sys.stderr)
-    samples, sr = synthesize(sents, voice, lexicon)
+    samples, sr, anchors = synthesize(sents, voice, lexicon, speed)
     print(f"Audio: {len(samples) / sr:.1f} s", file=sys.stderr)
     asr = recognize(samples, sr)
-    words, n_spoken, matched, interpolated = align(units, asr)
+    words, n_spoken, matched, interpolated, shift, n_anchor, snapped = align(units, asr, anchors, samples, sr)
     with open(out_words, "w", encoding="utf-8") as f:
         json.dump(words, f, ensure_ascii=False, indent=1)
     write_mp3(samples, sr, out_mp3)
     print(f"Wort-Liste: {len(words)} Einträge -> {out_words}")
     print(f"Erkennung bestätigt {matched}/{n_spoken} gesprochene Wörter ({100 * matched / max(n_spoken, 1):.1f} %), "
           f"Zeit geschätzt: {interpolated}")
+    print(f"Satzanfänge exakt gesetzt: {n_anchor}, Erkennung um {shift * 1000:+.0f} ms korrigiert, "
+          f"auf Signal-Einsätze eingerastet: {snapped}")
     print(f"MP3: {out_mp3}")
 
 
@@ -466,5 +530,8 @@ if __name__ == "__main__":
     sp.add_argument("out_mp3")
     sp.add_argument("out_words")
     sp.add_argument("--voice", default="af_heart", choices=sorted(SPEAKERS))
+    sp.add_argument("--pause", type=float, default=PAUSE_SENTENCE, help="Pause nach Sätzen (s); Shorts: 0.18")
+    sp.add_argument("--para", type=float, default=PAUSE_PARAGRAPH, help="Pause nach Zeilen (s); Shorts: 0.3")
+    sp.add_argument("--speed", type=float, default=1.0, help="Sprechtempo; Shorts: 1.05")
     a = ap.parse_args()
-    speak(a.src, a.out_mp3, a.out_words, a.voice)
+    speak(a.src, a.out_mp3, a.out_words, a.voice, a.pause, a.para, a.speed)

@@ -14,6 +14,16 @@ Wenn der Name sich ändert, diese Datei anpassen.
   aber in unseren Farben: leuchtende „Männchen“ (Bauern-Figur: runder Kopf, abgerundeter Körper), kleine Pill-Labels
   mit gesperrten Großbuchstaben, gestrichelte Linien, Spotlight-Kegel, Bloom-Glow, feines Korn, viele Szenenwechsel
   (ca. alle 3–6 s), Kamerafahrten. Umsetzung: `moneycheck/lib10.py` (2×-Supersampling, echte Transparenz, Bloom).
+- **Animationsstil seit 8.11.2026 (Nutzerwunsch, gilt ab jetzt immer): cryothum-Stil in unseren Farben.** Engine
+  `moneycheck/lib20.py`, Vorlagen `nov8/c_lucky_pick.py` und `nov8/d_two_paths.py`:
+  - Eine Welt, eine Kamera: Stationen liegen nebeneinander, die Kamera fährt dazwischen. Keine Überblendung zweier Bilder.
+    Das Punktraster bewegt sich mit der Kamera.
+  - Linien-Icons wie bei cryothum (Browserfenster, Button mit Klick-Cursor, Schalter „ON“, Karte mit Kopfzeile und Häkchen,
+    Zahlenbox, Monitor und Schreibtisch, Bürogebäude, Handy, Tasche, Schuh, Chart, Benachrichtigung), Männchen mit Armen.
+  - **Hit-Timing:** Jede Einblendung ist fertig, wenn ihr Wort beginnt (`hit(t, T("wort"))`), nie danach (Video B hing nach).
+  - Überschriften und große Zahlen liegen in der Bildschirm-Ebene: Sie verlassen das Bild vor jeder Kamerafahrt und landen mit
+    dem ersten Wort der neuen Station (`headline()`), damit sich an Szenen-Enden nichts überlagert.
+  - Zahlenbilder möglichst maßstabsgetreu (Video C: ein Punkt pro Firma, 29.081 Punkte). Letztes Bild = erstes Bild (Loop).
 - Untertitel nur, wenn der Nutzer sie will (Short #8 ausdrücklich OHNE Untertitel). Falls ja:
   - Inter SemiBold ca. 46 px, weiß mit dünner dunkler Kontur, KEINE Box
   - max. 5 Wörter pro Einblendung, eine Zeile wenn möglich, sonst zwei ausgeglichene Zeilen
@@ -33,10 +43,12 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
 ## Ton
 - **Stimme: Kokoro, lokal** (seit 8.11.2026). Erzeugt wird auf dem eigenen Rechner, ohne Cloud und ohne Abo, mit dem Modell
   Kokoro-82M (Apache-2.0) über sherpa-onnx. Stimme: `af_heart` (weibliche US-Stimme). ElevenLabs ist nicht mehr im Einsatz.
-- Befehl im Ordner `moneycheck/`: `python3 voice_local.py speak skript.txt voice.mp3 words.json`. Einmalige Installation:
+- Befehl im Ordner `moneycheck/`: `python3 voice_local.py speak skript.txt voice.mp3 words.json`; für Shorts zusätzlich
+  `--pause 0.18 --para 0.3 --speed 1.05` (sonst zu lange Pausen). Einmalige Installation:
   `pip install sherpa-onnx numpy cmudict` und ffmpeg. Die Modelle (ca. 700 MB) lädt das Skript beim ersten Lauf von GitHub.
-- Wort-Zeiten kommen mit: Die Erkennung (Zipformer, Apache-2.0) liefert die Zeit jedes gesprochenen Wortes. Szenen und
-  Soundeffekte hängen an diesen Zeiten, nicht an Schätzungen.
+- Wort-Zeiten kommen mit: Satzanfänge exakt aus der Erzeugung (dort beginnt das Audio), übrige Wörter aus der Erkennung
+  (Zipformer, Apache-2.0), korrigiert um ihren gemessenen Versatz (ca. +80 ms) und auf Einsätze im Signal eingerastet.
+  Szenen und Soundeffekte hängen an diesen Zeiten, nicht an Schätzungen.
 - Aussprache: Wörter, die das Kokoro-Lexikon nicht kennt, kommen aus CMUdict. Namen und Sonderfälle stehen in
   `moneycheck/pronunciations.txt`. Fehlt eine Aussprache, bricht der Lauf ab, statt Wörter wegzulassen.
 - **Lizenz:** Kokoro-82M ist Apache-2.0 (Lizenztext im Modellpaket) und darf in monetarisierten Videos verwendet werden.
@@ -63,7 +75,7 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
 
 ## Arbeitsablauf
 - Skripte liegen im Repo unter `moneycheck/` (siehe `moneycheck/README.md`). Das Scratchpad ist nach jeder Sitzung weg.
-  Vorlage für neue Videos: `render10.py` (Szenen + Timeline + Cover) mit `lib10.py`, Ton: `mix10.py`.
+  Vorlage für neue Videos: `nov8/c_lucky_pick.py` oder `nov8/d_two_paths.py` mit `lib20.py`, Ton: `mix20.py`.
 - Upload-Text (Titel, Beschreibung, Hashtags) wird pro Video als `upload_text.txt` geschrieben
 - Ein Video pro Tag. Der Nutzer lädt selbst hoch.
 - **Originalität (Pflicht, Stand 6.11.2026):** Jedes Video bekommt ein eigenes Thema, eigene Berechnung oder eigenes Beispiel,

@@ -1,0 +1,547 @@
+[
+ {
+  "text": "You",
+  "start": 0.062,
+  "end": 0.185
+ },
+ {
+  "text": "put",
+  "start": 0.185,
+  "end": 0.385
+ },
+ {
+  "text": "a",
+  "start": 0.385,
+  "end": 0.465
+ },
+ {
+  "text": "thousand",
+  "start": 0.455,
+  "end": 0.905
+ },
+ {
+  "text": "dollars",
+  "start": 0.905,
+  "end": 1.305
+ },
+ {
+  "text": "into",
+  "start": 1.305,
+  "end": 1.545
+ },
+ {
+  "text": "one",
+  "start": 1.545,
+  "end": 1.785
+ },
+ {
+  "text": "single",
+  "start": 1.785,
+  "end": 2.265
+ },
+ {
+  "text": "stock.",
+  "start": 2.265,
+  "end": 2.902
+ },
+ {
+  "text": "Best",
+  "start": 2.902,
+  "end": 3.225
+ },
+ {
+  "text": "case?",
+  "start": 3.225,
+  "end": 3.922
+ },
+ {
+  "text": "It's",
+  "start": 3.922,
+  "end": 4.145
+ },
+ {
+  "text": "the",
+  "start": 4.145,
+  "end": 4.305
+ },
+ {
+  "text": "next",
+  "start": 4.305,
+  "end": 4.585
+ },
+ {
+  "text": "superstar,",
+  "start": 4.585,
+  "end": 5.315
+ },
+ {
+  "text": "and",
+  "start": 5.315,
+  "end": 5.465
+ },
+ {
+  "text": "you",
+  "start": 5.465,
+  "end": 5.625
+ },
+ {
+  "text": "get",
+  "start": 5.625,
+  "end": 5.905
+ },
+ {
+  "text": "rich.",
+  "start": 5.905,
+  "end": 6.595
+ },
+ {
+  "text": "But",
+  "start": 6.595,
+  "end": 6.675
+ },
+ {
+  "text": "how",
+  "start": 6.665,
+  "end": 6.945
+ },
+ {
+  "text": "likely",
+  "start": 6.945,
+  "end": 7.425
+ },
+ {
+  "text": "is",
+  "start": 7.425,
+  "end": 7.625
+ },
+ {
+  "text": "that?",
+  "start": 7.625,
+  "end": 8.195
+ },
+ {
+  "text": "A",
+  "start": 8.195,
+  "end": 8.365
+ },
+ {
+  "text": "study",
+  "start": 8.365,
+  "end": 8.625
+ },
+ {
+  "text": "tracked",
+  "start": 8.625,
+  "end": 8.98
+ },
+ {
+  "text": "every",
+  "start": 8.98,
+  "end": 9.265
+ },
+ {
+  "text": "US",
+  "start": 9.265,
+  "end": 9.665
+ },
+ {
+  "text": "stock",
+  "start": 9.665,
+  "end": 10.025
+ },
+ {
+  "text": "for",
+  "start": 10.025,
+  "end": 10.185
+ },
+ {
+  "text": "one",
+  "start": 10.185,
+  "end": 10.385
+ },
+ {
+  "text": "hundred",
+  "start": 10.385,
+  "end": 10.745
+ },
+ {
+  "text": "years.",
+  "start": 10.745,
+  "end": 11.221
+ },
+ {
+  "text": "Twenty-nine",
+  "start": 11.221,
+  "end": 11.91
+ },
+ {
+  "text": "thousand",
+  "start": 11.91,
+  "end": 12.425
+ },
+ {
+  "text": "companies.",
+  "start": 12.425,
+  "end": 13.342
+ },
+ {
+  "text": "Just",
+  "start": 13.342,
+  "end": 13.585
+ },
+ {
+  "text": "forty-six",
+  "start": 13.585,
+  "end": 14.265
+ },
+ {
+  "text": "of",
+  "start": 14.265,
+  "end": 14.345
+ },
+ {
+  "text": "them",
+  "start": 14.345,
+  "end": 14.585
+ },
+ {
+  "text": "created",
+  "start": 14.585,
+  "end": 15.145
+ },
+ {
+  "text": "half",
+  "start": 15.145,
+  "end": 15.385
+ },
+ {
+  "text": "of",
+  "start": 15.385,
+  "end": 15.585
+ },
+ {
+  "text": "all",
+  "start": 15.585,
+  "end": 15.745
+ },
+ {
+  "text": "the",
+  "start": 15.745,
+  "end": 15.865
+ },
+ {
+  "text": "wealth.",
+  "start": 15.865,
+  "end": 16.435
+ },
+ {
+  "text": "Your",
+  "start": 16.435,
+  "end": 16.64
+ },
+ {
+  "text": "odds",
+  "start": 16.64,
+  "end": 17.0
+ },
+ {
+  "text": "of",
+  "start": 17.0,
+  "end": 17.08
+ },
+ {
+  "text": "picking",
+  "start": 17.065,
+  "end": 17.385
+ },
+ {
+  "text": "one",
+  "start": 17.385,
+  "end": 17.545
+ },
+ {
+  "text": "of",
+  "start": 17.545,
+  "end": 17.665
+ },
+ {
+  "text": "those:",
+  "start": 17.665,
+  "end": 18.025
+ },
+ {
+  "text": "about",
+  "start": 18.025,
+  "end": 18.345
+ },
+ {
+  "text": "one",
+  "start": 18.345,
+  "end": 18.625
+ },
+ {
+  "text": "in",
+  "start": 18.625,
+  "end": 18.825
+ },
+ {
+  "text": "six",
+  "start": 18.825,
+  "end": 19.145
+ },
+ {
+  "text": "hundred",
+  "start": 19.145,
+  "end": 19.425
+ },
+ {
+  "text": "thirty.",
+  "start": 19.425,
+  "end": 20.151
+ },
+ {
+  "text": "Any",
+  "start": 20.151,
+  "end": 20.345
+ },
+ {
+  "text": "of",
+  "start": 20.345,
+  "end": 20.465
+ },
+ {
+  "text": "the",
+  "start": 20.465,
+  "end": 20.585
+ },
+ {
+  "text": "big",
+  "start": 20.585,
+  "end": 20.865
+ },
+ {
+  "text": "winners",
+  "start": 20.865,
+  "end": 21.265
+ },
+ {
+  "text": "at",
+  "start": 21.265,
+  "end": 21.425
+ },
+ {
+  "text": "all?",
+  "start": 21.425,
+  "end": 21.79
+ },
+ {
+  "text": "About",
+  "start": 21.79,
+  "end": 22.065
+ },
+ {
+  "text": "one",
+  "start": 22.065,
+  "end": 22.345
+ },
+ {
+  "text": "in",
+  "start": 22.345,
+  "end": 22.505
+ },
+ {
+  "text": "twenty-seven.",
+  "start": 22.505,
+  "end": 23.592
+ },
+ {
+  "text": "The",
+  "start": 23.592,
+  "end": 23.672
+ },
+ {
+  "text": "most",
+  "start": 23.665,
+  "end": 23.945
+ },
+ {
+  "text": "likely",
+  "start": 23.945,
+  "end": 24.345
+ },
+ {
+  "text": "outcome?",
+  "start": 24.345,
+  "end": 25.069
+ },
+ {
+  "text": "More",
+  "start": 25.069,
+  "end": 25.225
+ },
+ {
+  "text": "than",
+  "start": 25.225,
+  "end": 25.465
+ },
+ {
+  "text": "half",
+  "start": 25.465,
+  "end": 25.745
+ },
+ {
+  "text": "of",
+  "start": 25.745,
+  "end": 25.865
+ },
+ {
+  "text": "all",
+  "start": 25.865,
+  "end": 26.065
+ },
+ {
+  "text": "stocks",
+  "start": 26.065,
+  "end": 26.505
+ },
+ {
+  "text": "lost",
+  "start": 26.505,
+  "end": 26.825
+ },
+ {
+  "text": "money.",
+  "start": 26.825,
+  "end": 27.436
+ },
+ {
+  "text": "Meanwhile,",
+  "start": 27.436,
+  "end": 27.945
+ },
+ {
+  "text": "the",
+  "start": 27.945,
+  "end": 28.105
+ },
+ {
+  "text": "market",
+  "start": 28.105,
+  "end": 28.505
+ },
+ {
+  "text": "as",
+  "start": 28.505,
+  "end": 28.665
+ },
+ {
+  "text": "a",
+  "start": 28.665,
+  "end": 28.825
+ },
+ {
+  "text": "whole",
+  "start": 28.825,
+  "end": 29.145
+ },
+ {
+  "text": "turned",
+  "start": 29.145,
+  "end": 29.465
+ },
+ {
+  "text": "one",
+  "start": 29.465,
+  "end": 29.665
+ },
+ {
+  "text": "dollar",
+  "start": 29.665,
+  "end": 30.025
+ },
+ {
+  "text": "into",
+  "start": 30.025,
+  "end": 30.225
+ },
+ {
+  "text": "more",
+  "start": 30.225,
+  "end": 30.385
+ },
+ {
+  "text": "than",
+  "start": 30.385,
+  "end": 30.585
+ },
+ {
+  "text": "fifteen",
+  "start": 30.585,
+  "end": 31.145
+ },
+ {
+  "text": "thousand.",
+  "start": 31.145,
+  "end": 31.918
+ },
+ {
+  "text": "Luck",
+  "start": 31.918,
+  "end": 32.185
+ },
+ {
+  "text": "can",
+  "start": 32.185,
+  "end": 32.385
+ },
+ {
+  "text": "make",
+  "start": 32.385,
+  "end": 32.585
+ },
+ {
+  "text": "you",
+  "start": 32.585,
+  "end": 32.845
+ },
+ {
+  "text": "rich.",
+  "start": 32.845,
+  "end": 33.326
+ },
+ {
+  "text": "The",
+  "start": 33.326,
+  "end": 33.425
+ },
+ {
+  "text": "odds",
+  "start": 33.425,
+  "end": 33.785
+ },
+ {
+  "text": "just",
+  "start": 33.785,
+  "end": 34.025
+ },
+ {
+  "text": "aren't",
+  "start": 34.025,
+  "end": 34.385
+ },
+ {
+  "text": "on",
+  "start": 34.385,
+  "end": 34.545
+ },
+ {
+  "text": "your",
+  "start": 34.545,
+  "end": 34.825
+ },
+ {
+  "text": "side.",
+  "start": 34.825,
+  "end": 35.325
+ }
+]

@@ -14,6 +14,8 @@ lange YouTube-Videos, Zielgruppe USA 18–35). Antworte mir kurz und auf Deutsch
    - Szenen und Soundeffekte immer an die exakten Wort-Zeiten der Transkription hängen
    - zu jedem Video Cover + Upload-Text (Titel, Beschreibung mit Quellen, Hashtags)
    - Shorts: Hook im ersten Bild, viele Animationen, sauber; 20–30 s für Reichweite, über 60 s für Creator Rewards
+   - Animationen ab jetzt immer im cryothum-Stil in meinen Farben (lib20.py, Vorlagen nov8/c_lucky_pick.py und
+     nov8/d_two_paths.py): Kamerafahrten statt Überblendungen, jede Einblendung fertig, wenn ihr Wort beginnt
    - lange YouTube-Videos: lib16.py (16:9, 1440p), ab 8 Minuten, Kapitel, Quellenzeile, eigene Musik, Thumbnail 1280x720
 3. Offene Aufgaben (Details in STATUS.md): Stimmen für YT01 und Video B sind erzeugt. Offen sind Rendern, Mischen und
    die Upload-Texte. Die fertigen Videos schickst du mir zur Prüfung.

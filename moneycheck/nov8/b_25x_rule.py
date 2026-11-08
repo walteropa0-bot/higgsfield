@@ -241,7 +241,8 @@ def thumb(ts):
 
 
 def cover():
-    f = E.compose(BEATS[2][0] + 2.6, BEATS, DUR, persistent)
+    # Zähler steht nach „Your number is“ + 1.2 s bei 1.000.000; bei +1.3 s hat der Geldregen das Label noch nicht erreicht
+    f = E.compose(T("Your number is") + 1.3, BEATS, DUR, persistent)
     im = E.post(f.img, 0.0)
     ImageDraw.Draw(im, "RGBA").text((E.OW - 60 * E.K, 1700 * E.K), "Moneycheck", font=E.font("sb", 32 * E.K),
                                     fill=(255, 255, 255, 153), anchor="rm")

@@ -54,6 +54,63 @@ AI LABEL: YES – tick "AI-generated content" (AI voice).
 
 
 ────────────────────────────────────────
+VIDEO C – moneycheck_lucky_pick.mp4  (cover: cover_lucky_pick.png)
+~36 s · 1080x1920 · female AI voice (Kokoro, local) · cryothum-style animation
+────────────────────────────────────────
+TITLE (pick one)
+Can ONE stock make you rich? Here are the real odds 🎲
+1 in 630: the odds of picking a superstar stock
+
+DESCRIPTION
+You put $1,000 into one single stock. Best case, it's the next superstar. But how likely is that?
+A study tracked every US stock from 1926 to 2025: 29,754 stocks from 29,081 companies.
+• Just 46 companies created half of all the $91 trillion in stock market wealth. Picking one of them at random: about 1 in 630.
+• Only 3.7% of companies created all of it. That's about 1 in 27.
+• Only 48% of stocks had any positive return at all. The typical (median) stock: −6.9%.
+• The market as a whole: +1,504,057% – $1 became more than $15,000.
+Luck can make you rich. The odds just aren't on your side.
+Every dot in the video is one company (29,081 dots).
+
+Sources: Hendrik Bessembinder (2026), "One Hundred Years in the U.S. Stock Markets", working paper, Arizona State University.
+Summary: Larry Swedroe, WealthManagement.com, May 26, 2026 – https://www.wealthmanagement.com/investing-strategies/a-century-of-stock-market-winners-and-why-most-stocks-failed-to-deliver
+Odds: our own calculation (29,081 ÷ 46 ≈ 632; 1 ÷ 3.7% ≈ 27).
+Not financial advice – for educational purposes only. Past performance does not guarantee future results. No stock is recommended.
+Voice: AI-generated (Kokoro, local).
+
+HASHTAGS
+#investing #stockmarket #stocks #personalfinance #moneytips #wealth #financialliteracy #money #moneycheck #fyp
+
+AI LABEL: YES – tick "AI-generated content" (AI voice).
+
+
+────────────────────────────────────────
+VIDEO D – moneycheck_two_paths.mp4  (cover: cover_two_paths.png)
+~31 s · 1080x1920 · female AI voice (Kokoro, local) · cryothum-style animation
+────────────────────────────────────────
+TITLE (pick one)
+Same job. Same paycheck. $0 vs $366,000 💸
+One habit made a $366,000 difference
+
+DESCRIPTION
+Jake and Emma have the same job and the same paycheck.
+Jake spends it all. Emma invests $300 every month before she spends anything.
+After 1 year: $3,718. After 10 years: $51,925. After 30 years: $365,991 – of which she paid in $108,000.
+Same job. Same paycheck. The difference was the habit.
+
+How we calculated it: $300 at the end of every month, 7% a year assumed, compounded monthly, no taxes or fees.
+7% is an assumption, not a promise – real returns go up and down. For context: the S&P 500 averaged about 10% a year
+from 1928 to 2025 (with dividends, before inflation), with losses in 26 of those 98 years.
+Source for the context figure: Aswath Damodaran, "Historical Returns on Stocks, Bonds and Bills", NYU Stern (updated Jan 5, 2026) – https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
+Not financial advice – for educational purposes only. No product is recommended.
+Voice: AI-generated (Kokoro, local).
+
+HASHTAGS
+#investing #compoundinterest #personalfinance #moneyhabits #savingmoney #financialfreedom #moneytips #money #moneycheck #fyp
+
+AI LABEL: YES – tick "AI-generated content" (AI voice).
+
+
+────────────────────────────────────────
 WHEN TO POST (US audience, research Nov 2026)
 ────────────────────────────────────────
 Buffer (7.1 million posts): strongest slots Sunday 9 am, Monday 1 pm, Sunday 1 pm; evenings 6–11 pm are generally strong.

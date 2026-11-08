@@ -1,22 +1,22 @@
 [
  {
   "text": "How",
-  "start": 0.0,
-  "end": 0.24
+  "start": 0.061,
+  "end": 0.28
  },
  {
   "text": "much",
-  "start": 0.24,
-  "end": 0.48
+  "start": 0.28,
+  "end": 0.52
  },
  {
   "text": "money",
-  "start": 0.48,
-  "end": 0.8
+  "start": 0.52,
+  "end": 0.84
  },
  {
   "text": "do",
-  "start": 0.8,
+  "start": 0.84,
   "end": 0.96
  },
  {
@@ -37,291 +37,291 @@
  {
   "text": "stop",
   "start": 1.48,
-  "end": 1.8
+  "end": 1.825
  },
  {
   "text": "working?",
-  "start": 1.8,
-  "end": 2.48
+  "start": 1.825,
+  "end": 2.557
  },
  {
   "text": "Take",
-  "start": 2.48,
-  "end": 2.72
+  "start": 2.557,
+  "end": 2.64
  },
  {
   "text": "what",
-  "start": 2.72,
+  "start": 2.64,
   "end": 2.88
  },
  {
   "text": "you",
   "start": 2.88,
-  "end": 3.08
+  "end": 3.04
  },
  {
   "text": "spend",
-  "start": 3.08,
-  "end": 3.4
+  "start": 3.04,
+  "end": 3.32
  },
  {
   "text": "in",
-  "start": 3.4,
-  "end": 3.52
+  "start": 3.32,
+  "end": 3.48
  },
  {
   "text": "a",
-  "start": 3.52,
-  "end": 3.68
+  "start": 3.48,
+  "end": 3.64
  },
  {
   "text": "year,",
-  "start": 3.68,
-  "end": 3.92
+  "start": 3.64,
+  "end": 4.015
  },
  {
   "text": "and",
-  "start": 3.92,
-  "end": 4.12
+  "start": 4.015,
+  "end": 4.16
  },
  {
   "text": "multiply",
-  "start": 4.12,
-  "end": 4.64
- },
- {
-  "text": "it",
-  "start": 4.64,
+  "start": 4.16,
   "end": 4.8
  },
  {
-  "text": "by",
+  "text": "it",
   "start": 4.8,
-  "end": 5.0
+  "end": 4.94
+ },
+ {
+  "text": "by",
+  "start": 4.94,
+  "end": 5.16
  },
  {
   "text": "twenty-five.",
-  "start": 5.0,
-  "end": 5.92
+  "start": 5.16,
+  "end": 6.28
  },
  {
   "text": "Spend",
-  "start": 5.92,
-  "end": 6.36
+  "start": 6.28,
+  "end": 6.6
  },
  {
   "text": "forty",
-  "start": 6.36,
-  "end": 6.76
+  "start": 6.6,
+  "end": 6.96
  },
  {
   "text": "thousand",
-  "start": 6.76,
-  "end": 7.2
- },
- {
-  "text": "a",
-  "start": 7.2,
+  "start": 6.96,
   "end": 7.36
  },
  {
-  "text": "year?",
+  "text": "a",
   "start": 7.36,
-  "end": 7.84
+  "end": 7.52
+ },
+ {
+  "text": "year?",
+  "start": 7.52,
+  "end": 8.183
  },
  {
   "text": "Your",
-  "start": 7.84,
-  "end": 8.16
+  "start": 8.183,
+  "end": 8.32
  },
  {
   "text": "number",
-  "start": 8.16,
-  "end": 8.6
+  "start": 8.32,
+  "end": 8.76
  },
  {
   "text": "is",
-  "start": 8.6,
-  "end": 8.84
+  "start": 8.76,
+  "end": 9.0
  },
  {
   "text": "one",
-  "start": 8.84,
-  "end": 9.12
+  "start": 9.0,
+  "end": 9.28
  },
  {
   "text": "million.",
-  "start": 9.12,
-  "end": 9.84
+  "start": 9.28,
+  "end": 10.11
  },
  {
   "text": "Why",
-  "start": 9.84,
-  "end": 10.16
+  "start": 10.11,
+  "end": 10.32
  },
  {
   "text": "twenty-five?",
-  "start": 10.16,
-  "end": 11.2
+  "start": 10.32,
+  "end": 11.565
  },
  {
   "text": "It's",
-  "start": 11.2,
-  "end": 11.6
+  "start": 11.565,
+  "end": 11.76
  },
  {
   "text": "the",
-  "start": 11.6,
-  "end": 11.8
+  "start": 11.76,
+  "end": 11.96
  },
  {
   "text": "four",
-  "start": 11.8,
-  "end": 12.08
+  "start": 11.96,
+  "end": 12.24
  },
  {
   "text": "percent",
-  "start": 12.08,
-  "end": 12.48
+  "start": 12.24,
+  "end": 12.68
  },
  {
   "text": "rule.",
-  "start": 12.48,
-  "end": 13.04
+  "start": 12.68,
+  "end": 13.358
  },
  {
   "text": "In",
-  "start": 13.04,
-  "end": 13.24
+  "start": 13.358,
+  "end": 13.438
  },
  {
   "text": "a",
-  "start": 13.24,
-  "end": 13.4
+  "start": 13.388,
+  "end": 13.6
  },
  {
   "text": "famous",
-  "start": 13.4,
-  "end": 13.8
+  "start": 13.6,
+  "end": 14.0
  },
  {
   "text": "study,",
-  "start": 13.8,
-  "end": 14.2
+  "start": 14.0,
+  "end": 14.37
  },
  {
   "text": "withdrawing",
-  "start": 14.2,
-  "end": 14.72
+  "start": 14.37,
+  "end": 14.88
  },
  {
   "text": "four",
-  "start": 14.72,
-  "end": 14.96
+  "start": 14.88,
+  "end": 15.12
  },
  {
   "text": "percent",
-  "start": 14.96,
-  "end": 15.32
- },
- {
-  "text": "in",
-  "start": 15.32,
+  "start": 15.12,
   "end": 15.52
  },
  {
-  "text": "year",
+  "text": "in",
   "start": 15.52,
-  "end": 15.8
+  "end": 15.72
+ },
+ {
+  "text": "year",
+  "start": 15.72,
+  "end": 15.96
  },
  {
   "text": "one,",
-  "start": 15.8,
-  "end": 16.04
+  "start": 15.96,
+  "end": 16.24
  },
  {
   "text": "then",
-  "start": 16.04,
-  "end": 16.32
+  "start": 16.24,
+  "end": 16.48
  },
  {
   "text": "adjusting",
-  "start": 16.32,
-  "end": 16.88
- },
- {
-  "text": "for",
-  "start": 16.88,
+  "start": 16.48,
   "end": 17.04
  },
  {
-  "text": "inflation,",
+  "text": "for",
   "start": 17.04,
-  "end": 17.68
+  "end": 17.24
+ },
+ {
+  "text": "inflation,",
+  "start": 17.24,
+  "end": 17.88
  },
  {
   "text": "lasted",
-  "start": 17.68,
-  "end": 18.08
+  "start": 17.88,
+  "end": 18.32
  },
  {
   "text": "at",
-  "start": 18.08,
-  "end": 18.2
+  "start": 18.32,
+  "end": 18.44
  },
  {
   "text": "least",
-  "start": 18.2,
-  "end": 18.48
+  "start": 18.44,
+  "end": 18.695
  },
  {
   "text": "thirty",
-  "start": 18.48,
-  "end": 18.88
+  "start": 18.695,
+  "end": 19.08
  },
  {
   "text": "years",
-  "start": 18.88,
-  "end": 19.2
+  "start": 19.08,
+  "end": 19.4
  },
  {
   "text": "in",
-  "start": 19.2,
-  "end": 19.48
+  "start": 19.4,
+  "end": 19.56
  },
  {
   "text": "most",
-  "start": 19.48,
-  "end": 19.8
+  "start": 19.56,
+  "end": 19.84
  },
  {
   "text": "historical",
-  "start": 19.8,
-  "end": 20.52
+  "start": 19.84,
+  "end": 20.56
  },
  {
   "text": "cases.",
-  "start": 20.52,
-  "end": 21.24
+  "start": 20.56,
+  "end": 21.442
  },
  {
   "text": "So,",
-  "start": 21.24,
-  "end": 21.6
+  "start": 21.442,
+  "end": 21.68
  },
  {
   "text": "what's",
-  "start": 21.6,
-  "end": 21.96
+  "start": 21.68,
+  "end": 22.12
  },
  {
   "text": "your",
-  "start": 21.96,
-  "end": 22.16
+  "start": 22.12,
+  "end": 22.32
  },
  {
   "text": "number?",
-  "start": 22.16,
-  "end": 22.66
+  "start": 22.32,
+  "end": 22.82
  }
 ]

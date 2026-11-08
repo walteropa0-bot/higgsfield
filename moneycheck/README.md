@@ -13,6 +13,9 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 | `lib16.py`, `yt01_most_stocks_lose/` | **Lange YouTube-Videos (16:9)**: 1920×1080-Design, 2× gezeichnet, Ausgabe 2560×1440. Szenen hängen an Wörtern des Skripts (Vorschau ohne Stimme möglich), Kapitel-Label, Quellenzeile, eigene Musik, Thumbnail, Upload-Text mit Kapitelmarken. Vorlage für weitere lange Videos (siehe README dort) |
 | `voice_local.py` | Stimme und Wort-Zeiten lokal: Kokoro (Apache-2.0) über sherpa-onnx, Zeiten über Zipformer-Erkennung. `speak skript.txt voice.mp3 words.json` |
 | `voicestudio_tts.py` | Optional, für Voice Studio auf dem eigenen Rechner (lokale API). Nicht in der Cloud-Umgebung |
+| `lib20.py` | **Animations-Engine im cryothum-Stil (seit 8.11.2026)**: Weltkamera mit Stationen statt Überblendungen, Punktraster in Weltkoordinaten, Linien-Icons (Fenster, Button, Cursor, Schalter, Karte mit Häkchen, Zahlenbox, Monitor, Schreibtisch, Gebäude, Handy, Tasche, Schuh, Chart, Benachrichtigung), Männchen mit Armen, `hit()`-Timing, `headline()`-Ebene, Render mit 4 Prozessen |
+| `mix20.py` | Ton für lib20-Videos: alle Effekte aus `sfx3.py` plus click, toggle, typing, notif, kaching, swish, thud, mallet; Mix Stimme −16 / Effekte −25 LUFS → −14 LUFS; `mux()` |
+| `nov8/c_lucky_pick.py`, `nov8/d_two_paths.py` | Vorlagen im neuen Stil: Video C (1 Aktie → reich? 29.081-Punkte-Raster, Bessembinder 2026), Video D (Jake gibt aus, Emma investiert $300/Monat, eigene Rechnung 7 %) |
 | `mix10.py` | Soundmix: Stimme + ca. 200 Effekte an den exakten Wort-Zeiten, danach -14 LUFS |
 | `sfx.py`, `sfx2.py`, `sfx3.py` | Synthetische Effekte (whoosh, pop, tick, ding, bass, riser, impact, alert, coin, cash, blip, sweep_down, ping, vroom, sparkle, flutter, puff) |
 | `captions2.py` | Wortgenaue Untertitel (nur wenn gewünscht) |
@@ -23,11 +26,11 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 1. Skript schreiben: Englisch, 60–75 s, Hook → 3–5 Punkte mit korrekten Zahlen → Höhepunkt → Loop. Keine Anlageempfehlungen.
 2. Stimme und Wort-Zeiten in einem Schritt: `python3 voice_local.py speak skript.txt voice.mp3 words.json` (Stimme `af_heart`).
 3. `words.json` enthält jedes Skript-Wort mit Start- und Endzeit. Szenen und Soundeffekte hängen an diesen Zeiten.
-4. Arbeitsordner anlegen, `lib10.py` und `sfx*.py` hineinkopieren, `render10.py` kopieren und die Szenen umbauen.
-   Jede Szene ist eine Funktion `szene(f, t)`. Zeiten immer mit `at("wort", n)`, nie geschätzt.
-5. Prüfen und rendern:
-   `python3 render10.py sheet sheet.png 1 5 9 …` (Kontaktbogen ansehen), dann `python3 render10.py video`
-   und `python3 render10.py cover`. Etwa 0,2 s pro Bild, 4 Prozesse.
+4. Szenen schreiben: `nov8/c_lucky_pick.py` oder `nov8/d_two_paths.py` kopieren (Engine `lib20.py`, Ton `mix20.py`). Stationen in
+   der Welt anlegen, Kamera mit `Cam` von Station zu Station fahren lassen (Ankunft = erstes Wort der Station), jede Einblendung
+   mit `hit(t, T("wort"))` fertig zum Wort, Überschriften mit `headline()`. Keine Überblendungen.
+5. Prüfen und rendern: `python3 c_lucky_pick.py sheet sheet.png 0 1.5 3 …` (Kontaktbogen ansehen, Loop: erstes = letztes Bild),
+   dann `python3 c_lucky_pick.py video` (Bild, Ton, Mux in einem Schritt) und `cover`.
 6. Ton: `mix10.py` anpassen (Effekte an `at(...)`), dann `python3 mix10.py`. Danach zweistufig auf -14 LUFS normalisieren
    und zusammenführen:
    ```
