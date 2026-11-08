@@ -12,13 +12,17 @@ Regeln und Stil: `../CLAUDE.md` · Dateien und Workflow: `README.md` · Prompt f
 | **Video B** – „How much money do you need to stop working?“ (25 s, 25x-/4-%-Regel) | `nov8/b_25x_rule.py` | fertig ohne Stimme geliefert. **Stimme fehlt** |
 
 ## Offen (wartet auf den Nutzer)
-1. **ElevenLabs:** Seit 6.11. lehnt ElevenLabs Erzeugungen ab („Free Tier access has been disabled …“ bzw. am 8.11. dreimal
-   „Free generations are busy“). Es wurde nie etwas berechnet. Lösung: bezahlter Plan (Starter laut Okt-2026-Quellen ca. 6 $/Monat,
-   30.000 Credits; auf elevenlabs.io/pricing prüfen). Der Gratis-Plan hat auch keine kommerzielle Lizenz.
-2. **YT01-Stimme**, sobald ElevenLabs geht: 4 Teile aus `yt01_most_stocks_lose/script.txt` (ca. 8.500 Credits),
-   Flow `nxU62Ipr5VBJXxWyCTBb`, Schritte in `yt01_most_stocks_lose/README.md`. Danach neu rendern (ca. 37 min) und mischen.
-3. **Video-B-Stimme**: Text `nov8/b_script.txt` (374 Zeichen), Flow `X4uNCpFjruwVMWTpiYLh`, 1 Take. MP3 als `nov8/b_voice.mp3`,
-   Transkript als `nov8/b_words.json`, dann `python3 b_25x_rule.py video` und `cover` im Ausgabeordner.
+1. **Stimme per Voice Studio (lokal, seit 8.11.):** ElevenLabs ist abgelöst (Gratis-Konto gesperrt). Voice Studio auf dem Rechner
+   starten, dann im Ordner `moneycheck/`: `python3 voicestudio_tts.py candidates kandidaten/`. Anhören: drei weibliche Test-Stimmen
+   (A britisch, B US, C US tief). Die beste als Profil in Voice Studio speichern und die Profil-ID an Claude schicken; sie kommt dann
+   in `../CLAUDE.md` (Abschnitt Ton).
+2. **Lizenz vor Monetarisierung:** Laut Lizenzliste ist kein Voice-Studio-Modell kommerziell freigegeben (OmniVoice: CC-BY-NC).
+   Bis das geklärt ist, nur Test- und Vorschau-Material. Die Modell-Karte der gewählten Engine auf Hugging Face prüfen.
+3. **YT01-Stimme (4 Teile):** im Ordner `yt01_most_stocks_lose/`: `python3 tl.py part n > part{n}.txt`, dann
+   `python3 ../voicestudio_tts.py speech part{n}.txt voice/part{n}.mp3 --voice <ID>` und
+   `python3 ../voicestudio_tts.py words voice/part{n}.mp3 voice/part{n}_words.json`. Danach neu rendern (ca. 37 min) und mischen.
+4. **Video-B-Stimme** (im Ordner `nov8/`): `python3 ../voicestudio_tts.py speech b_script.txt b_voice.mp3 --voice <ID>`, dann
+   `python3 ../voicestudio_tts.py words b_voice.mp3 b_words.json`, danach `python3 b_25x_rule.py video` und `cover` im Ausgabeordner.
 
 ## Wichtige Erkenntnisse
 - TikTok-Länge: sehr kurze Clips werden am häufigsten zu Ende geschaut, 30–90 s bringen die meisten Interaktionen
@@ -27,5 +31,4 @@ Regeln und Stil: `../CLAUDE.md` · Dateien und Workflow: `README.md` · Prompt f
   Am besten: TikTok Studio → Follower-Aktivität.
 - YouTube-Monetarisierung: 1.000 Abos + 4.000 Std. (12 Mon.) oder 10 Mio. Shorts-Aufrufe (90 Tage); ab 1.2.2027 laut Berichten
   8.000 Std. bzw. 20 Mio. Regel gegen „inauthentische“ Massenware → jedes Video eigenständig (siehe CLAUDE.md).
-- Cloud-Umgebung „higgsfield“ erlaubt die Recherche-Seiten (ASU, CFA Institute, J.P. Morgan, NYU Stern, WealthManagement,
-  SSRN, S&P) und `elevenlabsusercontent.com` (MP3-Downloads). S&P und SSRN blocken automatische Abrufe – nicht umgehen.
+- Cloud-Umgebung „higgsfield“ erlaubt die Recherche-Seiten (ASU, CFA Institute, J.P. Morgan, NYU Stern, WealthManagement, SSRN, S&P). S&P und SSRN blocken automatische Abrufe – nicht umgehen. Stimmen laufen lokal über Voice Studio; huggingface.co ist in dieser Umgebung nicht erreichbar.

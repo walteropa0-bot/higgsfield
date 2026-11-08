@@ -31,18 +31,18 @@ Wenn der Name sich ändert, diese Datei anpassen.
 Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Viral-Videos (20–30 s) nur, wenn der Nutzer es will.
 
 ## Ton
-- ElevenLabs, Modell `eleven_v4`
-- Frauenstimme (Nutzerwunsch, hochwertig): **Samara X – Smooth Classy British** (`19STyYD15bswVz51nqLf`), seit Short #8.
-  Die frühere Frauenstimme `E8FfddrREO3vtyNsTKnh` gefiel dem Nutzer NICHT.
-- Männerstimme: **Brian** (`nPczCjzI2devNBz1zQrb`)
-- Immer nur eine Aufnahme erzeugen (Credits sparen, `generations_count=1`), Kostenschätzung vorher mit `estimate_only`
-  (ca. 1 Credit pro Zeichen, ~1000 Credits für 64 s)
+- **Stimme: Voice Studio, lokal** (seit 8.11.2026). ElevenLabs wird nicht mehr genutzt. Erzeugt wird auf dem Rechner des Nutzers
+  über die lokale Voice-Studio-API (`http://localhost:3900`) mit `moneycheck/voicestudio_tts.py`.
+- Frauenstimme: die beste weibliche Stimme aus Voice Studio. Sie wird per Hörtest aus den Kandidaten gewählt
+  (`voicestudio_tts.py candidates`) und als gespeichertes Profil festgehalten. **Profil-ID: noch offen.** Danach immer dieselbe
+  Profil-ID, damit die Stimme gleich bleibt.
+- Männerstimme: bei Bedarf ebenfalls über Voice Studio, mit eigenem Profil.
+- **Lizenz vor Monetarisierung:** Eine Stimme darf nur dann in monetarisierten Videos verwendet werden, wenn ihr Modell kommerziell
+  nutzbar ist. Laut `backend/config/model_licenses.json` in Voice Studio (Stand 3.10.2026) ist kein Modell als kommerziell
+  freigegeben; die Standard-Engine OmniVoice ist nicht kommerziell (CC-BY-NC). Bis das geklärt ist: nur Test- und Vorschau-Material.
+- Genau 1 Take pro Teil. Fehler melden, nicht stillschweigend wiederholen.
 - Audio mischen auf **-14 LUFS** (YouTube/TikTok), zweistufiges loudnorm
-- Sind die ElevenLabs-Credits aufgebraucht (Stand 6.11.2026: ~8 übrig): Videos ohne Stimme als Text-Animation mit `moneycheck/eng14.py` (1440×2560, kurze Sätze groß eingeblendet); der Nutzer legt in TikTok einen Sound darunter.
-- **Stand 6.11.2026 abends:** ElevenLabs lehnt jede Erzeugung ab („Unusual activity has been detected on your account, so Free Tier
-  access has been disabled … Please upgrade to a paid subscription“). Stimme erst wieder mit bezahltem Plan. Der kostenlose Plan hat
-  außerdem keine kommerzielle Lizenz; für monetarisierte Videos braucht es ohnehin einen bezahlten Plan. Fehlgeschlagene Versuche
-  kosten keine Credits.
+- Ohne Stimme (Vorschau, Test): Text-Animation mit `moneycheck/eng14.py` (1440×2560, kurze Sätze groß eingeblendet); der Nutzer legt in TikTok einen Sound darunter.
 - Viele Soundeffekte, Geld muss man hören: coin, cash, ding, sparkle, whoosh, pop, tick, swoosh_up, bass, impact,
   sweep_down, riser (`moneycheck/sfx*.py`, `mix10.py`)
 
@@ -69,9 +69,8 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
   YouTube-Monetarisierung (Regel gegen „inauthentische“ Massenware) und keine Reichweitenverluste bei TikTok.
 - **Stil-Regel:** Wiedererkennbar bleiben über Logo, Farben, Schrift, Intro und Wasserzeichen. Format, Vorlage, Hook, Länge
   und Erzählweise dürfen sich ändern. Fortschritt wird an Zuschauerbindung, Shares und Follower-Zuwachs gemessen.
-- Nach der Sprachaufnahme die Aufnahme mit ElevenLabs transkribieren
-  (`creative_add_flow_asset_node` mit der generation_id, dann `creative_transcribe_audio`, Modell `eleven_scribe_v1`;
-  0 Credits). Die Wort-Zeitstempel als `words.json` speichern (ohne `[tags]`).
+- Nach der Sprachaufnahme transkribiert Voice Studio sie mit Wort-Zeitstempeln:
+  `python3 voicestudio_tts.py words voice.mp3 words.json` (Liste aus `{"text", "start", "end"}`, ohne `[tags]`).
 - ALLE Szenen-Anker und Soundeffekte an die exakten Wort-Zeiten hängen (`at("wort", n)` in render10.py/mix10.py),
   nie an Schätzwerte oder reine Pausen-Erkennung (`align.py` hat bei Short #5 Sätze verschoben).
 - Vor dem Rendern Kontaktbögen prüfen (`python3 render10.py sheet sheet.png 1.0 5.0 …`), dann `video`, `mix10.py`, muxen.

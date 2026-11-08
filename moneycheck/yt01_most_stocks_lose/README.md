@@ -5,7 +5,7 @@ Erstes langes YouTube-Video. Animationen in 2560×1440 (`../lib16.py`). Alle Sze
 
 | Datei | Inhalt |
 |---|---|
-| `script.txt` | Sprechertext in 4 Teilen (je eine ElevenLabs-Aufnahme), ca. 8.500 Zeichen ≈ 8.500 Credits |
+| `script.txt` | Sprechertext in 4 Teilen (je eine Aufnahme mit Voice Studio), ca. 8.500 Zeichen |
 | `tl.py` | Skript → Wort-Zeiten (Schätzung oder `voice/part{n}_words.json`) → `T("phrase")`. `python3 tl.py part 2` gibt Teil 2 aus |
 | `scenes.py` | 54 Szenen, 7 Kapitel, Quellenzeile pro Szene, Soundeffekte pro Szene |
 | `render.py` | `info` · `sheet out.png [t…]` · `frame out.png t` · `video out.mp4` (ca. 37 min) |
@@ -16,12 +16,11 @@ Erstes langes YouTube-Video. Animationen in 2560×1440 (`../lib16.py`). Alle Sze
 | `coinmarket.py` | Eigene Rechnung „Münzwurf-Markt“ (1.024 Aktien, ±50/−40 %, Portfolio-Simulation) |
 | `data/sp500_tbill_1928_2025.json` | Jahresrenditen S&P 500 / T-Bills (Damodaran, NYU Stern, Jan 2026) für die echten Kurven |
 
-## Stimme nachträglich einsetzen (sobald ElevenLabs wieder geht)
-1. Für jeden Teil n = 1…4: `creative_generate_speech` (eleven_v4, Samara X `19STyYD15bswVz51nqLf`, `generations_count=1`,
-   Flow `nxU62Ipr5VBJXxWyCTBb`) mit exakt dem Text aus `python3 tl.py part n`.
-2. MP3 als `voice/part{n}.mp3` speichern.
-3. Transkribieren (`creative_add_flow_asset_node` mit der generation_id, dann `creative_transcribe_audio`, eleven_scribe_v1)
-   und die Wortliste als `voice/part{n}_words.json` speichern: `[{"text", "start", "end"}, …]`.
+## Stimme einsetzen (Voice Studio, lokal)
+1. Voice Studio auf dem Rechner starten. Die Profil-ID steht in `../../CLAUDE.md` (Abschnitt Ton).
+2. Für jeden Teil n = 1…4: `python3 tl.py part n > part{n}.txt`, dann
+   `python3 ../voicestudio_tts.py speech part{n}.txt voice/part{n}.mp3 --voice <PROFIL-ID>` (genau eine Aufnahme pro Teil).
+3. Wort-Zeiten: `python3 ../voicestudio_tts.py words voice/part{n}.mp3 voice/part{n}_words.json`.
 4. `python3 render.py info` (muss `mode voice` zeigen), Kontaktbogen prüfen, dann:
    ```
    python3 render.py video video.mp4

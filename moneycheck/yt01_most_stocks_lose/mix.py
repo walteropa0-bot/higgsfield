@@ -1,4 +1,4 @@
-"""YT01 audio mix: ElevenLabs voice parts + procedural music bed + SFX -> two-pass loudnorm (-14 LUFS, TP -1.5).
+"""YT01 audio mix: Voice Studio voice parts + procedural music bed + SFX -> two-pass loudnorm (-14 LUFS, TP -1.5).
 
 python3 mix.py out.wav            final mix (needs voice/part{n}.mp3 + transcripts)
 python3 mix.py out.wav preview    music + SFX only (no voice yet)

@@ -1,7 +1,7 @@
 """Nov 8 · Video B (female voice, ~25 s): "How much money do you need to stop working?" -> spending x 25 (the 4% rule).
 
-Voice: ElevenLabs Samara X, text in b_script.txt. Every beat and sound hangs on words of the script (T("phrase")):
-with b_words.json (ElevenLabs transcript) the real word times are used, without it an estimate (preview).
+Voice: Voice Studio (local), text in b_script.txt. Every beat and sound hangs on words of the script (T("phrase")):
+with b_words.json (Voice Studio transcript) the real word times are used, without it an estimate (preview).
 Facts: 25 = 1 / 4%. Bengen (1994, Journal of Financial Planning): 4% inflation-adjusted withdrawals survived every
 rolling 30-year period in US data 1926-1992 (stocks/bonds mix). Trinity study (Cooley, Hubbard & Walz, AAII Journal 1998):
 high success rates for 30-year periods at 4% with stock-heavy portfolios. Rule of thumb, not a guarantee.

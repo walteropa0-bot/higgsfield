@@ -28,7 +28,7 @@ AI LABEL: not needed (no AI voice, no AI images – programmed animation).
 
 ────────────────────────────────────────
 VIDEO B – moneycheck_25x_rule.mp4  (cover: cover_25x_rule.png)
-~25 s · 1440x2560 · female AI voice (ElevenLabs, Samara X)
+~25 s · 1440x2560 · female AI voice (Voice Studio, local)
 ────────────────────────────────────────
 TITLE
 How much money do you need to stop working? 💰
@@ -45,7 +45,7 @@ What's your number? 👇
 Sources: William P. Bengen (1994), "Determining Withdrawal Rates Using Historical Data", Journal of Financial Planning.
 Cooley, Hubbard & Walz (1998), "Retirement Savings: Choosing a Withdrawal Rate That Is Sustainable", AAII Journal ("Trinity study").
 Not financial advice – for educational purposes only.
-Voice: AI-generated (ElevenLabs).
+Voice: AI-generated (Voice Studio, local).
 
 HASHTAGS
 #fire #retirement #4percentrule #financialfreedom #investing #personalfinance #moneytips #earlyretirement #money #moneycheck #fyp
