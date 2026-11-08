@@ -1,13 +1,13 @@
 MONEYCHECK – YOUTUBE UPLOAD (YT01)
 ==================================
-File: moneycheck_yt01_most_stocks_lose.mp4 (2560x1440, 30 fps, 9:34)
+File: moneycheck_yt01_most_stocks_lose.mp4 (2560x1440, 30 fps, 9:38)
 Thumbnail: thumbnail_yt01.jpg (1280x720)
 Narration: AI-generated voice (Kokoro, local) – tick "Altered or synthetic content" in YouTube Studio.
 
 TITLE (pick one)
 Most Stocks Lose Money. So Why Does the Stock Market Go Up?
 100 Years of Data: Most Stocks Lose – The Market Still Wins
-Only 3.7% of Stocks Made ALL the Money (100 Years of Data)
+Only 3.7% of Companies Created ALL the Wealth (100 Years of Data)
 
 DESCRIPTION
 Over the last 100 years, the US stock market turned $1 into more than $15,000. Yet the typical US stock lost money – and most stocks didn't even beat Treasury bills. How can both be true?
@@ -16,12 +16,12 @@ In this video we go through 100 years of stock market data (29,754 US stocks, 19
 Chapters
 0:00 Intro: most stocks lose, the market still wins
 0:39 The study: 100 years, 29,754 stocks
-2:02 The few: 3.7% created all the wealth
-2:58 The math: the coin-flip market
-4:48 The graveyard: survivorship bias
-5:49 Around the world: 64,000 stocks
-6:28 The pros: 93% trail the S&P 500
-7:08 What it means for you
+2:03 The few: 3.7% created all the wealth
+2:59 The math: the coin-flip market
+4:50 The graveyard: survivorship bias
+5:53 Around the world: 64,000 stocks
+6:31 The pros: 93% trail the S&P 500
+7:12 What it means for you
 
 Key numbers
 • US market 1926–2025: +1,504,057% (≈10.1% per year) – median stock: −6.9% over its lifetime

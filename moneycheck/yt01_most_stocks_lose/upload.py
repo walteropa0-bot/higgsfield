@@ -26,7 +26,7 @@ Thumbnail: thumbnail_yt01.jpg (1280x720)
 TITLE (pick one)
 Most Stocks Lose Money. So Why Does the Stock Market Go Up?
 100 Years of Data: Most Stocks Lose – The Market Still Wins
-Only 3.7% of Stocks Made ALL the Money (100 Years of Data)
+Only 3.7% of Companies Created ALL the Wealth (100 Years of Data)
 
 DESCRIPTION
 Over the last 100 years, the US stock market turned $1 into more than $15,000. Yet the typical US stock lost money – and most stocks didn't even beat Treasury bills. How can both be true?
