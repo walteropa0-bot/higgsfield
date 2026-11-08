@@ -15,7 +15,7 @@ def ts(t):
 def main(out):
     ch = S.chapters_for_description()
     chapters = "\n".join(f"{ts(t)} {name}" for t, name in ch)
-    voice_note = ("Narration: AI-generated voice (Voice Studio, local) – tick \"Altered or synthetic content\" in YouTube Studio.") \
+    voice_note = ("Narration: AI-generated voice (Kokoro, local) – tick \"Altered or synthetic content\" in YouTube Studio.") \
         if S.TL.mode == "voice" else "PREVIEW BUILD – voice not added yet (timestamps will change after the voiceover)."
     txt = f"""MONEYCHECK – YOUTUBE UPLOAD (YT01)
 ==================================

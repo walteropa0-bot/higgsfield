@@ -1,7 +1,7 @@
 """Smaller, cleaner captions that follow the narrator word by word.
 
 Word timing, best source first:
-  1. words.json  - exact per-word start/end from the Voice Studio transcription (free), matched to the script
+  1. words.json  - exact per-word start/end from speech recognition (free), matched to the script
   2. fallback    - per chunk: words spread over the real speech (micro-pauses detected in voice.mp3),
                    weighted by syllables, boundaries after punctuation snapped to pauses
 

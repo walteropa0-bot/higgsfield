@@ -1,7 +1,7 @@
 """YT01 scenes: 'Most stocks lose money - so why does the market go up?' (16:9, ~9.5 min).
 
 Every scene starts on a phrase of script.txt and every animation inside a scene is keyed to phrases (T / TE),
-so the same code works with the estimated timing (preview) and with the real Voice Studio word times.
+so the same code works with the estimated timing (preview) and with the real word times.
 """
 import functools
 import json

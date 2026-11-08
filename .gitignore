@@ -17,3 +17,8 @@ venv/
 .idea/
 .vscode/
 
+
+# Moneycheck: lokal erzeugte Stimmen und Modelle (werden bei Bedarf neu erzeugt)
+moneycheck/.models/
+moneycheck/**/voice/*.mp3
+moneycheck/nov8/b_voice.mp3

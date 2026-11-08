@@ -11,7 +11,8 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 | `render13.py`, `mix13.py` | Short #11 (20 s): „$100/Monat mit 20 = $500/Monat mit 40“ – Vergleichskarten, Wettrennen-Chart, gestapelte Balken (eingezahlt vs. Zinseszins), Millionen-Zähler mit Zoom-out. Rechnung: 7 %/Jahr, monatlich |
 | `eng14.py`, `week_nov7/` | Ohne Stimme: Text-Animationen in 1440×2560 (schärfer als 1080p). Szenen als „Beats“ mit Überblendung, Loop zurück zum Anfang, Soundeffekte + -14 LUFS + Mux in einem Befehl (`python3 v1_buffett.py video`). Sechs Wochen-Videos als Vorlage |
 | `lib16.py`, `yt01_most_stocks_lose/` | **Lange YouTube-Videos (16:9)**: 1920×1080-Design, 2× gezeichnet, Ausgabe 2560×1440. Szenen hängen an Wörtern des Skripts (Vorschau ohne Stimme möglich), Kapitel-Label, Quellenzeile, eigene Musik, Thumbnail, Upload-Text mit Kapitelmarken. Vorlage für weitere lange Videos (siehe README dort) |
-| `voicestudio_tts.py` | Stimme und Wort-Zeiten über die lokale Voice-Studio-API: `candidates` (drei Test-Stimmen), `speech` (eine Aufnahme), `words` (words.json). Läuft auf deinem Rechner, nicht in der Cloud-Umgebung |
+| `voice_local.py` | Stimme und Wort-Zeiten lokal: Kokoro (Apache-2.0) über sherpa-onnx, Zeiten über Zipformer-Erkennung. `speak skript.txt voice.mp3 words.json` |
+| `voicestudio_tts.py` | Optional, für Voice Studio auf dem eigenen Rechner (lokale API). Nicht in der Cloud-Umgebung |
 | `mix10.py` | Soundmix: Stimme + ca. 200 Effekte an den exakten Wort-Zeiten, danach -14 LUFS |
 | `sfx.py`, `sfx2.py`, `sfx3.py` | Synthetische Effekte (whoosh, pop, tick, ding, bass, riser, impact, alert, coin, cash, blip, sweep_down, ping, vroom, sparkle, flutter, puff) |
 | `captions2.py` | Wortgenaue Untertitel (nur wenn gewünscht) |
@@ -20,9 +21,8 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 
 ## Neues Video in 7 Schritten
 1. Skript schreiben: Englisch, 60–75 s, Hook → 3–5 Punkte mit korrekten Zahlen → Höhepunkt → Loop. Keine Anlageempfehlungen.
-2. Stimme mit Voice Studio (lokal, läuft auf dem Rechner): `python3 voicestudio_tts.py speech skript.txt voice.mp3 --voice <PROFIL-ID>`
-   (Profil-ID in `../CLAUDE.md`, Abschnitt Ton).
-3. Wort-Zeiten: `python3 voicestudio_tts.py words voice.mp3 words.json` (Liste aus `{"text", "start", "end"}`, ohne `[tags]`).
+2. Stimme und Wort-Zeiten in einem Schritt: `python3 voice_local.py speak skript.txt voice.mp3 words.json` (Stimme `af_heart`).
+3. `words.json` enthält jedes Skript-Wort mit Start- und Endzeit. Szenen und Soundeffekte hängen an diesen Zeiten.
 4. Arbeitsordner anlegen, `lib10.py` und `sfx*.py` hineinkopieren, `render10.py` kopieren und die Szenen umbauen.
    Jede Szene ist eine Funktion `szene(f, t)`. Zeiten immer mit `at("wort", n)`, nie geschätzt.
 5. Prüfen und rendern:

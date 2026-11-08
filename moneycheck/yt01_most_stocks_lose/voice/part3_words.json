@@ -1,0 +1,1622 @@
+[
+ {
+  "text": "Chapter",
+  "start": 0.0,
+  "end": 0.52
+ },
+ {
+  "text": "four.",
+  "start": 0.52,
+  "end": 1.08
+ },
+ {
+  "text": "The",
+  "start": 1.08,
+  "end": 1.36
+ },
+ {
+  "text": "graveyard.",
+  "start": 1.36,
+  "end": 2.36
+ },
+ {
+  "text": "There's",
+  "start": 2.56,
+  "end": 3.16
+ },
+ {
+  "text": "another",
+  "start": 3.16,
+  "end": 3.52
+ },
+ {
+  "text": "reason",
+  "start": 3.52,
+  "end": 3.92
+ },
+ {
+  "text": "this",
+  "start": 3.92,
+  "end": 4.16
+ },
+ {
+  "text": "feels",
+  "start": 4.16,
+  "end": 4.52
+ },
+ {
+  "text": "so",
+  "start": 4.52,
+  "end": 4.72
+ },
+ {
+  "text": "surprising.",
+  "start": 4.72,
+  "end": 5.56
+ },
+ {
+  "text": "We",
+  "start": 5.56,
+  "end": 5.84
+ },
+ {
+  "text": "only",
+  "start": 5.84,
+  "end": 6.08
+ },
+ {
+  "text": "remember",
+  "start": 6.08,
+  "end": 6.64
+ },
+ {
+  "text": "the",
+  "start": 6.64,
+  "end": 6.8
+ },
+ {
+  "text": "winners.",
+  "start": 6.8,
+  "end": 7.76
+ },
+ {
+  "text": "Everyone",
+  "start": 7.76,
+  "end": 8.48
+ },
+ {
+  "text": "knows",
+  "start": 8.48,
+  "end": 8.84
+ },
+ {
+  "text": "Apple,",
+  "start": 8.84,
+  "end": 9.2
+ },
+ {
+  "text": "Microsoft",
+  "start": 9.2,
+  "end": 10.0
+ },
+ {
+  "text": "and",
+  "start": 10.0,
+  "end": 10.12
+ },
+ {
+  "text": "Amazon.",
+  "start": 10.12,
+  "end": 10.84
+ },
+ {
+  "text": "But",
+  "start": 10.84,
+  "end": 11.04
+ },
+ {
+  "text": "the",
+  "start": 11.04,
+  "end": 11.24
+ },
+ {
+  "text": "average",
+  "start": 11.24,
+  "end": 11.76
+ },
+ {
+  "text": "stock",
+  "start": 11.76,
+  "end": 12.04
+ },
+ {
+  "text": "in",
+  "start": 12.04,
+  "end": 12.2
+ },
+ {
+  "text": "Bessembinder's",
+  "start": 12.2,
+  "end": 12.96
+ },
+ {
+  "text": "data",
+  "start": 12.96,
+  "end": 13.32
+ },
+ {
+  "text": "was",
+  "start": 13.32,
+  "end": 13.52
+ },
+ {
+  "text": "listed",
+  "start": 13.52,
+  "end": 13.88
+ },
+ {
+  "text": "for",
+  "start": 13.88,
+  "end": 14.08
+ },
+ {
+  "text": "just",
+  "start": 14.08,
+  "end": 14.32
+ },
+ {
+  "text": "eleven",
+  "start": 14.32,
+  "end": 14.8
+ },
+ {
+  "text": "point",
+  "start": 14.8,
+  "end": 15.08
+ },
+ {
+  "text": "seven",
+  "start": 15.08,
+  "end": 15.56
+ },
+ {
+  "text": "years.",
+  "start": 15.56,
+  "end": 16.2
+ },
+ {
+  "text": "Companies",
+  "start": 16.2,
+  "end": 16.8
+ },
+ {
+  "text": "get",
+  "start": 16.8,
+  "end": 17.0
+ },
+ {
+  "text": "bought,",
+  "start": 17.0,
+  "end": 17.24
+ },
+ {
+  "text": "shrink,",
+  "start": 17.24,
+  "end": 17.64
+ },
+ {
+  "text": "or",
+  "start": 17.64,
+  "end": 17.84
+ },
+ {
+  "text": "simply",
+  "start": 17.84,
+  "end": 18.24
+ },
+ {
+  "text": "disappear.",
+  "start": 18.24,
+  "end": 19.24
+ },
+ {
+  "text": "Some",
+  "start": 19.36,
+  "end": 19.76
+ },
+ {
+  "text": "were",
+  "start": 19.76,
+  "end": 19.96
+ },
+ {
+  "text": "household",
+  "start": 19.96,
+  "end": 20.56
+ },
+ {
+  "text": "names.",
+  "start": 20.56,
+  "end": 21.32
+ },
+ {
+  "text": "Enron.",
+  "start": 21.32,
+  "end": 22.32
+ },
+ {
+  "text": "WorldCom.",
+  "start": 22.4,
+  "end": 23.4
+ },
+ {
+  "text": "Lehman",
+  "start": 23.6,
+  "end": 24.12
+ },
+ {
+  "text": "Brothers.",
+  "start": 24.12,
+  "end": 25.04
+ },
+ {
+  "text": "Kodak.",
+  "start": 25.04,
+  "end": 26.04
+ },
+ {
+  "text": "Sears.",
+  "start": 26.24,
+  "end": 27.0
+ },
+ {
+  "text": "All",
+  "start": 27.0,
+  "end": 27.32
+ },
+ {
+  "text": "of",
+  "start": 27.32,
+  "end": 27.44
+ },
+ {
+  "text": "them",
+  "start": 27.44,
+  "end": 27.64
+ },
+ {
+  "text": "were",
+  "start": 27.64,
+  "end": 27.8
+ },
+ {
+  "text": "once",
+  "start": 27.8,
+  "end": 28.12
+ },
+ {
+  "text": "giants.",
+  "start": 28.12,
+  "end": 28.88
+ },
+ {
+  "text": "All",
+  "start": 28.88,
+  "end": 29.2
+ },
+ {
+  "text": "of",
+  "start": 29.2,
+  "end": 29.32
+ },
+ {
+  "text": "them",
+  "start": 29.32,
+  "end": 29.52
+ },
+ {
+  "text": "went",
+  "start": 29.52,
+  "end": 29.76
+ },
+ {
+  "text": "bankrupt.",
+  "start": 29.76,
+  "end": 30.76
+ },
+ {
+  "text": "And",
+  "start": 30.8,
+  "end": 31.2
+ },
+ {
+  "text": "it's",
+  "start": 31.2,
+  "end": 31.6
+ },
+ {
+  "text": "rarely",
+  "start": 31.6,
+  "end": 32.04
+ },
+ {
+  "text": "obvious",
+  "start": 32.04,
+  "end": 32.52
+ },
+ {
+  "text": "in",
+  "start": 32.52,
+  "end": 32.64
+ },
+ {
+  "text": "advance.",
+  "start": 32.64,
+  "end": 33.4
+ },
+ {
+  "text": "In",
+  "start": 33.4,
+  "end": 33.64
+ },
+ {
+  "text": "2024,",
+  "start": 33.64,
+  "end": 34.76
+ },
+ {
+  "text": "J.P.",
+  "start": 34.76,
+  "end": 36.16
+ },
+ {
+  "text": "Morgan",
+  "start": 36.16,
+  "end": 36.4
+ },
+ {
+  "text": "studied",
+  "start": 36.4,
+  "end": 36.64
+ },
+ {
+  "text": "stocks",
+  "start": 36.64,
+  "end": 37.04
+ },
+ {
+  "text": "that",
+  "start": 37.04,
+  "end": 37.2
+ },
+ {
+  "text": "fell",
+  "start": 37.2,
+  "end": 37.4
+ },
+ {
+  "text": "at",
+  "start": 37.4,
+  "end": 37.56
+ },
+ {
+  "text": "least",
+  "start": 37.56,
+  "end": 37.8
+ },
+ {
+  "text": "seventy",
+  "start": 37.8,
+  "end": 38.24
+ },
+ {
+  "text": "percent",
+  "start": 38.24,
+  "end": 38.6
+ },
+ {
+  "text": "from",
+  "start": 38.6,
+  "end": 38.72
+ },
+ {
+  "text": "their",
+  "start": 38.72,
+  "end": 38.88
+ },
+ {
+  "text": "peak",
+  "start": 38.88,
+  "end": 39.16
+ },
+ {
+  "text": "and",
+  "start": 39.16,
+  "end": 39.32
+ },
+ {
+  "text": "didn't",
+  "start": 39.32,
+  "end": 39.64
+ },
+ {
+  "text": "recover.",
+  "start": 39.64,
+  "end": 40.36
+ },
+ {
+  "text": "Fifty-four",
+  "start": 40.36,
+  "end": 41.16
+ },
+ {
+  "text": "percent",
+  "start": 41.16,
+  "end": 41.6
+ },
+ {
+  "text": "of",
+  "start": 41.6,
+  "end": 41.76
+ },
+ {
+  "text": "those",
+  "start": 41.76,
+  "end": 42.0
+ },
+ {
+  "text": "companies",
+  "start": 42.0,
+  "end": 42.56
+ },
+ {
+  "text": "were",
+  "start": 42.56,
+  "end": 42.72
+ },
+ {
+  "text": "profitable",
+  "start": 42.72,
+  "end": 43.36
+ },
+ {
+  "text": "at",
+  "start": 43.36,
+  "end": 43.48
+ },
+ {
+  "text": "their",
+  "start": 43.48,
+  "end": 43.68
+ },
+ {
+  "text": "peak.",
+  "start": 43.68,
+  "end": 44.16
+ },
+ {
+  "text": "And",
+  "start": 44.16,
+  "end": 44.44
+ },
+ {
+  "text": "Wall",
+  "start": 44.44,
+  "end": 44.72
+ },
+ {
+  "text": "Street's",
+  "start": 44.72,
+  "end": 45.12
+ },
+ {
+  "text": "consensus",
+  "start": 45.12,
+  "end": 45.84
+ },
+ {
+  "text": "was",
+  "start": 45.84,
+  "end": 46.04
+ },
+ {
+  "text": "tilted",
+  "start": 46.04,
+  "end": 46.48
+ },
+ {
+  "text": "heavily",
+  "start": 46.48,
+  "end": 46.96
+ },
+ {
+  "text": "toward",
+  "start": 46.96,
+  "end": 47.36
+ },
+ {
+  "text": "\"strong",
+  "start": 47.36,
+  "end": 47.56
+ },
+ {
+  "text": "buy.\"",
+  "start": 47.56,
+  "end": 47.76
+ },
+ {
+  "text": "Even",
+  "start": 47.76,
+  "end": 48.76
+ },
+ {
+  "text": "the",
+  "start": 48.92,
+  "end": 49.08
+ },
+ {
+  "text": "winners",
+  "start": 49.08,
+  "end": 49.52
+ },
+ {
+  "text": "keep",
+  "start": 49.52,
+  "end": 49.8
+ },
+ {
+  "text": "changing.",
+  "start": 49.8,
+  "end": 50.56
+ },
+ {
+  "text": "Of",
+  "start": 50.56,
+  "end": 50.72
+ },
+ {
+  "text": "the",
+  "start": 50.72,
+  "end": 50.92
+ },
+ {
+  "text": "thirty",
+  "start": 50.92,
+  "end": 51.4
+ },
+ {
+  "text": "biggest",
+  "start": 51.4,
+  "end": 51.84
+ },
+ {
+  "text": "wealth",
+  "start": 51.84,
+  "end": 52.16
+ },
+ {
+  "text": "creators",
+  "start": 52.16,
+  "end": 52.68
+ },
+ {
+  "text": "from",
+  "start": 52.68,
+  "end": 52.84
+ },
+ {
+  "text": "2017",
+  "start": 52.84,
+  "end": 53.76
+ },
+ {
+  "text": "to",
+  "start": 53.76,
+  "end": 53.92
+ },
+ {
+  "text": "2025,",
+  "start": 53.92,
+  "end": 54.88
+ },
+ {
+  "text": "nineteen",
+  "start": 54.88,
+  "end": 55.48
+ },
+ {
+  "text": "weren't",
+  "start": 55.48,
+  "end": 55.84
+ },
+ {
+  "text": "on",
+  "start": 55.84,
+  "end": 55.92
+ },
+ {
+  "text": "the",
+  "start": 55.92,
+  "end": 56.04
+ },
+ {
+  "text": "top",
+  "start": 56.04,
+  "end": 56.32
+ },
+ {
+  "text": "thirty",
+  "start": 56.32,
+  "end": 56.84
+ },
+ {
+  "text": "list",
+  "start": 56.84,
+  "end": 57.84
+ },
+ {
+  "text": "before.",
+  "start": 58.0,
+  "end": 58.24
+ },
+ {
+  "text": "Names",
+  "start": 58.24,
+  "end": 58.48
+ },
+ {
+  "text": "like",
+  "start": 58.48,
+  "end": 58.64
+ },
+ {
+  "text": "Nvidia,",
+  "start": 58.64,
+  "end": 59.12
+ },
+ {
+  "text": "Tesla,",
+  "start": 59.12,
+  "end": 59.48
+ },
+ {
+  "text": "Meta,",
+  "start": 59.48,
+  "end": 59.8
+ },
+ {
+  "text": "Eli",
+  "start": 59.8,
+  "end": 60.12
+ },
+ {
+  "text": "Lilly",
+  "start": 60.12,
+  "end": 60.44
+ },
+ {
+  "text": "and",
+  "start": 60.44,
+  "end": 60.56
+ },
+ {
+  "text": "AMD.",
+  "start": 60.56,
+  "end": 61.56
+ },
+ {
+  "text": "Chapter",
+  "start": 61.56,
+  "end": 62.4
+ },
+ {
+  "text": "five.",
+  "start": 62.4,
+  "end": 63.12
+ },
+ {
+  "text": "Around",
+  "start": 63.12,
+  "end": 63.68
+ },
+ {
+  "text": "the",
+  "start": 63.68,
+  "end": 63.88
+ },
+ {
+  "text": "world.",
+  "start": 63.88,
+  "end": 64.88
+ },
+ {
+  "text": "Maybe",
+  "start": 64.88,
+  "end": 65.4
+ },
+ {
+  "text": "this",
+  "start": 65.4,
+  "end": 65.68
+ },
+ {
+  "text": "is",
+  "start": 65.68,
+  "end": 65.92
+ },
+ {
+  "text": "just",
+  "start": 65.92,
+  "end": 66.12
+ },
+ {
+  "text": "an",
+  "start": 66.12,
+  "end": 66.32
+ },
+ {
+  "text": "American",
+  "start": 66.32,
+  "end": 66.96
+ },
+ {
+  "text": "thing?",
+  "start": 66.96,
+  "end": 67.52
+ },
+ {
+  "text": "It's",
+  "start": 67.52,
+  "end": 68.04
+ },
+ {
+  "text": "not.",
+  "start": 68.04,
+  "end": 68.8
+ },
+ {
+  "text": "In",
+  "start": 68.8,
+  "end": 69.12
+ },
+ {
+  "text": "a",
+  "start": 69.12,
+  "end": 69.28
+ },
+ {
+  "text": "2023",
+  "start": 69.28,
+  "end": 70.4
+ },
+ {
+  "text": "study",
+  "start": 70.4,
+  "end": 70.8
+ },
+ {
+  "text": "of",
+  "start": 70.8,
+  "end": 71.0
+ },
+ {
+  "text": "more",
+  "start": 71.0,
+  "end": 71.2
+ },
+ {
+  "text": "than",
+  "start": 71.2,
+  "end": 71.4
+ },
+ {
+  "text": "sixty-four",
+  "start": 71.4,
+  "end": 72.16
+ },
+ {
+  "text": "thousand",
+  "start": 72.16,
+  "end": 72.6
+ },
+ {
+  "text": "stocks",
+  "start": 72.6,
+  "end": 73.0
+ },
+ {
+  "text": "around",
+  "start": 73.0,
+  "end": 73.32
+ },
+ {
+  "text": "the",
+  "start": 73.32,
+  "end": 73.44
+ },
+ {
+  "text": "world,",
+  "start": 73.44,
+  "end": 73.72
+ },
+ {
+  "text": "from",
+  "start": 73.72,
+  "end": 73.88
+ },
+ {
+  "text": "1990",
+  "start": 73.88,
+  "end": 75.04
+ },
+ {
+  "text": "to",
+  "start": 75.04,
+  "end": 75.2
+ },
+ {
+  "text": "2020,",
+  "start": 75.2,
+  "end": 75.8
+ },
+ {
+  "text": "Bessembinder",
+  "start": 75.8,
+  "end": 76.52
+ },
+ {
+  "text": "and",
+  "start": 76.52,
+  "end": 76.68
+ },
+ {
+  "text": "three",
+  "start": 76.68,
+  "end": 76.92
+ },
+ {
+  "text": "co-authors",
+  "start": 76.92,
+  "end": 77.72
+ },
+ {
+  "text": "found",
+  "start": 77.72,
+  "end": 78.0
+ },
+ {
+  "text": "the",
+  "start": 78.0,
+  "end": 78.12
+ },
+ {
+  "text": "same",
+  "start": 78.12,
+  "end": 78.44
+ },
+ {
+  "text": "pattern.",
+  "start": 78.44,
+  "end": 79.32
+ },
+ {
+  "text": "Fifty-five",
+  "start": 79.32,
+  "end": 80.16
+ },
+ {
+  "text": "percent",
+  "start": 80.16,
+  "end": 80.56
+ },
+ {
+  "text": "of",
+  "start": 80.56,
+  "end": 80.72
+ },
+ {
+  "text": "US",
+  "start": 80.72,
+  "end": 81.16
+ },
+ {
+  "text": "stocks,",
+  "start": 81.16,
+  "end": 81.56
+ },
+ {
+  "text": "and",
+  "start": 81.56,
+  "end": 81.72
+ },
+ {
+  "text": "fifty-seven",
+  "start": 81.72,
+  "end": 82.32
+ },
+ {
+  "text": "percent",
+  "start": 82.32,
+  "end": 82.64
+ },
+ {
+  "text": "of",
+  "start": 82.64,
+  "end": 82.8
+ },
+ {
+  "text": "stocks",
+  "start": 82.8,
+  "end": 83.2
+ },
+ {
+  "text": "outside",
+  "start": 83.2,
+  "end": 83.68
+ },
+ {
+  "text": "the",
+  "start": 83.68,
+  "end": 83.84
+ },
+ {
+  "text": "US,",
+  "start": 83.84,
+  "end": 84.32
+ },
+ {
+  "text": "did",
+  "start": 84.32,
+  "end": 84.56
+ },
+ {
+  "text": "worse",
+  "start": 84.56,
+  "end": 84.88
+ },
+ {
+  "text": "than",
+  "start": 84.88,
+  "end": 85.2
+ },
+ {
+  "text": "one-month",
+  "start": 85.2,
+  "end": 85.76
+ },
+ {
+  "text": "US",
+  "start": 85.76,
+  "end": 86.16
+ },
+ {
+  "text": "Treasury",
+  "start": 86.16,
+  "end": 86.68
+ },
+ {
+  "text": "bills.",
+  "start": 86.68,
+  "end": 87.52
+ },
+ {
+  "text": "And",
+  "start": 87.52,
+  "end": 87.8
+ },
+ {
+  "text": "just",
+  "start": 87.8,
+  "end": 88.12
+ },
+ {
+  "text": "two",
+  "start": 88.12,
+  "end": 88.4
+ },
+ {
+  "text": "point",
+  "start": 88.4,
+  "end": 88.68
+ },
+ {
+  "text": "four",
+  "start": 88.68,
+  "end": 88.88
+ },
+ {
+  "text": "percent",
+  "start": 88.88,
+  "end": 89.24
+ },
+ {
+  "text": "of",
+  "start": 89.24,
+  "end": 89.36
+ },
+ {
+  "text": "companies",
+  "start": 89.36,
+  "end": 89.88
+ },
+ {
+  "text": "created",
+  "start": 89.88,
+  "end": 90.36
+ },
+ {
+  "text": "all",
+  "start": 90.36,
+  "end": 90.6
+ },
+ {
+  "text": "of",
+  "start": 90.6,
+  "end": 90.68
+ },
+ {
+  "text": "the",
+  "start": 90.68,
+  "end": 90.8
+ },
+ {
+  "text": "roughly",
+  "start": 90.8,
+  "end": 91.32
+ },
+ {
+  "text": "seventy-six",
+  "start": 91.32,
+  "end": 92.12
+ },
+ {
+  "text": "trillion",
+  "start": 92.12,
+  "end": 92.52
+ },
+ {
+  "text": "dollars",
+  "start": 92.52,
+  "end": 93.04
+ },
+ {
+  "text": "of",
+  "start": 93.04,
+  "end": 93.24
+ },
+ {
+  "text": "net",
+  "start": 93.24,
+  "end": 93.52
+ },
+ {
+  "text": "global",
+  "start": 93.52,
+  "end": 94.16
+ },
+ {
+  "text": "wealth.",
+  "start": 94.16,
+  "end": 94.88
+ },
+ {
+  "text": "Outside",
+  "start": 94.88,
+  "end": 95.52
+ },
+ {
+  "text": "the",
+  "start": 95.52,
+  "end": 95.72
+ },
+ {
+  "text": "US,",
+  "start": 95.72,
+  "end": 96.16
+ },
+ {
+  "text": "it",
+  "start": 96.16,
+  "end": 96.32
+ },
+ {
+  "text": "was",
+  "start": 96.32,
+  "end": 96.48
+ },
+ {
+  "text": "even",
+  "start": 96.48,
+  "end": 96.76
+ },
+ {
+  "text": "more",
+  "start": 96.76,
+  "end": 97.0
+ },
+ {
+  "text": "concentrated:",
+  "start": 97.0,
+  "end": 97.84
+ },
+ {
+  "text": "just",
+  "start": 97.84,
+  "end": 98.08
+ },
+ {
+  "text": "one",
+  "start": 98.08,
+  "end": 98.36
+ },
+ {
+  "text": "point",
+  "start": 98.36,
+  "end": 98.68
+ },
+ {
+  "text": "four",
+  "start": 98.68,
+  "end": 98.92
+ },
+ {
+  "text": "percent.",
+  "start": 98.92,
+  "end": 99.84
+ },
+ {
+  "text": "Chapter",
+  "start": 99.84,
+  "end": 100.6
+ },
+ {
+  "text": "six.",
+  "start": 100.6,
+  "end": 101.32
+ },
+ {
+  "text": "The",
+  "start": 101.32,
+  "end": 101.6
+ },
+ {
+  "text": "pros.",
+  "start": 101.6,
+  "end": 102.56
+ },
+ {
+  "text": "So",
+  "start": 102.56,
+  "end": 103.04
+ },
+ {
+  "text": "if",
+  "start": 103.04,
+  "end": 103.24
+ },
+ {
+  "text": "a",
+  "start": 103.24,
+  "end": 103.36
+ },
+ {
+  "text": "few",
+  "start": 103.36,
+  "end": 103.6
+ },
+ {
+  "text": "winners",
+  "start": 103.6,
+  "end": 104.08
+ },
+ {
+  "text": "drive",
+  "start": 104.08,
+  "end": 104.48
+ },
+ {
+  "text": "everything,",
+  "start": 104.48,
+  "end": 104.88
+ },
+ {
+  "text": "the",
+  "start": 104.88,
+  "end": 105.04
+ },
+ {
+  "text": "answer",
+  "start": 105.04,
+  "end": 105.44
+ },
+ {
+  "text": "seems",
+  "start": 105.44,
+  "end": 105.8
+ },
+ {
+  "text": "obvious.",
+  "start": 105.8,
+  "end": 106.64
+ },
+ {
+  "text": "Just",
+  "start": 106.64,
+  "end": 106.96
+ },
+ {
+  "text": "find",
+  "start": 106.96,
+  "end": 107.28
+ },
+ {
+  "text": "the",
+  "start": 107.28,
+  "end": 107.44
+ },
+ {
+  "text": "winners.",
+  "start": 107.44,
+  "end": 108.44
+ },
+ {
+  "text": "That's",
+  "start": 108.48,
+  "end": 109.12
+ },
+ {
+  "text": "exactly",
+  "start": 109.12,
+  "end": 109.84
+ },
+ {
+  "text": "what",
+  "start": 109.84,
+  "end": 110.04
+ },
+ {
+  "text": "professional",
+  "start": 110.04,
+  "end": 110.64
+ },
+ {
+  "text": "fund",
+  "start": 110.64,
+  "end": 110.92
+ },
+ {
+  "text": "managers",
+  "start": 110.92,
+  "end": 111.48
+ },
+ {
+  "text": "try",
+  "start": 111.48,
+  "end": 111.68
+ },
+ {
+  "text": "to",
+  "start": 111.68,
+  "end": 111.88
+ },
+ {
+  "text": "do.",
+  "start": 111.88,
+  "end": 112.32
+ },
+ {
+  "text": "With",
+  "start": 112.32,
+  "end": 112.64
+ },
+ {
+  "text": "research",
+  "start": 112.64,
+  "end": 113.12
+ },
+ {
+  "text": "teams,",
+  "start": 113.12,
+  "end": 113.52
+ },
+ {
+  "text": "data,",
+  "start": 113.52,
+  "end": 113.92
+ },
+ {
+  "text": "and",
+  "start": 113.92,
+  "end": 114.08
+ },
+ {
+  "text": "decades",
+  "start": 114.08,
+  "end": 114.56
+ },
+ {
+  "text": "of",
+  "start": 114.56,
+  "end": 114.72
+ },
+ {
+  "text": "experience.",
+  "start": 114.72,
+  "end": 115.72
+ },
+ {
+  "text": "But",
+  "start": 115.84,
+  "end": 116.12
+ },
+ {
+  "text": "according",
+  "start": 116.12,
+  "end": 116.72
+ },
+ {
+  "text": "to",
+  "start": 116.72,
+  "end": 117.0
+ },
+ {
+  "text": "S&P",
+  "start": 117.0,
+  "end": 117.72
+ },
+ {
+  "text": "Dow",
+  "start": 117.72,
+  "end": 118.0
+ },
+ {
+  "text": "Jones",
+  "start": 118.0,
+  "end": 118.4
+ },
+ {
+  "text": "Indices,",
+  "start": 118.4,
+  "end": 119.04
+ },
+ {
+  "text": "over",
+  "start": 119.04,
+  "end": 119.24
+ },
+ {
+  "text": "the",
+  "start": 119.24,
+  "end": 119.36
+ },
+ {
+  "text": "twenty",
+  "start": 119.36,
+  "end": 119.76
+ },
+ {
+  "text": "years",
+  "start": 119.76,
+  "end": 120.08
+ },
+ {
+  "text": "through",
+  "start": 120.08,
+  "end": 120.36
+ },
+ {
+  "text": "2025,",
+  "start": 120.36,
+  "end": 121.44
+ },
+ {
+  "text": "about",
+  "start": 121.44,
+  "end": 121.68
+ },
+ {
+  "text": "ninety-three",
+  "start": 121.68,
+  "end": 122.4
+ },
+ {
+  "text": "percent",
+  "start": 122.4,
+  "end": 122.76
+ },
+ {
+  "text": "of",
+  "start": 122.76,
+  "end": 122.88
+ },
+ {
+  "text": "actively",
+  "start": 122.88,
+  "end": 123.4
+ },
+ {
+  "text": "managed",
+  "start": 123.4,
+  "end": 123.88
+ },
+ {
+  "text": "US",
+  "start": 123.88,
+  "end": 124.24
+ },
+ {
+  "text": "large-cap",
+  "start": 124.24,
+  "end": 124.88
+ },
+ {
+  "text": "funds",
+  "start": 124.88,
+  "end": 125.28
+ },
+ {
+  "text": "did",
+  "start": 125.28,
+  "end": 125.48
+ },
+ {
+  "text": "worse",
+  "start": 125.48,
+  "end": 125.8
+ },
+ {
+  "text": "than",
+  "start": 125.8,
+  "end": 125.96
+ },
+ {
+  "text": "the",
+  "start": 125.96,
+  "end": 126.16
+ },
+ {
+  "text": "S&P",
+  "start": 126.16,
+  "end": 126.88
+ },
+ {
+  "text": "500.",
+  "start": 126.88,
+  "end": 127.76
+ },
+ {
+  "text": "In",
+  "start": 127.76,
+  "end": 128.0
+ },
+ {
+  "text": "2025",
+  "start": 128.0,
+  "end": 129.12
+ },
+ {
+  "text": "alone,",
+  "start": 129.12,
+  "end": 129.6
+ },
+ {
+  "text": "it",
+  "start": 129.6,
+  "end": 129.72
+ },
+ {
+  "text": "was",
+  "start": 129.72,
+  "end": 129.92
+ },
+ {
+  "text": "seventy-nine",
+  "start": 129.92,
+  "end": 130.6
+ },
+ {
+  "text": "percent.",
+  "start": 130.6,
+  "end": 131.44
+ },
+ {
+  "text": "That",
+  "start": 131.44,
+  "end": 131.84
+ },
+ {
+  "text": "doesn't",
+  "start": 131.84,
+  "end": 132.32
+ },
+ {
+  "text": "mean",
+  "start": 132.32,
+  "end": 132.56
+ },
+ {
+  "text": "nobody",
+  "start": 132.56,
+  "end": 133.04
+ },
+ {
+  "text": "can",
+  "start": 133.04,
+  "end": 133.24
+ },
+ {
+  "text": "do",
+  "start": 133.24,
+  "end": 133.4
+ },
+ {
+  "text": "it.",
+  "start": 133.4,
+  "end": 133.76
+ },
+ {
+  "text": "It",
+  "start": 133.76,
+  "end": 134.0
+ },
+ {
+  "text": "means",
+  "start": 134.0,
+  "end": 134.36
+ },
+ {
+  "text": "finding",
+  "start": 134.36,
+  "end": 134.72
+ },
+ {
+  "text": "the",
+  "start": 134.72,
+  "end": 134.84
+ },
+ {
+  "text": "needles",
+  "start": 134.84,
+  "end": 135.24
+ },
+ {
+  "text": "in",
+  "start": 135.24,
+  "end": 135.36
+ },
+ {
+  "text": "advance",
+  "start": 135.36,
+  "end": 135.92
+ },
+ {
+  "text": "is",
+  "start": 135.92,
+  "end": 136.16
+ },
+ {
+  "text": "extremely",
+  "start": 136.16,
+  "end": 136.88
+ },
+ {
+  "text": "hard.",
+  "start": 136.88,
+  "end": 137.44
+ },
+ {
+  "text": "Even",
+  "start": 137.44,
+  "end": 137.84
+ },
+ {
+  "text": "for",
+  "start": 137.84,
+  "end": 138.08
+ },
+ {
+  "text": "professionals.",
+  "start": 138.08,
+  "end": 138.58
+ }
+]

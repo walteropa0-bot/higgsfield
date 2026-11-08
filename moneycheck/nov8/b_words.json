@@ -1,0 +1,327 @@
+[
+ {
+  "text": "How",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "text": "much",
+  "start": 0.24,
+  "end": 0.48
+ },
+ {
+  "text": "money",
+  "start": 0.48,
+  "end": 0.8
+ },
+ {
+  "text": "do",
+  "start": 0.8,
+  "end": 0.96
+ },
+ {
+  "text": "you",
+  "start": 0.96,
+  "end": 1.12
+ },
+ {
+  "text": "need",
+  "start": 1.12,
+  "end": 1.32
+ },
+ {
+  "text": "to",
+  "start": 1.32,
+  "end": 1.48
+ },
+ {
+  "text": "stop",
+  "start": 1.48,
+  "end": 1.8
+ },
+ {
+  "text": "working?",
+  "start": 1.8,
+  "end": 2.48
+ },
+ {
+  "text": "Take",
+  "start": 2.48,
+  "end": 2.72
+ },
+ {
+  "text": "what",
+  "start": 2.72,
+  "end": 2.88
+ },
+ {
+  "text": "you",
+  "start": 2.88,
+  "end": 3.08
+ },
+ {
+  "text": "spend",
+  "start": 3.08,
+  "end": 3.4
+ },
+ {
+  "text": "in",
+  "start": 3.4,
+  "end": 3.52
+ },
+ {
+  "text": "a",
+  "start": 3.52,
+  "end": 3.68
+ },
+ {
+  "text": "year,",
+  "start": 3.68,
+  "end": 3.92
+ },
+ {
+  "text": "and",
+  "start": 3.92,
+  "end": 4.12
+ },
+ {
+  "text": "multiply",
+  "start": 4.12,
+  "end": 4.64
+ },
+ {
+  "text": "it",
+  "start": 4.64,
+  "end": 4.8
+ },
+ {
+  "text": "by",
+  "start": 4.8,
+  "end": 5.0
+ },
+ {
+  "text": "twenty-five.",
+  "start": 5.0,
+  "end": 5.92
+ },
+ {
+  "text": "Spend",
+  "start": 5.92,
+  "end": 6.36
+ },
+ {
+  "text": "forty",
+  "start": 6.36,
+  "end": 6.76
+ },
+ {
+  "text": "thousand",
+  "start": 6.76,
+  "end": 7.2
+ },
+ {
+  "text": "a",
+  "start": 7.2,
+  "end": 7.36
+ },
+ {
+  "text": "year?",
+  "start": 7.36,
+  "end": 7.84
+ },
+ {
+  "text": "Your",
+  "start": 7.84,
+  "end": 8.16
+ },
+ {
+  "text": "number",
+  "start": 8.16,
+  "end": 8.6
+ },
+ {
+  "text": "is",
+  "start": 8.6,
+  "end": 8.84
+ },
+ {
+  "text": "one",
+  "start": 8.84,
+  "end": 9.12
+ },
+ {
+  "text": "million.",
+  "start": 9.12,
+  "end": 9.84
+ },
+ {
+  "text": "Why",
+  "start": 9.84,
+  "end": 10.16
+ },
+ {
+  "text": "twenty-five?",
+  "start": 10.16,
+  "end": 11.2
+ },
+ {
+  "text": "It's",
+  "start": 11.2,
+  "end": 11.6
+ },
+ {
+  "text": "the",
+  "start": 11.6,
+  "end": 11.8
+ },
+ {
+  "text": "four",
+  "start": 11.8,
+  "end": 12.08
+ },
+ {
+  "text": "percent",
+  "start": 12.08,
+  "end": 12.48
+ },
+ {
+  "text": "rule.",
+  "start": 12.48,
+  "end": 13.04
+ },
+ {
+  "text": "In",
+  "start": 13.04,
+  "end": 13.24
+ },
+ {
+  "text": "a",
+  "start": 13.24,
+  "end": 13.4
+ },
+ {
+  "text": "famous",
+  "start": 13.4,
+  "end": 13.8
+ },
+ {
+  "text": "study,",
+  "start": 13.8,
+  "end": 14.2
+ },
+ {
+  "text": "withdrawing",
+  "start": 14.2,
+  "end": 14.72
+ },
+ {
+  "text": "four",
+  "start": 14.72,
+  "end": 14.96
+ },
+ {
+  "text": "percent",
+  "start": 14.96,
+  "end": 15.32
+ },
+ {
+  "text": "in",
+  "start": 15.32,
+  "end": 15.52
+ },
+ {
+  "text": "year",
+  "start": 15.52,
+  "end": 15.8
+ },
+ {
+  "text": "one,",
+  "start": 15.8,
+  "end": 16.04
+ },
+ {
+  "text": "then",
+  "start": 16.04,
+  "end": 16.32
+ },
+ {
+  "text": "adjusting",
+  "start": 16.32,
+  "end": 16.88
+ },
+ {
+  "text": "for",
+  "start": 16.88,
+  "end": 17.04
+ },
+ {
+  "text": "inflation,",
+  "start": 17.04,
+  "end": 17.68
+ },
+ {
+  "text": "lasted",
+  "start": 17.68,
+  "end": 18.08
+ },
+ {
+  "text": "at",
+  "start": 18.08,
+  "end": 18.2
+ },
+ {
+  "text": "least",
+  "start": 18.2,
+  "end": 18.48
+ },
+ {
+  "text": "thirty",
+  "start": 18.48,
+  "end": 18.88
+ },
+ {
+  "text": "years",
+  "start": 18.88,
+  "end": 19.2
+ },
+ {
+  "text": "in",
+  "start": 19.2,
+  "end": 19.48
+ },
+ {
+  "text": "most",
+  "start": 19.48,
+  "end": 19.8
+ },
+ {
+  "text": "historical",
+  "start": 19.8,
+  "end": 20.52
+ },
+ {
+  "text": "cases.",
+  "start": 20.52,
+  "end": 21.24
+ },
+ {
+  "text": "So,",
+  "start": 21.24,
+  "end": 21.6
+ },
+ {
+  "text": "what's",
+  "start": 21.6,
+  "end": 21.96
+ },
+ {
+  "text": "your",
+  "start": 21.96,
+  "end": 22.16
+ },
+ {
+  "text": "number?",
+  "start": 22.16,
+  "end": 22.66
+ }
+]

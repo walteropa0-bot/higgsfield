@@ -1,0 +1,4 @@
+# Aussprache für Wörter, die weder das Kokoro-Lexikon noch CMUdict kennen.
+# Format: wort PHONEME... (ARPAbet, Betonung 1/2 am Vokal, 0 = unbetont). Zeilen mit # werden ignoriert.
+moneycheck M AH1 N IY0 CH EH1 K
+bessembinder B EH1 S AH0 M B IH0 N D ER0

@@ -1,6 +1,6 @@
 """Timeline for YT01: script tokens -> word times -> phrase anchors.
 
-Word times come from the Voice Studio transcripts (voice/part{n}_words.json + voice/part{n}.mp3) when they exist,
+Word times come from the speech-recognition word times (voice/part{n}_words.json + voice/part{n}.mp3) when they exist,
 otherwise from an estimate (preview without voice). Script tokens are aligned to transcript words with difflib,
 so numbers spoken as words but transcribed as digits (or the reverse) just get interpolated times.
 """
@@ -147,7 +147,7 @@ class Timeline:
 
 
 if __name__ == "__main__":
-    # python3 tl.py part 2   -> prints the exact text of voice part 2 (input for voicestudio_tts.py speech)
+    # python3 tl.py part 2   -> prints the exact text of voice part 2 (input for voice_local.py speak)
     import sys
     txt = open(os.path.join(HERE, "script.txt"), encoding="utf-8").read()
     chunks = re.split(r"=== PART (\d+) ===\n", txt)

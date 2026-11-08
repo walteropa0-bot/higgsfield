@@ -31,15 +31,17 @@ Wenn der Name sich ändert, diese Datei anpassen.
 Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Viral-Videos (20–30 s) nur, wenn der Nutzer es will.
 
 ## Ton
-- **Stimme: Voice Studio, lokal** (seit 8.11.2026). ElevenLabs wird nicht mehr genutzt. Erzeugt wird auf dem Rechner des Nutzers
-  über die lokale Voice-Studio-API (`http://localhost:3900`) mit `moneycheck/voicestudio_tts.py`.
-- Frauenstimme: die beste weibliche Stimme aus Voice Studio. Sie wird per Hörtest aus den Kandidaten gewählt
-  (`voicestudio_tts.py candidates`) und als gespeichertes Profil festgehalten. **Profil-ID: noch offen.** Danach immer dieselbe
-  Profil-ID, damit die Stimme gleich bleibt.
-- Männerstimme: bei Bedarf ebenfalls über Voice Studio, mit eigenem Profil.
-- **Lizenz vor Monetarisierung:** Eine Stimme darf nur dann in monetarisierten Videos verwendet werden, wenn ihr Modell kommerziell
-  nutzbar ist. Laut `backend/config/model_licenses.json` in Voice Studio (Stand 3.10.2026) ist kein Modell als kommerziell
-  freigegeben; die Standard-Engine OmniVoice ist nicht kommerziell (CC-BY-NC). Bis das geklärt ist: nur Test- und Vorschau-Material.
+- **Stimme: Kokoro, lokal** (seit 8.11.2026). Erzeugt wird auf dem eigenen Rechner, ohne Cloud und ohne Abo, mit dem Modell
+  Kokoro-82M (Apache-2.0) über sherpa-onnx. Stimme: `af_heart` (weibliche US-Stimme). ElevenLabs ist nicht mehr im Einsatz.
+- Befehl im Ordner `moneycheck/`: `python3 voice_local.py speak skript.txt voice.mp3 words.json`. Einmalige Installation:
+  `pip install sherpa-onnx numpy cmudict` und ffmpeg. Die Modelle (ca. 700 MB) lädt das Skript beim ersten Lauf von GitHub.
+- Wort-Zeiten kommen mit: Die Erkennung (Zipformer, Apache-2.0) liefert die Zeit jedes gesprochenen Wortes. Szenen und
+  Soundeffekte hängen an diesen Zeiten, nicht an Schätzungen.
+- Aussprache: Wörter, die das Kokoro-Lexikon nicht kennt, kommen aus CMUdict. Namen und Sonderfälle stehen in
+  `moneycheck/pronunciations.txt`. Fehlt eine Aussprache, bricht der Lauf ab, statt Wörter wegzulassen.
+- **Lizenz:** Kokoro-82M ist Apache-2.0 (Lizenztext im Modellpaket) und darf in monetarisierten Videos verwendet werden.
+  Die Voice-Studio-Modelle sind in der Lizenzliste nicht als kommerziell freigegeben (OmniVoice: CC-BY-NC) und bleiben dafür gesperrt.
+- Claude kann die Stimme nicht hören. Vor dem Upload kurz anhören.
 - Genau 1 Take pro Teil. Fehler melden, nicht stillschweigend wiederholen.
 - Audio mischen auf **-14 LUFS** (YouTube/TikTok), zweistufiges loudnorm
 - Ohne Stimme (Vorschau, Test): Text-Animation mit `moneycheck/eng14.py` (1440×2560, kurze Sätze groß eingeblendet); der Nutzer legt in TikTok einen Sound darunter.
@@ -69,8 +71,7 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
   YouTube-Monetarisierung (Regel gegen „inauthentische“ Massenware) und keine Reichweitenverluste bei TikTok.
 - **Stil-Regel:** Wiedererkennbar bleiben über Logo, Farben, Schrift, Intro und Wasserzeichen. Format, Vorlage, Hook, Länge
   und Erzählweise dürfen sich ändern. Fortschritt wird an Zuschauerbindung, Shares und Follower-Zuwachs gemessen.
-- Nach der Sprachaufnahme transkribiert Voice Studio sie mit Wort-Zeitstempeln:
-  `python3 voicestudio_tts.py words voice.mp3 words.json` (Liste aus `{"text", "start", "end"}`, ohne `[tags]`).
+- Die Wort-Zeiten (`words.json`) entstehen beim Sprechen mit `voice_local.py speak`. Nichts muss separat transkribiert werden.
 - ALLE Szenen-Anker und Soundeffekte an die exakten Wort-Zeiten hängen (`at("wort", n)` in render10.py/mix10.py),
   nie an Schätzwerte oder reine Pausen-Erkennung (`align.py` hat bei Short #5 Sätze verschoben).
 - Vor dem Rendern Kontaktbögen prüfen (`python3 render10.py sheet sheet.png 1.0 5.0 …`), dann `video`, `mix10.py`, muxen.
