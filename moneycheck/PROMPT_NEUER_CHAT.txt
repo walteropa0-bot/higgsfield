@@ -1,0 +1,23 @@
+Hallo! Du arbeitest weiter an meinem Finanzkanal „Moneycheck“ (englische Videos für TikTok, YouTube Shorts und
+lange YouTube-Videos, Zielgruppe USA 18–35). Antworte mir kurz und auf Deutsch.
+
+1. Wechsle im Repo walteropa0-bot/higgsfield auf den Branch add-claude-md-moneycheck und lies zuerst diese Dateien:
+   CLAUDE.md (alle Regeln), moneycheck/STATUS.md (aktueller Stand und offene Aufgaben), moneycheck/README.md (alle Skripte),
+   bei langen Videos zusätzlich moneycheck/yt01_most_stocks_lose/README.md.
+2. Halte dich genau an CLAUDE.md, besonders:
+   - keine Anlageberatung, keine konkreten Aktien-/ETF-/Krypto-Empfehlungen (auch nicht auf Wunsch); echte Firmen nur als
+     historische Fakten; nur korrekte Zahlen mit Quellen; „Not financial advice – for educational purposes only.“ in jede Beschreibung
+   - jedes Video eigenständig (eigenes Thema, eigene Rechnung/Beispiel, Quellen, eigene Erzählweise), wiedererkennbar über
+     Logo, Farben (Navy/Gold/Weiß, Gewinne grün, Verluste rot), Schrift Inter, „Männchen“, Wasserzeichen „Moneycheck“
+   - Stimme: ElevenLabs eleven_v4, Frauenstimme Samara X (19STyYD15bswVz51nqLf), Männerstimme Brian; immer erst
+     estimate_only, dann genau 1 Take; KI-Stimme immer kennzeichnen; Ton auf -14 LUFS
+   - Szenen und Soundeffekte immer an die exakten Wort-Zeiten der Transkription hängen
+   - zu jedem Video Cover + Upload-Text (Titel, Beschreibung mit Quellen, Hashtags)
+   - Shorts: Hook im ersten Bild, viele Animationen, sauber; 20–30 s für Reichweite, über 60 s für Creator Rewards
+   - lange YouTube-Videos: lib16.py (16:9, 1440p), ab 8 Minuten, Kapitel, Quellenzeile, eigene Musik, Thumbnail 1280x720
+3. Offene Aufgaben (Details in STATUS.md): ElevenLabs lehnte zuletzt jede Stimme ab (Gratis-Plan gesperrt/„busy“). Sobald
+   ich einen bezahlten Plan habe, sag ich „Stimme geht“ – dann die Stimmen für YT01 (4 Teile) und Video B (25x-Regel)
+   erzeugen, transkribieren, neu rendern, mischen und mir die fertigen Videos schicken.
+4. Fertige Skripte immer committen und auf add-claude-md-moneycheck pushen (das Scratchpad ist nach der Sitzung weg),
+   Videos und Cover als Dateien an mich schicken. Keinen Pull Request ohne meine Anfrage.
+5. Für Recherche die Cloud-Umgebung „higgsfield“ verwenden (erlaubt die Studien-Seiten und ElevenLabs-Downloads).

@@ -1,0 +1,70 @@
+=== PART 1 ===
+Here's a fact that sounds impossible.
+Over the last one hundred years, the US stock market turned one dollar into more than fifteen thousand dollars.
+And yet, the typical US stock lost money.
+Not a few unlucky ones. Across the full century, more than half of all US stocks lost money over their lifetime. And most of them didn't even beat a boring government Treasury bill.
+Both facts are true at the same time. In the next few minutes, I'll show you how that works. With real data, a simple coin-flip game you can check yourself, and what it means for anyone who owns stocks.
+This is Moneycheck. Let's get into it.
+Chapter one. The study.
+This data comes from Hendrik Bessembinder, a finance professor at Arizona State University. In 2018, he published a famous paper called "Do Stocks Outperform Treasury Bills?" And in March 2026, he extended it to a full century.
+He looked at every US common stock listed between 1926 and 2025. That's twenty-nine thousand, seven hundred and fifty-four stocks. From giants like Apple, to companies you've never heard of, because they no longer exist.
+For each one, he asked a simple question. If you had bought this stock when it was first listed, reinvested every dividend, and held on until it was delisted, or until the end of 2025, how did you do?
+The benchmark is the most boring investment there is: a one-month US Treasury bill. Basically, lending money to the government for a few weeks.
+Here's what he found.
+The median stock, the one right in the middle, lost six point nine percent over its lifetime.
+Only forty-eight percent of stocks made any money at all.
+Only forty-one percent beat Treasury bills. So about fifty-nine percent did worse than one of the safest investments on earth.
+And fewer than twenty-eight percent beat the overall market.
+So if most stocks lose, how did the market as a whole turn one dollar into fifteen thousand?
+=== PART 2 ===
+Chapter two. The few.
+Bessembinder also measured how much wealth each company created for its shareholders, in dollars, above what Treasury bills would have paid.
+Over the century, the US stock market created about ninety-one trillion dollars of net wealth.
+And all of it came from just three point seven percent of companies. About one thousand and eighty-two firms.
+The other ninety-six percent, taken together, netted out to roughly zero. Their gains and their losses cancelled each other out.
+At the very top, it gets even more extreme. Just forty-six companies created half of all that wealth.
+Apple alone: about five trillion dollars. Nvidia: about four point six trillion. Microsoft: about four trillion. The top five companies together account for twenty-one percent of a whole century of wealth creation.
+Out of almost thirty thousand stocks, a few dozen did most of the heavy lifting.
+Chapter three. The math.
+So why does this happen? It's not a conspiracy. It's math. And you can see it with a simple game.
+Imagine a stock that flips a coin every year. Heads, it goes up fifty percent. Tails, it falls forty percent.
+On average, that's a gain of five percent per year. Sounds like a decent stock.
+Now let's build a whole market out of these stocks. One thousand and twenty-four of them. Over ten years, every possible sequence of heads and tails happens exactly once. No luck involved. Just counting.
+The most common result is five heads and five tails. Two hundred and fifty-two of our stocks land right there. And their result is minus forty-one percent.
+Up fifty, down forty, five times each, and almost half the money is gone. Because a forty percent loss hurts more than a fifty percent gain helps.
+In total, six hundred and thirty-eight of our stocks end the ten years with a loss. That's sixty-two percent.
+But a few lucky ones get seven, eight, nine, or even ten heads. The stock with ten heads in a row turns one dollar into fifty-seven dollars and sixty-seven cents.
+Add everything up, and the whole market gains sixty-three percent. Exactly five percent a year, compounded.
+And here's the kicker. The top fifty-six stocks, just five and a half percent of our little market, produced all of its net gains. Sound familiar?
+That's the core of Bessembinder's finding. A stock can only lose one hundred percent. But it can gain thousands of percent. Losses are capped. Gains are not.
+So a few giant winners pull the average up, while the typical stock sits below it. Statisticians call this positive skewness. And the longer you compound, the stronger it gets.
+=== PART 3 ===
+Chapter four. The graveyard.
+There's another reason this feels so surprising. We only remember the winners.
+Everyone knows Apple, Microsoft and Amazon. But the average stock in Bessembinder's data was listed for just eleven point seven years. Companies get bought, shrink, or simply disappear.
+Some were household names. Enron. WorldCom. Lehman Brothers. Kodak. Sears. All of them were once giants. All of them went bankrupt.
+And it's rarely obvious in advance. In 2024, J.P. Morgan studied stocks that fell at least seventy percent from their peak and didn't recover. Fifty-four percent of those companies were profitable at their peak. And Wall Street's consensus was tilted heavily toward "strong buy."
+Even the winners keep changing. Of the thirty biggest wealth creators from 2017 to 2025, nineteen weren't on the top thirty list before. Names like Nvidia, Tesla, Meta, Eli Lilly and AMD.
+Chapter five. Around the world.
+Maybe this is just an American thing? It's not.
+In a 2023 study of more than sixty-four thousand stocks around the world, from 1990 to 2020, Bessembinder and three co-authors found the same pattern.
+Fifty-five percent of US stocks, and fifty-seven percent of stocks outside the US, did worse than one-month US Treasury bills.
+And just two point four percent of companies created all of the roughly seventy-six trillion dollars of net global wealth. Outside the US, it was even more concentrated: just one point four percent.
+Chapter six. The pros.
+So if a few winners drive everything, the answer seems obvious. Just find the winners.
+That's exactly what professional fund managers try to do. With research teams, data, and decades of experience.
+But according to S&P Dow Jones Indices, over the twenty years through 2025, about ninety-three percent of actively managed US large-cap funds did worse than the S&P 500. In 2025 alone, it was seventy-nine percent.
+That doesn't mean nobody can do it. It means finding the needles in advance is extremely hard. Even for professionals.
+=== PART 4 ===
+Chapter seven. What it means.
+So what does all of this mean for you? I can't tell you what to buy. This channel doesn't give financial advice. But the math does tell us three things.
+One. The average return is not your likely return. In a skewed world, the typical single stock ends up below the average.
+Back to our coin-flip market. If you own just one random stock, the typical result is minus forty-one percent. With five random stocks, it's plus nineteen percent. With ten, plus thirty-six. With a hundred, plus fifty-nine. And with all of them, the full plus sixty-three.
+The more you own, the closer your result moves to the market's. That's what the late Vanguard founder John Bogle meant when he wrote: "Don't look for the needle in the haystack. Just buy the haystack."
+Two. Owning many stocks doesn't remove risk. Our toy market has no crashes, but the real one does. In 2008, the S&P 500 lost about thirty-seven percent. What diversification reduces is the risk of missing the few winners that end up carrying the returns.
+Three. Patience and breadth. Over the last century, the US market returned about ten percent a year, versus about three percent for Treasury bills. One hundred dollars in the S&P 500 at the start of 1928 grew to about one point one six million dollars by the end of 2025. With dividends reinvested, before taxes and fees. The same hundred dollars in Treasury bills grew to about two thousand six hundred.
+But that return didn't come from most stocks. It came from a few. And nobody knows in advance which ones.
+So here's the paradox, solved. Most stocks lose. A few win so big that they carry the entire market. The average is real. But it's earned by a tiny minority.
+That won't tell you which stock to buy. But it might change how you think about every stock you own.
+If this changed how you see the stock market, subscribe for more videos like this. This video is for education only, not financial advice. All sources are in the description.
+This was Moneycheck. See you in the next one.

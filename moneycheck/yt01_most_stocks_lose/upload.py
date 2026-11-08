@@ -1,0 +1,80 @@
+"""Writes upload_text.txt for YT01 (title, description with chapters from the current timeline, sources, tags)."""
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+import scenes as S  # noqa: E402
+
+
+def ts(t):
+    t = int(t)
+    return f"{t // 60}:{t % 60:02d}"
+
+
+def main(out):
+    ch = S.chapters_for_description()
+    chapters = "\n".join(f"{ts(t)} {name}" for t, name in ch)
+    voice_note = ("Narration: AI-generated voice (ElevenLabs, Samara X) – tick \"Altered or synthetic content\" in YouTube Studio.") \
+        if S.TL.mode == "voice" else "PREVIEW BUILD – voice not added yet (timestamps will change after the voiceover)."
+    txt = f"""MONEYCHECK – YOUTUBE UPLOAD (YT01)
+==================================
+File: moneycheck_yt01_most_stocks_lose.mp4 (2560x1440, 30 fps, {ts(S.DUR)})
+Thumbnail: thumbnail_yt01.jpg (1280x720)
+{voice_note}
+
+TITLE (pick one)
+Most Stocks Lose Money. So Why Does the Stock Market Go Up?
+100 Years of Data: Most Stocks Lose – The Market Still Wins
+Only 3.7% of Stocks Made ALL the Money (100 Years of Data)
+
+DESCRIPTION
+Over the last 100 years, the US stock market turned $1 into more than $15,000. Yet the typical US stock lost money – and most stocks didn't even beat Treasury bills. How can both be true?
+In this video we go through 100 years of stock market data (29,754 US stocks, 1926–2025), build a simple coin-flip market you can check yourself, and look at what the math means for anyone who owns stocks.
+
+Chapters
+{chapters}
+
+Key numbers
+• US market 1926–2025: +1,504,057% (≈10.1% per year) – median stock: −6.9% over its lifetime
+• Only 48% of stocks had a positive lifetime return, only 41% beat 1-month T-bills, fewer than 28% beat the market
+• ≈$91 trillion of net wealth was created by just 3.7% of firms (≈1,082); the top 46 firms created half
+• Global (64,000+ stocks, 1990–2020): 55.2% of US and 57.4% of non-US stocks trailed T-bills; 2.4% of firms created all $75.7T
+• SPIVA: ≈93% of active US large-cap funds trailed the S&P 500 over 20 years (79% in 2025)
+
+Our own calculation (the coin-flip market)
+Each "stock" gains 50% or loses 40% per year (average +5%). Over 10 years, all 1,024 heads/tails sequences happen once.
+Result: 638 of 1,024 stocks (62%) end with a loss, the most common result is −41%, the whole market gains +62.9% (= 5% a year),
+and the top 56 stocks (5.5%) produce all of the net gains. Typical (median) result of random portfolios (200,000 simulations):
+1 stock −41%, 5 stocks +19%, 10 stocks +36%, 100 stocks +59%, all 1,024 +63%. Toy model: no crashes, no fees, no taxes.
+
+Sources
+• Hendrik Bessembinder (2026): "One Hundred Years in the U.S. Stock Markets", working paper, Arizona State University (March 2026). Summary: Larry Swedroe, WealthManagement.com, May 26, 2026 – https://www.wealthmanagement.com/investing-strategies/a-century-of-stock-market-winners-and-why-most-stocks-failed-to-deliver
+• Hendrik Bessembinder (2018): "Do Stocks Outperform Treasury Bills?", Journal of Financial Economics 129(3), 440–457. Summary: https://wpcarey.asu.edu/sites/default/files/2021-10/do-stocks-outperform-treasury-bills.pdf
+• Bessembinder, Chen, Choi & Wei (2023): "Long-Term Shareholder Returns: Evidence from 64,000 Global Stocks", Financial Analysts Journal 79(3) – https://rpc.cfainstitute.org/research/financial-analysts-journal/2023/long-term-shareholder-returns-evidence-from-64000-global-stocks
+• S&P Dow Jones Indices: SPIVA U.S. Scorecard Year-End 2025 – https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2025/
+• J.P. Morgan Private Bank (Oct 3, 2024): "The Agony & The Ecstasy, Part IV" – https://jpmorgan.com/content/dam/jpmorgan/documents/wealth-management/the-agony-and-the-ecstasy-2024.pdf
+• Aswath Damodaran, NYU Stern: Historical Returns on Stocks, Bonds and Bills 1928–2025 (updated Jan 5, 2026) – https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
+• John C. Bogle (2007): "The Little Book of Common Sense Investing", Wiley.
+• Bankruptcy filings: Enron (2001), WorldCom (2002), Lehman Brothers (2008), Eastman Kodak (2012), Sears Holdings (2018).
+
+Not financial advice – for educational purposes only. Past performance does not guarantee future results. We do not recommend buying or selling any security; companies are named only as historical facts.
+Narration: AI-generated voice. Music: original, generated for this video.
+
+#investing #stockmarket #personalfinance
+
+TAGS (YouTube Studio → Tags)
+stock market, investing, most stocks lose money, Bessembinder, 4% of stocks, stock market data, index investing, diversification, skewness, survivorship bias, SPIVA, active vs passive, stock picking, compound returns, personal finance, Moneycheck
+
+SETTINGS CHECKLIST
+• Category: Education · Language: English · Audience: not made for kids
+• Add the chapters above as-is (the first timestamp must be 0:00)
+• End screen: last 12 seconds are an empty end card – add "Subscribe" + "Best for viewer" video there
+• Altered or synthetic content: YES – AI narration (channel rule)
+"""
+    open(out, "w", encoding="utf-8").write(txt)
+    print(txt[:600])
+
+
+if __name__ == "__main__":
+    main(sys.argv[1])

@@ -1,0 +1,797 @@
+[
+{
+"text": "Your",
+"start": 0.08,
+"end": 0.24
+},
+{
+"text": "portfolio",
+"start": 0.6,
+"end": 0.96
+},
+{
+"text": "is",
+"start": 1.04,
+"end": 1.2
+},
+{
+"text": "down",
+"start": 1.36,
+"end": 1.52
+},
+{
+"text": "thirty",
+"start": 1.6,
+"end": 1.84
+},
+{
+"text": "percent.",
+"start": 1.92,
+"end": 2.6
+},
+{
+"text": "Everyone",
+"start": 3.48,
+"end": 3.68
+},
+{
+"text": "around",
+"start": 3.88,
+"end": 4.08
+},
+{
+"text": "you",
+"start": 4.16,
+"end": 4.24
+},
+{
+"text": "is",
+"start": 4.32,
+"end": 4.4
+},
+{
+"text": "selling.",
+"start": 4.48,
+"end": 5.0
+},
+{
+"text": "What",
+"start": 5.72,
+"end": 5.76
+},
+{
+"text": "do",
+"start": 5.84,
+"end": 5.92
+},
+{
+"text": "you",
+"start": 6.0,
+"end": 6.08
+},
+{
+"text": "do?",
+"start": 6.16,
+"end": 6.92
+},
+{
+"text": "In",
+"start": 7.36,
+"end": 7.52
+},
+{
+"text": "twenty",
+"start": 7.68,
+"end": 7.84
+},
+{
+"text": "twenty,",
+"start": 7.92,
+"end": 8.64
+},
+{
+"text": "the",
+"start": 8.68,
+"end": 8.72
+},
+{
+"text": "stock",
+"start": 8.8,
+"end": 9.04
+},
+{
+"text": "market",
+"start": 9.12,
+"end": 9.44
+},
+{
+"text": "crashed",
+"start": 9.48,
+"end": 9.84
+},
+{
+"text": "thirty-four",
+"start": 10.0,
+"end": 10.48
+},
+{
+"text": "percent...",
+"start": 10.56,
+"end": 11.36
+},
+{
+"text": "in",
+"start": 11.44,
+"end": 11.52
+},
+{
+"text": "just",
+"start": 11.64,
+"end": 11.76
+},
+{
+"text": "thirty-three",
+"start": 11.92,
+"end": 12.4
+},
+{
+"text": "days.",
+"start": 12.56,
+"end": 13.52
+},
+{
+"text": "Fear",
+"start": 13.6,
+"end": 13.92
+},
+{
+"text": "was",
+"start": 14.08,
+"end": 14.4
+},
+{
+"text": "everywhere.",
+"start": 14.48,
+"end": 15.067
+},
+{
+"text": "Many",
+"start": 15.84,
+"end": 16.08
+},
+{
+"text": "people",
+"start": 16.16,
+"end": 16.4
+},
+{
+"text": "sold.",
+"start": 16.56,
+"end": 17.52
+},
+{
+"text": "But",
+"start": 17.56,
+"end": 17.6
+},
+{
+"text": "within",
+"start": 17.68,
+"end": 18.0
+},
+{
+"text": "five",
+"start": 18.16,
+"end": 18.32
+},
+{
+"text": "months...",
+"start": 18.4,
+"end": 18.96
+},
+{
+"text": "it",
+"start": 19.0,
+"end": 19.04
+},
+{
+"text": "was",
+"start": 19.16,
+"end": 19.28
+},
+{
+"text": "back",
+"start": 19.4,
+"end": 19.52
+},
+{
+"text": "at",
+"start": 19.56,
+"end": 19.6
+},
+{
+"text": "an",
+"start": 19.68,
+"end": 19.84
+},
+{
+"text": "all-time",
+"start": 19.92,
+"end": 20.4
+},
+{
+"text": "high.",
+"start": 20.48,
+"end": 21.36
+},
+{
+"text": "The",
+"start": 21.4,
+"end": 21.44
+},
+{
+"text": "ones",
+"start": 21.52,
+"end": 21.68
+},
+{
+"text": "who",
+"start": 21.76,
+"end": 21.92
+},
+{
+"text": "sold",
+"start": 22.0,
+"end": 22.4
+},
+{
+"text": "locked",
+"start": 22.56,
+"end": 22.8
+},
+{
+"text": "in",
+"start": 22.88,
+"end": 22.96
+},
+{
+"text": "their",
+"start": 23.04,
+"end": 23.2
+},
+{
+"text": "losses.",
+"start": 23.32,
+"end": 24.24
+},
+{
+"text": "The",
+"start": 24.373,
+"end": 24.4
+},
+{
+"text": "ones",
+"start": 24.52,
+"end": 24.64
+},
+{
+"text": "who",
+"start": 24.72,
+"end": 24.8
+},
+{
+"text": "stayed...",
+"start": 24.88,
+"end": 25.68
+},
+{
+"text": "got",
+"start": 25.76,
+"end": 25.84
+},
+{
+"text": "it",
+"start": 25.96,
+"end": 26.08
+},
+{
+"text": "all",
+"start": 26.2,
+"end": 26.32
+},
+{
+"text": "back.",
+"start": 26.4,
+"end": 27.28
+},
+{
+"text": "And",
+"start": 27.32,
+"end": 27.36
+},
+{
+"text": "this",
+"start": 27.44,
+"end": 27.6
+},
+{
+"text": "isn't",
+"start": 27.68,
+"end": 27.92
+},
+{
+"text": "rare.",
+"start": 27.96,
+"end": 28.72
+},
+{
+"text": "On",
+"start": 28.8,
+"end": 28.88
+},
+{
+"text": "average,",
+"start": 29.12,
+"end": 29.52
+},
+{
+"text": "the",
+"start": 29.56,
+"end": 29.6
+},
+{
+"text": "market",
+"start": 29.68,
+"end": 30.0
+},
+{
+"text": "drops",
+"start": 30.16,
+"end": 30.32
+},
+{
+"text": "about",
+"start": 30.48,
+"end": 30.64
+},
+{
+"text": "fourteen",
+"start": 30.72,
+"end": 31.04
+},
+{
+"text": "percent",
+"start": 31.2,
+"end": 31.68
+},
+{
+"text": "at",
+"start": 31.8,
+"end": 31.92
+},
+{
+"text": "some",
+"start": 32.04,
+"end": 32.16
+},
+{
+"text": "point",
+"start": 32.32,
+"end": 32.48
+},
+{
+"text": "every",
+"start": 32.56,
+"end": 32.8
+},
+{
+"text": "year.",
+"start": 32.88,
+"end": 33.52
+},
+{
+"text": "Yet",
+"start": 33.6,
+"end": 33.84
+},
+{
+"text": "three",
+"start": 34.0,
+"end": 34.16
+},
+{
+"text": "out",
+"start": 34.24,
+"end": 34.4
+},
+{
+"text": "of",
+"start": 34.48,
+"end": 34.56
+},
+{
+"text": "four",
+"start": 34.64,
+"end": 34.8
+},
+{
+"text": "years",
+"start": 34.88,
+"end": 35.28
+},
+{
+"text": "still",
+"start": 35.44,
+"end": 35.76
+},
+{
+"text": "end",
+"start": 35.84,
+"end": 36.08
+},
+{
+"text": "higher.",
+"start": 36.28,
+"end": 37.12
+},
+{
+"text": "Selling",
+"start": 37.2,
+"end": 37.6
+},
+{
+"text": "has",
+"start": 37.68,
+"end": 37.76
+},
+{
+"text": "a",
+"start": 37.84,
+"end": 37.92
+},
+{
+"text": "hidden",
+"start": 38.08,
+"end": 38.24
+},
+{
+"text": "cost,",
+"start": 38.4,
+"end": 38.6
+},
+{
+"text": "too.",
+"start": 38.64,
+"end": 39.44
+},
+{
+"text": "Miss",
+"start": 39.56,
+"end": 39.68
+},
+{
+"text": "just",
+"start": 39.76,
+"end": 39.92
+},
+{
+"text": "the",
+"start": 40.0,
+"end": 40.16
+},
+{
+"text": "ten",
+"start": 40.32,
+"end": 40.48
+},
+{
+"text": "best",
+"start": 40.56,
+"end": 40.8
+},
+{
+"text": "days",
+"start": 40.88,
+"end": 41.2
+},
+{
+"text": "over",
+"start": 41.32,
+"end": 41.44
+},
+{
+"text": "twenty",
+"start": 41.64,
+"end": 41.84
+},
+{
+"text": "years...",
+"start": 41.92,
+"end": 42.56
+},
+{
+"text": "and",
+"start": 42.64,
+"end": 42.72
+},
+{
+"text": "you",
+"start": 42.76,
+"end": 42.8
+},
+{
+"text": "could",
+"start": 42.88,
+"end": 42.96
+},
+{
+"text": "end",
+"start": 43.04,
+"end": 43.2
+},
+{
+"text": "up",
+"start": 43.28,
+"end": 43.36
+},
+{
+"text": "with",
+"start": 43.44,
+"end": 43.52
+},
+{
+"text": "less",
+"start": 43.6,
+"end": 43.76
+},
+{
+"text": "than",
+"start": 43.84,
+"end": 44.08
+},
+{
+"text": "half",
+"start": 44.24,
+"end": 44.4
+},
+{
+"text": "the",
+"start": 44.48,
+"end": 44.56
+},
+{
+"text": "money.",
+"start": 44.72,
+"end": 45.36
+},
+{
+"text": "And",
+"start": 45.493,
+"end": 45.52
+},
+{
+"text": "the",
+"start": 45.6,
+"end": 45.68
+},
+{
+"text": "best",
+"start": 45.8,
+"end": 45.92
+},
+{
+"text": "days",
+"start": 46.0,
+"end": 46.4
+},
+{
+"text": "often",
+"start": 46.48,
+"end": 46.72
+},
+{
+"text": "come",
+"start": 46.8,
+"end": 47.04
+},
+{
+"text": "right",
+"start": 47.12,
+"end": 47.36
+},
+{
+"text": "after",
+"start": 47.48,
+"end": 47.6
+},
+{
+"text": "the",
+"start": 47.68,
+"end": 47.76
+},
+{
+"text": "worst",
+"start": 47.84,
+"end": 48.08
+},
+{
+"text": "ones.",
+"start": 48.16,
+"end": 49.04
+},
+{
+"text": "So",
+"start": 49.12,
+"end": 49.2
+},
+{
+"text": "when",
+"start": 49.28,
+"end": 49.36
+},
+{
+"text": "the",
+"start": 49.44,
+"end": 49.52
+},
+{
+"text": "screen",
+"start": 49.72,
+"end": 49.92
+},
+{
+"text": "turns",
+"start": 50.08,
+"end": 50.28
+},
+{
+"text": "red...",
+"start": 50.32,
+"end": 51.12
+},
+{
+"text": "don't",
+"start": 51.2,
+"end": 51.44
+},
+{
+"text": "run.",
+"start": 51.6,
+"end": 52.24
+},
+{
+"text": "Stay",
+"start": 52.4,
+"end": 52.64
+},
+{
+"text": "focused.",
+"start": 52.8,
+"end": 53.76
+},
+{
+"text": "Keep",
+"start": 53.88,
+"end": 54.0
+},
+{
+"text": "investing.",
+"start": 54.08,
+"end": 55.28
+},
+{
+"text": "The",
+"start": 55.32,
+"end": 55.36
+},
+{
+"text": "market",
+"start": 55.44,
+"end": 55.76
+},
+{
+"text": "doesn't",
+"start": 55.84,
+"end": 56.08
+},
+{
+"text": "reward",
+"start": 56.16,
+"end": 56.56
+},
+{
+"text": "the",
+"start": 56.6,
+"end": 56.64
+},
+{
+"text": "smartest",
+"start": 56.72,
+"end": 57.2
+},
+{
+"text": "people.",
+"start": 57.4,
+"end": 58.0
+},
+{
+"text": "It",
+"start": 58.08,
+"end": 58.16
+},
+{
+"text": "rewards",
+"start": 58.24,
+"end": 58.72
+},
+{
+"text": "the",
+"start": 58.76,
+"end": 58.8
+},
+{
+"text": "most",
+"start": 58.88,
+"end": 59.12
+},
+{
+"text": "patient",
+"start": 59.2,
+"end": 59.6
+},
+{
+"text": "ones.",
+"start": 59.68,
+"end": 60.56
+},
+{
+"text": "Red",
+"start": 60.64,
+"end": 60.8
+},
+{
+"text": "days",
+"start": 60.88,
+"end": 61.28
+},
+{
+"text": "are",
+"start": 61.36,
+"end": 61.44
+},
+{
+"text": "the",
+"start": 61.52,
+"end": 61.6
+},
+{
+"text": "price",
+"start": 61.76,
+"end": 61.92
+},
+{
+"text": "you",
+"start": 62.0,
+"end": 62.08
+},
+{
+"text": "pay...",
+"start": 62.16,
+"end": 62.853
+},
+{
+"text": "for",
+"start": 62.907,
+"end": 62.96
+},
+{
+"text": "green",
+"start": 63.12,
+"end": 63.28
+},
+{
+"text": "years.",
+"start": 63.36,
+"end": 64.08
+}
+]
