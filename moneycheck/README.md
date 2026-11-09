@@ -14,7 +14,7 @@ Englische Finanz-Shorts (TikTok / YouTube Shorts), 1080×1920, 30 fps. Regeln un
 | `voice_local.py` | Stimme und Wort-Zeiten lokal: Kokoro (Apache-2.0) über sherpa-onnx, Zeiten über Zipformer-Erkennung. `speak skript.txt voice.mp3 words.json` |
 | `voicestudio_tts.py` | Optional, für Voice Studio auf dem eigenen Rechner (lokale API). Nicht in der Cloud-Umgebung |
 | `lib20.py` | **Animations-Engine im cryothum-Stil (seit 8.11.2026)**: Weltkamera mit Stationen statt Überblendungen, Punktraster in Weltkoordinaten, Linien-Icons (Fenster, Button, Cursor, Schalter, Karte mit Häkchen, Zahlenbox, Monitor, Schreibtisch, Gebäude, Handy, Tasche, Schuh, Chart, Benachrichtigung), Männchen mit Armen, `hit()`-Timing, `headline()`-Ebene, Render mit 4 Prozessen |
-| `mix20.py` | Ton für lib20-Videos: alle Effekte aus `sfx3.py` plus click, toggle, typing, notif, kaching, swish, thud, mallet; Mix Stimme −16 / Effekte −25 LUFS → −14 LUFS; `mux()` |
+| `mix20.py` | Ton für lib20-Videos: alle Effekte aus `sfx3.py` plus click, toggle, typing, notif, kaching, swish, thud, mallet; Mix Stimme −16 / Effekte −25 LUFS → −14 LUFS; `mux()`; `handy()` macht die kleine Handy-Version zum Speichern in der Galerie |
 | `nov8/c_lucky_pick.py`, `nov8/d_two_paths.py` | Vorlagen im neuen Stil: Video C (1 Aktie → reich? 29.081-Punkte-Raster, Bessembinder 2026), Video D (Jake gibt aus, Emma investiert $300/Monat, eigene Rechnung 7 %) |
 | `mix10.py` | Soundmix: Stimme + ca. 200 Effekte an den exakten Wort-Zeiten, danach -14 LUFS |
 | `sfx.py`, `sfx2.py`, `sfx3.py` | Synthetische Effekte (whoosh, pop, tick, ding, bass, riser, impact, alert, coin, cash, blip, sweep_down, ping, vroom, sparkle, flutter, puff) |

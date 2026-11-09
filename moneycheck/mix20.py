@@ -166,3 +166,13 @@ def mux(video, audio, out):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", video, "-i", audio, "-map", "0:v", "-map", "1:a",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out],
                    check=True)
+
+
+def handy(src, dst, size="1080:1920"):
+    """small phone copy for saving to the gallery (owner request): H.264 High 4.1, crf 23, max 4-5 Mbit/s, AAC.
+    Shorts: size 1080:1920 (C: 80 MB -> 10 MB). Long videos: size 1920:1080 (YT01: 300 MB -> 83 MB)."""
+    rate = "4M" if size.startswith("1080:") else "5M"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf", f"scale={size}:flags=lanczos",
+                    "-c:v", "libx264", "-preset", "slow", "-crf", "23", "-maxrate", rate, "-bufsize", "8M",
+                    "-profile:v", "high", "-level", "4.1", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+                    "-ar", "48000", "-movflags", "+faststart", dst], check=True)

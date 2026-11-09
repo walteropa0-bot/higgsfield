@@ -78,6 +78,9 @@ Länge: 60–75 Sekunden (TikTok vergütet erst Videos über 1 Minute). Kurze Vi
   Vorlage für neue Videos: `nov8/c_lucky_pick.py` oder `nov8/d_two_paths.py` mit `lib20.py`, Ton: `mix20.py`.
 - Upload-Text (Titel, Beschreibung, Hashtags) wird pro Video als `upload_text.txt` geschrieben
 - Ein Video pro Tag. Der Nutzer lädt selbst hoch.
+- **Handy-Version mitschicken (Nutzerwunsch 9.11.2026):** Der Nutzer speichert Videos am Handy in die Galerie; große Dateien
+  (80–300 MB) gehen dort schlecht. Deshalb zu jedem Video zusätzlich `mix20.handy()` (H.264, 1080×1920 bzw. 1920×1080,
+  ca. 3–10 MB pro Short, YT01 83 MB) erzeugen und mitschicken. lib20-Videos machen das bei `video` automatisch.
 - **Originalität (Pflicht, Stand 6.11.2026):** Jedes Video bekommt ein eigenes Thema, eigene Berechnung oder eigenes Beispiel,
   klare Quellen und eine eigene Erzählweise. Keine Kopie einer Vorlage mit nur geänderten Zahlen. Ziel: keine Nachteile durch
   YouTube-Monetarisierung (Regel gegen „inauthentische“ Massenware) und keine Reichweitenverluste bei TikTok.

@@ -284,6 +284,7 @@ if __name__ == "__main__":
         L.render(VIDEO, f"{NAME}_video.mp4")
         mix20.mix(VOICE, events(), DUR, f"{NAME}_audio.wav")
         mix20.mux(f"{NAME}_video.mp4", f"{NAME}_audio.wav", f"moneycheck_{NAME}.mp4")
+        mix20.handy(f"moneycheck_{NAME}.mp4", f"moneycheck_{NAME}_handy.mp4")
         print("done", NAME, DUR, "s")
     elif mode == "info":
         print("DUR", DUR, "values", round(V1), round(V10), round(V30))
